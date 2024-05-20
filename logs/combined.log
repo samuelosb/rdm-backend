@@ -1,0 +1,126 @@
+{"level":"error","message":"Error creating comment: Cast to Number failed for value \"string\" (type string) at path \"postId\" for model \"posts\"","service":"project-service"}
+{"level":"error","message":"Error creating comment: Cast to Number failed for value \"string\" (type string) at path \"postId\" for model \"posts\"","service":"project-service"}
+{"level":"error","message":"Error creating comment: Cast to ObjectId failed for value \"string\" (type string) at path \"_id\" for model \"users\"","service":"project-service"}
+{"level":"info","message":"New comment created successfully.","service":"project-service"}
+{"level":"info","message":"No comments found for this post.","service":"project-service"}
+{"level":"error","message":"No comments found for this post.","service":"project-service"}
+{"level":"error","message":"No comments found for this post.","service":"project-service"}
+{"level":"error","message":"No comments found for this post.","service":"project-service"}
+{"level":"info","message":"Comments found successfully.","service":"project-service"}
+{"level":"info","message":"Category successfully created","service":"project-service"}
+{"level":"info","message":"Users found successfully","service":"project-service"}
+{"level":"info","message":"User found successfully","service":"project-service"}
+{"level":"info","message":"Post found successfully","service":"project-service"}
+{"level":"error","message":"Post not found","service":"project-service"}
+{"level":"error","message":"Category not exist.","service":"project-service"}
+{"level":"info","message":"Categories found successfully.","service":"project-service"}
+{"level":"error","message":"Error creating comment: Cast to ObjectId failed for value \"663a995488d6e401254a1e7\" (type string) at path \"_id\" for model \"users\"","service":"project-service"}
+{"level":"error","message":"Post not found.","service":"project-service"}
+{"level":"error","message":"Error creating comment: Cast to Number failed for value \"a\" (type string) at path \"postId\" for model \"posts\"","service":"project-service"}
+{"level":"error","message":"Post not found.","service":"project-service"}
+{"level":"error","message":"Authentication failed","service":"project-service"}
+{"level":"error","message":"Authentication failed","service":"project-service"}
+{"level":"error","message":"Internal server error: Cannot set headers after they are sent to the client","service":"project-service"}
+{"level":"info","message":"User logged in successfully","service":"project-service"}
+{"level":"info","message":"User 663a995488bd6e401254a1e7 logged in successfully","service":"project-service"}
+{"level":"info","message":"User \" 663a995488bd6e401254a1e7 \" logged in successfully","service":"project-service"}
+{"level":"info","message":"Logged out successfully","service":"project-service"}
+{"level":"error","message":"Internal server error: user is not defined","service":"project-service"}
+{"level":"info","message":"User \" 663a995488bd6e401254a1e7 \" logged in successfully","service":"project-service"}
+{"level":"error","message":"Internal server error: user is not defined","service":"project-service"}
+{"level":"info","message":"User \" 663a995488bd6e401254a1e7 \" logged in successfully","service":"project-service"}
+{"level":"error","message":"Invalid or expired token: user is not defined","service":"project-service"}
+{"level":"error","message":"Authentication failed","service":"project-service"}
+{"level":"info","message":"User \" 663a9562526c57e678632d44 \" logged in successfully","service":"project-service"}
+{"level":"info","message":"User \" 663a9562526c57e678632d44 \" logged in successfully","service":"project-service"}
+{"level":"info","message":"Posts found successfully","service":"project-service"}
+{"level":"info","message":"Posts found successfully","service":"project-service"}
+{"level":"info","message":"User found successfully","service":"project-service"}
+{"level":"info","message":"User found successfully","service":"project-service"}
+{"level":"info","message":"User found successfully","service":"project-service"}
+{"level":"info","message":"User found successfully","service":"project-service"}
+{"level":"info","message":"User found successfully","service":"project-service"}
+{"level":"info","message":"User found successfully","service":"project-service"}
+{"level":"info","message":"User found successfully","service":"project-service"}
+{"level":"info","message":"User found successfully","service":"project-service"}
+{"level":"info","message":"User found successfully","service":"project-service"}
+{"level":"info","message":"User found successfully","service":"project-service"}
+{"level":"info","message":"User found successfully","service":"project-service"}
+{"level":"info","message":"User found successfully","service":"project-service"}
+{"level":"info","message":"User found successfully","service":"project-service"}
+{"level":"info","message":"User found successfully","service":"project-service"}
+{"level":"info","message":"User found successfully","service":"project-service"}
+{"level":"info","message":"User found successfully","service":"project-service"}
+{"level":"info","message":"User found successfully","service":"project-service"}
+{"level":"info","message":"User found successfully","service":"project-service"}
+{"level":"info","message":"User \"663a9562526c57e678632d44\" logged in successfully","service":"project-service"}
+{"level":"error","message":"Authentication failed","service":"project-service"}
+{"level":"info","message":"User \"663a4ebb526c57e678632c36\" logged in successfully","service":"project-service"}
+{"level":"info","message":"Posts found successfully","service":"project-service"}
+{"level":"info","message":"Posts found successfully","service":"project-service"}
+{"level":"info","message":"User found successfully","service":"project-service"}
+{"level":"info","message":"User found successfully","service":"project-service"}
+{"level":"info","message":"User found successfully","service":"project-service"}
+{"level":"info","message":"User found successfully","service":"project-service"}
+{"level":"info","message":"User found successfully","service":"project-service"}
+{"level":"info","message":"User found successfully","service":"project-service"}
+{"level":"info","message":"Post found successfully","service":"project-service"}
+{"level":"info","message":"Post found successfully","service":"project-service"}
+{"level":"info","message":"Comments found successfully.","service":"project-service"}
+{"level":"info","message":"Comments found successfully.","service":"project-service"}
+{"level":"info","message":"Posts found successfully","service":"project-service"}
+{"level":"info","message":"Posts found successfully","service":"project-service"}
+{"level":"info","message":"User found successfully","service":"project-service"}
+{"level":"info","message":"User found successfully","service":"project-service"}
+{"level":"info","message":"User found successfully","service":"project-service"}
+{"level":"info","message":"User found successfully","service":"project-service"}
+{"level":"info","message":"User found successfully","service":"project-service"}
+{"level":"info","message":"User found successfully","service":"project-service"}
+{"level":"info","message":"User found successfully","service":"project-service"}
+{"level":"info","message":"User found successfully","service":"project-service"}
+{"level":"info","message":"User found successfully","service":"project-service"}
+{"level":"info","message":"User found successfully","service":"project-service"}
+{"level":"info","message":"User found successfully","service":"project-service"}
+{"level":"info","message":"User found successfully","service":"project-service"}
+{"level":"info","message":"Post found successfully","service":"project-service"}
+{"level":"info","message":"Post found successfully","service":"project-service"}
+{"level":"error","message":"No comments found for this post.","service":"project-service"}
+{"level":"error","message":"No comments found for this post.","service":"project-service"}
+{"level":"info","message":"Posts found successfully","service":"project-service"}
+{"level":"info","message":"Posts found successfully","service":"project-service"}
+{"level":"info","message":"User found successfully","service":"project-service"}
+{"level":"info","message":"User found successfully","service":"project-service"}
+{"level":"info","message":"User found successfully","service":"project-service"}
+{"level":"info","message":"User found successfully","service":"project-service"}
+{"level":"info","message":"User found successfully","service":"project-service"}
+{"level":"info","message":"User found successfully","service":"project-service"}
+{"level":"info","message":"User found successfully","service":"project-service"}
+{"level":"info","message":"User found successfully","service":"project-service"}
+{"level":"info","message":"User found successfully","service":"project-service"}
+{"level":"info","message":"User found successfully","service":"project-service"}
+{"level":"info","message":"User found successfully","service":"project-service"}
+{"level":"info","message":"User found successfully","service":"project-service"}
+{"level":"info","message":"Post found successfully","service":"project-service"}
+{"level":"info","message":"Post found successfully","service":"project-service"}
+{"level":"error","message":"No comments found for this post.","service":"project-service"}
+{"level":"error","message":"No comments found for this post.","service":"project-service"}
+{"level":"info","message":"Posts found successfully","service":"project-service"}
+{"level":"info","message":"Posts found successfully","service":"project-service"}
+{"level":"info","message":"User found successfully","service":"project-service"}
+{"level":"info","message":"User found successfully","service":"project-service"}
+{"level":"info","message":"User found successfully","service":"project-service"}
+{"level":"info","message":"User found successfully","service":"project-service"}
+{"level":"info","message":"User found successfully","service":"project-service"}
+{"level":"info","message":"User found successfully","service":"project-service"}
+{"level":"info","message":"User found successfully","service":"project-service"}
+{"level":"info","message":"User found successfully","service":"project-service"}
+{"level":"info","message":"User found successfully","service":"project-service"}
+{"level":"info","message":"User found successfully","service":"project-service"}
+{"level":"info","message":"User found successfully","service":"project-service"}
+{"level":"info","message":"User found successfully","service":"project-service"}
+{"level":"info","message":"User found successfully","service":"project-service"}
+{"level":"info","message":"User found successfully","service":"project-service"}
+{"level":"info","message":"User found successfully","service":"project-service"}
+{"level":"info","message":"User found successfully","service":"project-service"}
+{"level":"info","message":"User found successfully","service":"project-service"}
+{"level":"info","message":"User found successfully","service":"project-service"}
