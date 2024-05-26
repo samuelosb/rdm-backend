@@ -55,7 +55,7 @@ exports.login = async (req, res) => {
       return res.status(401).json({ message: "Authentication failed" });
     }
 
-    const accessToken = createToken(user, "900d");
+    const accessToken = createToken(user, "60m");
     const refreshToken = createToken(user, "7d");
     console.log(user.role);
     if (user.role == "Banned") { 

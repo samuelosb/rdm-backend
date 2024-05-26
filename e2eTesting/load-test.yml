@@ -1,0 +1,9 @@
+config:
+  target: 'http://localhost:3000' # Replace with your server URL
+  phases:
+    - duration: 60
+      arrivalRate: 10 # Adjust based on desired load
+scenarios:
+  - flow:
+      - get:
+          url: '/api/resources'

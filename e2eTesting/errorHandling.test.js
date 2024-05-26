@@ -33,7 +33,7 @@ describe('Error Handling', () => {
 
   describe('System Errors', () => {
     it('should handle database downtime', done => {
-      // Simulate database downtime
+      // TODO: Update the mocked endpoint to match the actual API or database service URL
       nock('http://localhost:5000')
         .get('/api/resources')
         .reply(500, { error: 'Database is down' });
@@ -48,7 +48,7 @@ describe('Error Handling', () => {
     });
 
     it('should handle network issues', done => {
-      // Simulate network issue
+      // TODO: Update the mocked endpoint to match the actual API or network service URL
       nock('http://localhost:5000')
         .get('/api/resources')
         .replyWithError('Network error');
@@ -65,13 +65,13 @@ describe('Error Handling', () => {
 });
 
 /*
-Spiegazione dei Test
+Explanation of the Tests
 
-Errori di Input:
-   - Campi mancanti: Testa che l'applicazione gestisca correttamente l'assenza di campi obbligatori, aspettandosi uno status 400 e un messaggio di errore appropriato.
-   - Tipi di dati non validi: Testa che l'applicazione gestisca correttamente i tipi di dati non validi, aspettandosi uno status 400 e un messaggio di errore appropriato.
+Input Errors:
+   - Missing Fields: Tests that the application correctly handles the absence of required fields, expecting a 400 status and an appropriate error message.
+   - Invalid Data Types: Tests that the application correctly handles invalid data types, expecting a 400 status and an appropriate error message.
 
-Errori di Sistema:
-   - Downtime del database: Simula un'interruzione del database e testa che l'applicazione gestisca correttamente questa situazione, aspettandosi uno status 500 e un messaggio di errore appropriato.
-   - Problemi di rete: Simula un problema di rete e testa che l'applicazione gestisca correttamente questa situazione, aspettandosi uno status 502 e un messaggio di errore appropriato.
+System Errors:
+   - Database Downtime: Simulates a database outage and tests that the application handles this situation correctly, expecting a 500 status and an appropriate error message.
+   - Network Issues: Simulates a network issue and tests that the application handles this situation correctly, expecting a 502 status and an appropriate error message.
  */

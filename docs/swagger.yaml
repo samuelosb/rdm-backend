@@ -101,7 +101,7 @@ paths:
             schema:
               type: object
               properties:
-                token:
+                refreshToken:
                   type: string
                   description: Refresh token obtained during login
       security:
@@ -187,6 +187,32 @@ paths:
           description: Bad Request
         '500':
           description: Internal Server Error        
+  /users/getUserById:
+    get:
+      tags:
+        - "user"
+      summary: Get user by ID
+      description: Get user by ID
+      parameters:
+        - name: userId
+          in: query
+          description: ID of the user to get
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: A user object
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/User'
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+        '500':
+          description: Internal Server Error  
   /users/findallusers:
     get:
       tags:
@@ -234,6 +260,154 @@ paths:
           description: Unauthorized
         '403':
           description: Forbidden
+  /users/change-password:
+    post:
+      tags:
+        - "user"
+      summary: Change user password
+      description: Change user password
+      security:
+        - JWTAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                id:
+                  type: string
+                oldPassword:
+                  type: string
+                newPassword:
+                  type: string
+              required:
+                - id
+                - oldPassword
+                - newPassword
+      responses:
+        '200':
+          description: Password changed successfully
+        '400':
+          description: Bad Request
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+        '500':
+          description: Internal Server Error
+  /users/makeAdmin:
+    put:
+      tags:
+        - "user"
+      summary: Make user an admin
+      description: Make user an admin
+      security:
+        - JWTAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                id:
+                  type: string
+                role:
+                  type: string
+                  example: "Admin"
+              required:
+                - id
+                - role
+      responses:
+        '200':
+          description: User is now an admin
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/User'
+        '400':
+          description: Bad Request
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+        '500':
+          description: Internal Server Error
+  /users/update-details:
+    put:
+      tags:
+        - "user"
+      summary: Update user details
+      description: Update user details
+      security:
+        - JWTAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                id:
+                  type: string
+                  description: The ID of the user to be updated.
+                newEmail:
+                  type: string
+                  description: The new email to be assigned to the user.
+                  format: email
+                newUsername:
+                  type: string
+                  description: The new username to be assigned to the user.
+              required:
+                - id
+      responses:
+        '200':
+          description: User details updated
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/User'
+        '400':
+          description: Bad Request
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+        '500':
+          description: Internal Server Error
+  /users/deleteUser:
+    delete:
+      tags:
+        - "user"
+      summary: Delete user by ID
+      description: Delete user by ID
+      security:
+        - JWTAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                id:
+                  type: string
+                  description: The ID of the user to be deleted.
+                  pattern: '^[0-9a-fA-F]{24}$'
+              required:
+                - id
+      responses:
+        '200':
+          description: User deleted
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/User'
+        '400':
+          description: Bad Request
+        '500':
+          description: Internal Server Error
   /categories/create: 
     post:
       tags:
@@ -335,8 +509,6 @@ paths:
         - "posts"
       summary: Get a post by ID
       description: Get a post by ID
-      security:
-        - JWTAuth: []
       parameters:
         - name: postId
           in: query
@@ -357,14 +529,31 @@ paths:
           description: Bad Request
         '500':
           description: Internal Server Error
+  /posts/getAll:
+    get:
+      tags:
+        - "posts"
+      summary: Get all posts
+      description: Get all posts
+      responses:
+        '200':
+          description: A list of all posts
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Post'
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
   /posts/getAllByCategoryRecent:
     get:
       tags:
         - "posts"
       summary: Get all posts by category sorted by recent
       description: Get all posts by category sorted by recent
-      security:
-        - JWTAuth: []
       parameters:
         - name: catId
           in: query
@@ -383,6 +572,40 @@ paths:
                   $ref: '#/components/schemas/Post'
         '400':
           description: Bad Request
+        '500':
+          description: Internal Server Error
+  /posts/search:
+    get:
+      tags:
+        - "posts"
+      summary: Search for a post
+      description: Search for a post
+      parameters:
+        - in: query
+          name: q
+          schema:
+            type: string
+          required: true
+          description: Term to search for
+        - in: query
+          name: cId
+          schema:
+            type: string
+          required: true
+          description: Category ID
+      responses:
+        '200':
+          description: A list of all posts
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Post'
+        '400':
+          description: Bad Request
+        '404':
+          description: Not Found  
         '500':
           description: Internal Server Error
   /posts/delete:
@@ -445,14 +668,33 @@ paths:
           description: Bad Request
         '500':
           description: Internal Server Error
+  /comments/getAll:
+    get:
+      tags:
+        - "comments"
+      summary: Get all comments
+      description: Get all comments
+      security:
+        - JWTAuth: []
+      responses:
+        '200':
+          description: A list of all comments
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Comment'
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
   /comments/getAllCommsByPostRecent:
     get:
       tags:
         - "comments"
       summary: Get all comments by post sorted by recent
       description: Get all comments by post sorted by recent
-      security:
-        - JWTAuth: []
       parameters:
         - name: postId
           in: query
@@ -500,8 +742,7 @@ paths:
         '400':
           description: Bad Request
         '500':
-          description: Internal Server Error
-        
+          description: Internal Server Error  
   /recipes/search:
     get:
       tags:
@@ -1528,10 +1769,14 @@ components:
           type: string
           format: password
           description: The password for the new account.
+        gender:
+          type: string
+          description: The gender of the user.  
       example:
         email: "johndoe@example.com"
         username: "John Doe"
         password: "asd123"
+        gender: "Hombre"
     UserRegistrationResponse:
       type: object
       properties:
@@ -1557,12 +1802,12 @@ components:
     UserLoginResponse:
       type: object
       properties:
-        message:
+        accessToken:
           type: string
-          description: A success message.
-        user:
+          description: Access token for the logged-in user.
+        refreshToken:
           type: string
-          description: The ID of the logged-in user.
+          description: Refresh token for the logged-in user.
     User:
       type: object
       properties:
@@ -1605,6 +1850,8 @@ components:
                 type: string
                 format: date-time
                 description: The date when the item was added to favorites.
+        gender:
+          type: string        
       example:
         username: "johndoe"
         email: "johndoe@example.com"
@@ -1616,6 +1863,7 @@ components:
         favList:
           - recipeId: "123456789"
             addedDate: "2024-05-03T12:00:00Z"
+        gender: "Hombre"    
     Category:
       type: "object"
       properties:

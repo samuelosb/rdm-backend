@@ -1,3 +1,7 @@
+// TODO: Adapt the endpoint URLs and payloads to match the Edamam API structure.
+// TODO: Ensure the application routes and the data structures align with the requirements of Edamam API.
+// TODO: Adapt the endpoints and the test data to fit your site's specific API and data structure requirements.
+
 const chai = require('chai');
 const chaiHttp = require('chai-http');
 const { expect } = chai;
@@ -11,9 +15,9 @@ describe('CRUD Operations', () => {
   describe('Create Operation', () => {
     it('should create a new resource', done => {
       chai.request(app)
-        .post('/api/resources')
+        .post('/api/resources') // TODO: Update this endpoint to match your site's API for creating a resource
         .send({
-          name: 'New Resource',
+          name: 'New Resource', // TODO: Adapt the payload to match the Edamam API structure if needed
           description: 'This is a new resource'
         })
         .end((err, res) => {
@@ -30,7 +34,7 @@ describe('CRUD Operations', () => {
   describe('Read Operation', () => {
     it('should read a resource by ID', done => {
       chai.request(app)
-        .get(`/api/resources/${resourceId}`)
+        .get(`/api/resources/${resourceId}`) // TODO: Update this endpoint to match your site's API for reading a resource by ID
         .end((err, res) => {
           expect(res).to.have.status(200);
           expect(res.body).to.have.property('id').eql(resourceId);
@@ -42,7 +46,7 @@ describe('CRUD Operations', () => {
 
     it('should read all resources', done => {
       chai.request(app)
-        .get('/api/resources')
+        .get('/api/resources') // TODO: Update this endpoint to match your site's API for reading all resources
         .end((err, res) => {
           expect(res).to.have.status(200);
           expect(res.body).to.be.an('array');
@@ -55,9 +59,9 @@ describe('CRUD Operations', () => {
   describe('Update Operation', () => {
     it('should update a resource by ID', done => {
       chai.request(app)
-        .put(`/api/resources/${resourceId}`)
+        .put(`/api/resources/${resourceId}`) // TODO: Update this endpoint to match your site's API for updating a resource by ID
         .send({
-          name: 'Updated Resource',
+          name: 'Updated Resource', // TODO: Adapt the payload to match the Edamam API structure if needed
           description: 'This is an updated resource'
         })
         .end((err, res) => {
@@ -73,7 +77,7 @@ describe('CRUD Operations', () => {
   describe('Delete Operation', () => {
     it('should delete a resource by ID', done => {
       chai.request(app)
-        .delete(`/api/resources/${resourceId}`)
+        .delete(`/api/resources/${resourceId}`) // TODO: Update this endpoint to match your site's API for deleting a resource by ID
         .end((err, res) => {
           expect(res).to.have.status(200);
           expect(res.body).to.have.property('message').eql('Resource deleted successfully');
@@ -83,7 +87,7 @@ describe('CRUD Operations', () => {
 
     it('should return 404 for a non-existent resource', done => {
       chai.request(app)
-        .get(`/api/resources/${resourceId}`)
+        .get(`/api/resources/${resourceId}`) // TODO: Update this endpoint to match your site's API for reading a resource by ID
         .end((err, res) => {
           expect(res).to.have.status(404);
           expect(res.body).to.have.property('message').eql('Resource not found');
@@ -93,7 +97,7 @@ describe('CRUD Operations', () => {
   });
 });
 
-/*
+/* 
 Explanation of the Tests
 
 Create Operation:
