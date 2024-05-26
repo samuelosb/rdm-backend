@@ -1,12 +1,13 @@
+/**
+ * @module CategoriesModel
+ *
+ * This module defines the Mongoose schema and model for categories.
+ * It includes fields for category ID, title, subtitle, number of posts, number of comments, and creation time.
+ */
+
 const Mongoose = require("mongoose");
 
-const { Comments } = require("./comments");
-
-
 const CategorySchema = new Mongoose.Schema({
-
-    // _id internal of mongoDB
-
     categoryId: {
         type: Number,
         unique: true,
@@ -37,5 +38,5 @@ const CategorySchema = new Mongoose.Schema({
 });
 
 const Categories = Mongoose.model("categories", CategorySchema);
- 
+
 module.exports = Categories;

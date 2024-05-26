@@ -55,14 +55,20 @@ exports.login = async (req, res) => {
       return res.status(401).json({ message: "Authentication failed" });
     }
 
-    const accessToken = createToken(user, "60m");
+    const accessToken = createToken(user, "900d");
     const refreshToken = createToken(user, "7d");
-
-    res.cookie("accessToken", accessToken, { httpOnly: true, secure: true, maxAge: 60 * 60 * 1000 });
-    res.cookie("refreshToken", refreshToken, { httpOnly: true, secure: true, maxAge: 7 * 24 * 3600 * 1000 });
-
-    logger.info(`User "${user._id}" logged in successfully`);
-    res.status(200).json({ accessToken, refreshToken });
+    console.log(user.role);
+    if (user.role == "Banned") { 
+      //Return Forbidden status code, and the string Banned.
+      res.status(403).json("BANNED!") 
+    }
+    else { 
+      res.cookie("accessToken", accessToken, { httpOnly: true, secure: true, maxAge: 60 * 60 * 1000 });
+      res.cookie("refreshToken", refreshToken, { httpOnly: true, secure: true, maxAge: 7 * 24 * 3600 * 1000 });
+      logger.info(`User "${user._id}" logged in successfully`);
+      res.status(200).json({ accessToken, refreshToken });
+     }
+    
   } catch (error) {
     logger.error(`Internal server error: ${error.message}`);
     res.status(500).json({ message: "Internal server error", error: error.message });

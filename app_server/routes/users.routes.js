@@ -13,6 +13,7 @@ router.post('/change-password', requireRole(['Admin', 'Basic']), userController.
 
 // Admin-only routes
 router.put('/makeAdmin', requireRole(['Admin']), userController.makeAdmin);
+router.put('/banUser', requireRole(['Admin']), userController.banUser);
 router.delete('/deleteUser', requireRole(['Admin']), userController.deleteUser);
 router.put('/update-details', requireRole(['Admin']), userController.updateUserDetails);
 

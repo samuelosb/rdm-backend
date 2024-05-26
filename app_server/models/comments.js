@@ -1,7 +1,13 @@
+/**
+ * @module CommentsModel
+ *
+ * This module defines the schema and model for the Comment entity using Mongoose.
+ * It includes fields for comment ID, post ID, author ID, content, and time of publication.
+ */
+
 const Mongoose = require("mongoose");
 
 const CommentSchema = new Mongoose.Schema({
-
     commentId: {
         type: Number,
         unique: true,
@@ -27,5 +33,4 @@ const CommentSchema = new Mongoose.Schema({
 
 const Comments = Mongoose.model("comments", CommentSchema);
 
-module.exports =  Comments ;
-
+module.exports = Comments;

@@ -63,36 +63,33 @@ exports.findAllUsers = async (req, res) => {
 };
 
 exports.deleteUser = async (req, res) => {
-    const {id} = req.body;
+    const { id } = req.body;
+    // Ensure ID is provided and in the correct format for MongoDB
+    if (!id || !id.match(/^[0-9a-fA-F]{24}$/)) {
+        logger.error("Invalid or missing user ID");
+        return res.status(400).json({ message: "Invalid or missing user ID" });
+    }
     try {
-        // Ensure ID is provided and in the correct format for MongoDB
-        if (!id.match(/^[0-9a-fA-F]{24}$/)) {
-            logger.error("Invalid user ID format");
-            return res.status(400).json({message: "Invalid user ID format"});
-        }
-
-        const user = await User.findById(id);
+        const user = await User.findById({_id: id});
         if (!user) {
             logger.error("User not found");
-            return res.status(404).json({message: "User not found"});
+            return res.status(404).json({ message: "User not found" });
         }
-
         await user.deleteOne();
-        // 204 No Content is appropriate when the action has been enacted but the response does not include a body
         logger.info("User deleted successfully");
-        res.status(204).send();
+        res.status(200).json({ message: "User deleted successfully" });
     } catch (error) {
         logger.error("Failed to delete user", error.message);
-        // 500 Internal Server Error - server-side error
-        res.status(500).json({message: "Failed to delete user", error: error.message});
+        res.status(500).json({ message: "Failed to delete user", error: error.message });
     }
 };
+
 
 
 exports.changePassword = async (req, res) => {
     const {id, oldPassword, newPassword} = req.body;
     try {
-        const user = await User.findById(id);
+        const user = await User.findById({_id: id});
         if (!user) {
             logger.error("User not found");
             return res.status(404).json({message: "User not found"});
@@ -116,12 +113,19 @@ exports.changePassword = async (req, res) => {
 exports.updateUserDetails = async (req, res) => {
     const {id, newEmail, newUsername} = req.body;
     try {
-        const user = await User.findById(id);
+        const user = await User.findById({_id: id});
         if (!user) {
             logger.error("User not found"); 
             return res.status(404).json({message: "User not found"});
         }
-        if (newEmail) user.email = newEmail;
+        if (newEmail) {
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (!emailRegex.test(newEmail)) {
+                logger.error("Invalid email format");
+                return res.status(400).json({ message: "Invalid email format" });
+            }
+            user.email = newEmail;
+        }
         if (newUsername) user.username = newUsername;
         await user.save();
         logger.info("User details updated successfully");
@@ -134,17 +138,17 @@ exports.updateUserDetails = async (req, res) => {
 
 exports.makeAdmin = async (req, res) => {
     const {role, id} = req.body;
-    if (role !== "admin" || !id) {
+    if (role !== "Admin" || !id) {
         logger.error("Invalid role or missing user ID");
         return res.status(400).json({message: "Invalid role or missing user ID"});
     }
     try {
-        const user = await User.findById(id);
+        const user = await User.findById({_id: id});
         if (!user) {
             logger.error("User not found");
             return res.status(404).json({message: "User not found"});
         }
-        if (user.role === "admin") {
+        if (user.role === "Admin") {
             logger.error("User is already an Admin");
             return res.status(400).json({message: "User is already an Admin"});
         }
@@ -154,6 +158,27 @@ exports.makeAdmin = async (req, res) => {
         res.json({message: "User role updated to admin successfully", user});
     } catch (error) {
         logger.error("An error occurred during updating role", error.message);
-        res.status(400).json({message: "An error occurred during updating role", error: error.message});
+        res.status(500).json({message: "An error occurred during updating role", error: error.message});
     }
 };
+
+
+exports.banUser = async (req, res) => {
+    const { id } = req.body;
+    try {
+        const user = await User.findById(id);
+        if (!user) {
+            logger.error("User not found");
+            return res.status(404).json({ message: "User not found" });
+        }
+        user.role = "Banned";
+        await user.save();
+        logger.info("User banned successfully: ",id);
+        res.json({ message: "User banned successfully: ", id });
+    } catch (error) {
+        logger.error("An error occurred during banning procedure", error.message);
+        res.status(400).json({ message: "An error occurred during banning procedure", error: error.message });
+    }
+};
+
+

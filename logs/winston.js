@@ -1,13 +1,21 @@
+/**
+ * @module Winston
+ *
+ * This module configures Winston for logging.
+ * It sets up a logger that writes logs to a file in JSON format.
+ */
+
 const winston = require('winston');
 
 const logger = winston.createLogger({
     level: 'info',
     format: winston.format.json(),
-    defaultMeta: { service: 'project-service' },
+    defaultMeta: {service: 'project-service'},
     transports: [
         new winston.transports.File({
             filename: 'logs/combined.log'
         }),
     ],
 });
+
 module.exports = logger;

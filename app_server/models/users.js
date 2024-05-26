@@ -21,7 +21,7 @@ const UserSchema = new Mongoose.Schema({
     },
     role: {
         type: String,
-        enum: ['Basic', 'Admin'],
+        enum: ['Banned','Basic', 'Admin'],
         default: 'Basic',
         required: true,
     },
