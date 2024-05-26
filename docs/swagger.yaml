@@ -311,14 +311,10 @@ paths:
             schema:
               type: object
               properties:
-                id:
+                userId:
                   type: string
-                role:
-                  type: string
-                  example: "Admin"
               required:
-                - id
-                - role
+                - userId
       responses:
         '200':
           description: User is now an admin
@@ -334,6 +330,134 @@ paths:
           description: Forbidden
         '500':
           description: Internal Server Error
+  /users/withdrawAdmin:
+    put:
+      tags:
+        - "user"
+      summary: Withdraw admin rights from a user
+      description: Withdraw admin rights from a user
+      security:
+        - JWTAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                userId:
+                  type: string
+              required:
+                - userId
+      responses:
+        '200':
+          description: Admin rights withdrawn successfully
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: "Admin rights withdrawn successfully"
+                  user:
+                    $ref: '#/components/schemas/User'
+        '400':
+          description: Bad Request
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+        '404':
+          description: User not found
+        '500':
+          description: Internal Server Error
+  /users/banUser:
+    put:
+      tags:
+        - "user"
+      summary: Ban a user
+      description: Ban a user
+      security:
+        - JWTAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                userId:
+                  type: string
+              required:
+                - userId
+      responses:
+        '200':
+          description: User banned successfully
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: "User banned successfully"
+                  userId:
+                    type: string
+                    example: "userId"
+        '400':
+          description: Bad Request
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+        '404':
+          description: User not found
+        '500':
+          description: Internal Server Error
+  /users/unbanUser:
+    put:
+      tags:
+        - "user"
+      summary: Unban a user
+      description: Unban a user
+      security:
+        - JWTAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                userId:
+                  type: string
+              required:
+                - userId
+      responses:
+        '200':
+          description: User unbanned successfully
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: "User unbanned successfully"
+                  userId:
+                    type: string
+                    example: "userId"
+        '400':
+          description: Bad Request
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+        '404':
+          description: User not found
+        '500':
+          description: Internal Server Error    
   /users/update-details:
     put:
       tags:
@@ -608,6 +732,26 @@ paths:
           description: Not Found  
         '500':
           description: Internal Server Error
+  /posts/most-commented:
+    get:
+      tags:
+        - "posts"
+      summary: Get most commented posts
+      description: Retrieve the top 35 posts with the most comments
+      responses:
+        '200':
+          description: Most commented posts retrieved successfully
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  posts:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Post'
+        '500':  
+          description: Internal Server Error              
   /posts/delete:
     delete:
       tags:

@@ -25,7 +25,7 @@ const options = {
         },
         servers: [
             {
-                url: "https://rdm-backend-beta.vercel.app/api/", // Server URL
+                url: "http://localhost:3001/api/", // Server URL
                 description: "Development server", // Server description
             },
         ],

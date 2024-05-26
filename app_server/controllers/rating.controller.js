@@ -178,7 +178,12 @@ exports.getUserRating = async (req, res) => {
         const averageRatingDoc = await AverageRating.findOne({recipeId});
 
         if (!rating) {
-            return res.status(404).json({message: 'No rating found for this recipe by this user.'});
+            return res.status(200).json({
+                message: 'No rating found for this recipe by this user.',
+                userRating: null,
+                averageRating: averageRatingDoc ? averageRatingDoc.averageRating : null,
+                numberOfRatings: averageRatingDoc ? averageRatingDoc.numberOfRatings : 0
+            });
         }
 
         const response = {
