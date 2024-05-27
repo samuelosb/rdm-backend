@@ -30,7 +30,7 @@ exports.register = async (req, res) => {
     });
 
     // Créez des tokens d'accès et de rafraîchissement
-    const accessToken = createToken(user, "60m");
+    const accessToken = createToken(user, "120d");
     const refreshToken = createToken(user, "7d");
 
     // Définissez les cookies des tokens
