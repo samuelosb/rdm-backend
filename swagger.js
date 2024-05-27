@@ -25,7 +25,7 @@ const options = {
         },
         servers: [
             {
-                url: "https://rdm-backend-beta.vercel.app/api/", // Server URL
+                url: "https://rdm-backend.onrender.com/api/", // Server URL
                 description: "Development server", // Server description
             },
         ],
@@ -43,5 +43,5 @@ const specs = swaggerJsdoc(options);
 // Export a function to setup the Swagger middleware
 module.exports = (app) => {
     // Serve the Swagger UI at the /api-docs endpoint
-    app.use('/api-docs/', swaggerUi.serveWithOptions({ redirect: false }), swaggerUi.setup(specs));
+    app.use('/api-docs/', swaggerUi.serve, swaggerUi.setup(specs));
 };
