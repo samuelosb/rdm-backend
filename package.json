@@ -7,6 +7,38 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon index.js"
   },
+  "comments": {
+    "dependencies-summary": {
+      "axios": "Promise-based HTTP client for making HTTP requests",
+      "bcryptjs": "Library for hashing passwords",
+      "compression": "Middleware to compress response bodies for all requests",
+      "cookie-parser": "Middleware to parse cookies",
+      "cors": "Middleware to enable Cross-Origin Resource Sharing",
+      "dotenv": "Loads environment variables from a .env file",
+      "helmet": "Middleware to secure Express apps by setting various HTTP headers",
+      "json2csv": "Library to convert JSON to CSV format",
+      "jsonwebtoken": "Library to create and verify JSON Web Tokens",
+      "mongodb": "MongoDB driver for Node.js",
+      "mongoose": "MongoDB object modeling tool designed to work in an asynchronous environment",
+      "nodemailer": "Library to send emails from Node.js",
+      "nodemon": "Utility that monitors for any changes in your source and automatically restarts your server",
+      "passport": "Middleware for authentication in Node.js",
+      "passport-github2": "Passport strategy for authenticating with GitHub",
+      "passport-google-oauth20": "Passport strategy for authenticating with Google using OAuth 2.0",
+      "passport-jwt": "Passport strategy for authenticating with JSON Web Tokens",
+      "passport-local": "Passport strategy for authenticating with a username and password",
+      "pdfkit": "Library for creating PDF documents",
+      "swagger-jsdoc": "Generates swagger spec from JSDoc comments",
+      "swagger-ui-express": "Middleware to serve auto-generated swagger-ui generated API docs",
+      "winston": "Logging library",
+      "winston-daily-rotate-file": "Transport for winston that logs to a rotating file each day"
+    },
+    "devDependencies-summary": {
+      "cypress": "End-to-end testing framework",
+      "express-session": "Session middleware for Express",
+      "mongosh": "The MongoDB Shell"
+    }
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
