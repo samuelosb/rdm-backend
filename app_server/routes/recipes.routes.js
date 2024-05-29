@@ -44,6 +44,8 @@ router.post("/rate", requireRole(['Admin', 'Basic']), ratingController.rateRecip
 
 router.route("/user-rating").get(requireRole(['Admin', 'Basic']), ratingController.getUserRating);
 
+router.route("/average-rating").get(ratingController.getAverageRating);
+
 router.route("/recalculate-average-ratings").get(requireRole(['Admin']), ratingController.recalculateAllAverageRatings);
 
 router.route("/top-rated").get(ratingController.getTopRatedRecipes);

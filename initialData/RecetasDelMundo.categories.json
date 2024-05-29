@@ -1,0 +1,56 @@
+[{
+  "_id": {
+    "$oid": "663fa10abd7d743c8736b49c"
+  },
+  "categoryId": 1,
+  "categoryTitle": "Consultas Generales",
+  "categorySubtitle": "Foro de dudas sobre preparación de recetas e ingredientes",
+  "numberOfPosts": 2,
+  "numberOfComments": 7,
+  "timeCreation": {
+    "$date": "2024-05-11T16:47:06.844Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "663fa131bd7d743c8736b49f"
+  },
+  "categoryId": 2,
+  "categoryTitle": "Trucos de cocina",
+  "categorySubtitle": "Foro para compartir consejos de cocina que hacen la elaboración de los platos más sencilla",
+  "numberOfPosts": 2,
+  "numberOfComments": 0,
+  "timeCreation": {
+    "$date": "2024-05-11T16:47:45.548Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "663fa139bd7d743c8736b4a2"
+  },
+  "categoryId": 3,
+  "categoryTitle": "Utensilios y equipamiento",
+  "categorySubtitle": "Foro de dudas sobre equipamiento y herramientas de cocina.",
+  "numberOfPosts": 2,
+  "numberOfComments": 11,
+  "timeCreation": {
+    "$date": "2024-05-11T16:47:53.502Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "663fa141bd7d743c8736b4a5"
+  },
+  "categoryId": 4,
+  "categoryTitle": "Vinos y maridaje",
+  "categorySubtitle": "Consejos de maridaje y recomendaciones sobre vinos.",
+  "numberOfPosts": 1,
+  "numberOfComments": 1,
+  "timeCreation": {
+    "$date": "2024-05-11T16:48:01.788Z"
+  },
+  "__v": 0
+}]

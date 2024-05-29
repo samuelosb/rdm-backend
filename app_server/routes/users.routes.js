@@ -18,6 +18,8 @@ router.put('/banUser', requireRole(['Admin']), userController.banUser);
 router.put('/unbanUser', requireRole(['Admin']), userController.unbanUser); // New endpoint
 router.delete('/deleteUser', requireRole(['Admin']), userController.deleteUser);
 router.put('/update-details', requireRole(['Admin' , "Basic"]), userController.updateUserDetails);
+router.get('/exportUserData', requireRole(['Admin', 'Basic']), userController.exportUserData);
+router.get('/exportAllUsers', requireRole(['Admin']), userController.exportAllUsersData);
 
 router.get('/getAll', requireRole(['Admin']), userController.getUsers);
 

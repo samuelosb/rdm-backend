@@ -1,0 +1,2 @@
+This files contains the initial data of the MongoDB collections.
+They can be easily imported with MongoDB Compass.

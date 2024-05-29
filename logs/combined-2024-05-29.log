@@ -1,0 +1,765 @@
+{"count":10,"level":"info","message":"Latest posts retrieved","timestamp":"2024-05-29T08:38:06.984Z"}
+{"count":10,"level":"info","message":"Most commented posts retrieved","timestamp":"2024-05-29T08:38:06.993Z"}
+{"count":10,"level":"info","message":"Latest posts retrieved","timestamp":"2024-05-29T08:38:07.050Z"}
+{"count":10,"level":"info","message":"Most commented posts retrieved","timestamp":"2024-05-29T08:38:07.054Z"}
+{"endpoint":"searchRandomRecipes","level":"info","message":"Random recipes fetched successfully","timestamp":"2024-05-29T08:38:08.065Z"}
+{"count":14,"level":"info","message":"Top-rated recipes retrieved","timestamp":"2024-05-29T08:38:08.380Z"}
+{"endpoint":"searchRandomRecipes","level":"info","message":"Random recipes fetched successfully","timestamp":"2024-05-29T08:38:08.686Z"}
+{"count":14,"level":"info","message":"Top-rated recipes retrieved","timestamp":"2024-05-29T08:38:09.561Z"}
+{"count":10,"level":"info","message":"All posts retrieved","timestamp":"2024-05-29T08:38:18.062Z"}
+{"count":10,"level":"info","message":"All posts retrieved","timestamp":"2024-05-29T08:38:18.112Z"}
+{"level":"info","message":"User logged in successfully","timestamp":"2024-05-29T08:38:25.802Z","userId":"663a9562526c57e678632d44"}
+{"count":10,"level":"info","message":"All posts retrieved","timestamp":"2024-05-29T08:38:25.875Z"}
+{"endpoint":"getUsers","level":"info","message":"Fetched all users successfully","resultCount":22,"timestamp":"2024-05-29T08:38:25.888Z"}
+{"endpoint":"getCategories","level":"info","message":"Fetched all categories successfully","resultCount":4,"timestamp":"2024-05-29T08:38:25.889Z"}
+{"count":27,"level":"info","message":"All comments retrieved","timestamp":"2024-05-29T08:38:25.891Z"}
+{"count":10,"level":"info","message":"All posts retrieved","timestamp":"2024-05-29T08:38:25.917Z"}
+{"count":27,"level":"info","message":"All comments retrieved","timestamp":"2024-05-29T08:38:25.935Z"}
+{"endpoint":"getCategories","level":"info","message":"Fetched all categories successfully","resultCount":4,"timestamp":"2024-05-29T08:38:25.937Z"}
+{"endpoint":"getUsers","level":"info","message":"Fetched all users successfully","resultCount":22,"timestamp":"2024-05-29T08:38:25.947Z"}
+{"endpoint":"getUsers","level":"info","message":"Fetched all users successfully","resultCount":22,"timestamp":"2024-05-29T08:38:44.127Z"}
+{"endpoint":"getUsers","level":"info","message":"Fetched all users successfully","resultCount":22,"timestamp":"2024-05-29T08:38:44.176Z"}
+{"endpoint":"getCategories","level":"info","message":"Fetched all categories successfully","resultCount":4,"timestamp":"2024-05-29T08:38:58.745Z"}
+{"endpoint":"getCategories","level":"info","message":"Fetched all categories successfully","resultCount":4,"timestamp":"2024-05-29T08:38:58.791Z"}
+{"categoryId":"1","level":"info","message":"Posts retrieved successfully","resultCount":3,"timestamp":"2024-05-29T08:39:02.009Z"}
+{"categoryId":"1","level":"info","message":"Posts retrieved successfully","resultCount":3,"timestamp":"2024-05-29T08:39:02.054Z"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T08:39:02.057Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T08:39:02.059Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T08:39:02.101Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T08:39:02.105Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T08:39:02.142Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T08:39:02.195Z","userId":"663a4ebb526c57e678632c36"}
+{"categoryId":"1","level":"info","message":"Posts retrieved successfully","resultCount":3,"timestamp":"2024-05-29T08:49:15.366Z"}
+{"categoryId":"1","level":"info","message":"Posts retrieved successfully","resultCount":3,"timestamp":"2024-05-29T08:49:15.411Z"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T08:49:15.422Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T08:49:15.425Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T08:49:15.476Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T08:49:15.483Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T08:49:15.571Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T08:49:15.620Z","userId":"663a4ebb526c57e678632c36"}
+{"level":"info","message":"Post retrieved successfully","postId":"19","timestamp":"2024-05-29T08:50:56.819Z"}
+{"level":"info","message":"Post retrieved successfully","postId":"19","timestamp":"2024-05-29T08:50:56.884Z"}
+{"level":"info","message":"Comments retrieved successfully","postId":"19","resultCount":3,"timestamp":"2024-05-29T08:50:56.896Z"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T08:50:56.956Z","userId":"663a4ebb526c57e678632c36"}
+{"level":"info","message":"Comments retrieved successfully","postId":"19","resultCount":3,"timestamp":"2024-05-29T08:50:56.958Z"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T08:50:56.961Z","userId":"663a995488bd6e401254a1e7"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T08:50:56.965Z","userId":"663a9562526c57e678632d44"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T08:50:57.006Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T08:50:57.012Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T08:50:57.018Z","userId":"663a9562526c57e678632d44"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T08:50:57.019Z","userId":"663a995488bd6e401254a1e7"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T08:50:57.094Z","userId":"664c8c6d34b09ebe67101303"}
+{"level":"info","message":"Post retrieved successfully","postId":"19","timestamp":"2024-05-29T08:58:21.225Z"}
+{"level":"info","message":"Post retrieved successfully","postId":"19","timestamp":"2024-05-29T08:58:21.275Z"}
+{"level":"info","message":"Comments retrieved successfully","postId":"19","resultCount":3,"timestamp":"2024-05-29T08:58:21.302Z"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T08:58:21.348Z","userId":"663a9562526c57e678632d44"}
+{"level":"info","message":"Comments retrieved successfully","postId":"19","resultCount":3,"timestamp":"2024-05-29T08:58:21.351Z"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T08:58:21.363Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T08:58:21.365Z","userId":"663a995488bd6e401254a1e7"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T08:58:21.399Z","userId":"663a9562526c57e678632d44"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T08:58:21.405Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T08:58:21.408Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T08:58:21.410Z","userId":"663a995488bd6e401254a1e7"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T08:58:21.489Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"banUser","level":"info","message":"User banned successfully","timestamp":"2024-05-29T08:58:36.084Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"unbanUser","level":"info","message":"User unbanned successfully","timestamp":"2024-05-29T08:58:40.112Z","userId":"664c8c6d34b09ebe67101303"}
+{"level":"info","message":"Post retrieved successfully","postId":"19","timestamp":"2024-05-29T08:59:17.969Z"}
+{"level":"info","message":"Post retrieved successfully","postId":"19","timestamp":"2024-05-29T08:59:18.011Z"}
+{"level":"info","message":"Comments retrieved successfully","postId":"19","resultCount":3,"timestamp":"2024-05-29T08:59:18.087Z"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T08:59:18.161Z","userId":"663a9562526c57e678632d44"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T08:59:18.163Z","userId":"663a995488bd6e401254a1e7"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T08:59:18.167Z","userId":"663a4ebb526c57e678632c36"}
+{"level":"info","message":"Comments retrieved successfully","postId":"19","resultCount":3,"timestamp":"2024-05-29T08:59:18.168Z"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T08:59:18.228Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T08:59:18.231Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T08:59:18.234Z","userId":"663a995488bd6e401254a1e7"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T08:59:18.235Z","userId":"663a9562526c57e678632d44"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T08:59:18.348Z","userId":"664c8c6d34b09ebe67101303"}
+{"categoryId":"1","level":"info","message":"Posts retrieved successfully","resultCount":3,"timestamp":"2024-05-29T09:00:10.440Z"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:00:10.488Z","userId":"663a4ebb526c57e678632c36"}
+{"categoryId":"1","level":"info","message":"Posts retrieved successfully","resultCount":3,"timestamp":"2024-05-29T09:00:10.489Z"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:00:10.493Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:00:10.541Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:00:10.544Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:00:10.584Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:00:10.628Z","userId":"663a4ebb526c57e678632c36"}
+{"level":"info","message":"Post retrieved successfully","postId":"11","timestamp":"2024-05-29T09:00:23.995Z"}
+{"level":"warn","message":"No comments found for this post","postId":"11","timestamp":"2024-05-29T09:00:24.037Z"}
+{"level":"info","message":"Post retrieved successfully","postId":"11","timestamp":"2024-05-29T09:00:24.039Z"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:00:24.103Z","userId":"663a4ebb526c57e678632c36"}
+{"level":"warn","message":"No comments found for this post","postId":"11","timestamp":"2024-05-29T09:00:24.106Z"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:00:24.187Z","userId":"663a4ebb526c57e678632c36"}
+{"categoryId":"1","level":"info","message":"Posts retrieved successfully","resultCount":3,"timestamp":"2024-05-29T09:00:33.705Z"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:00:33.748Z","userId":"664c8c6d34b09ebe67101303"}
+{"categoryId":"1","level":"info","message":"Posts retrieved successfully","resultCount":3,"timestamp":"2024-05-29T09:00:33.749Z"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:00:33.761Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:00:33.795Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:00:33.803Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:00:33.848Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:00:33.892Z","userId":"663a4ebb526c57e678632c36"}
+{"level":"info","message":"Post retrieved successfully","postId":"19","timestamp":"2024-05-29T09:00:46.960Z"}
+{"level":"info","message":"Comments retrieved successfully","postId":"19","resultCount":3,"timestamp":"2024-05-29T09:00:47.012Z"}
+{"level":"info","message":"Post retrieved successfully","postId":"19","timestamp":"2024-05-29T09:00:47.014Z"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:00:47.059Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:00:47.060Z","userId":"663a995488bd6e401254a1e7"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:00:47.062Z","userId":"663a9562526c57e678632d44"}
+{"level":"info","message":"Comments retrieved successfully","postId":"19","resultCount":3,"timestamp":"2024-05-29T09:00:47.065Z"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:00:47.104Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:00:47.111Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:00:47.112Z","userId":"663a9562526c57e678632d44"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:00:47.114Z","userId":"663a995488bd6e401254a1e7"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:00:47.188Z","userId":"664c8c6d34b09ebe67101303"}
+{"categoryId":"1","level":"info","message":"Posts retrieved successfully","resultCount":3,"timestamp":"2024-05-29T09:01:04.044Z"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:01:04.090Z","userId":"664c8c6d34b09ebe67101303"}
+{"categoryId":"1","level":"info","message":"Posts retrieved successfully","resultCount":3,"timestamp":"2024-05-29T09:01:04.091Z"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:01:04.092Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:01:04.142Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:01:04.143Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:01:04.189Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:01:04.237Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"getCategories","level":"info","message":"Fetched all categories successfully","resultCount":4,"timestamp":"2024-05-29T09:01:26.874Z"}
+{"endpoint":"getCategories","level":"info","message":"Fetched all categories successfully","resultCount":4,"timestamp":"2024-05-29T09:01:26.945Z"}
+{"categoryId":"1","level":"info","message":"Posts retrieved successfully","resultCount":3,"timestamp":"2024-05-29T09:01:34.212Z"}
+{"categoryId":"1","level":"info","message":"Posts retrieved successfully","resultCount":3,"timestamp":"2024-05-29T09:01:34.257Z"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:01:34.260Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:01:34.262Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:01:34.307Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:01:34.308Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:01:34.352Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:01:34.395Z","userId":"663a4ebb526c57e678632c36"}
+{"level":"info","message":"Post retrieved successfully","postId":"19","timestamp":"2024-05-29T09:01:38.022Z"}
+{"level":"info","message":"Post retrieved successfully","postId":"19","timestamp":"2024-05-29T09:01:38.067Z"}
+{"level":"info","message":"Comments retrieved successfully","postId":"19","resultCount":3,"timestamp":"2024-05-29T09:01:38.068Z"}
+{"level":"info","message":"Comments retrieved successfully","postId":"19","resultCount":3,"timestamp":"2024-05-29T09:01:38.110Z"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:01:38.112Z","userId":"663a995488bd6e401254a1e7"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:01:38.115Z","userId":"663a9562526c57e678632d44"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:01:38.116Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:01:38.151Z","userId":"663a995488bd6e401254a1e7"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:01:38.158Z","userId":"663a9562526c57e678632d44"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:01:38.175Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:01:38.177Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:01:38.245Z","userId":"664c8c6d34b09ebe67101303"}
+{"level":"info","message":"Post retrieved successfully","postId":"19","timestamp":"2024-05-29T09:03:57.449Z"}
+{"level":"info","message":"Comments retrieved successfully","postId":"19","resultCount":3,"timestamp":"2024-05-29T09:03:57.492Z"}
+{"level":"info","message":"Post retrieved successfully","postId":"19","timestamp":"2024-05-29T09:03:57.493Z"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:03:57.545Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:03:57.545Z","userId":"663a995488bd6e401254a1e7"}
+{"level":"info","message":"Comments retrieved successfully","postId":"19","resultCount":3,"timestamp":"2024-05-29T09:03:57.546Z"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:03:57.551Z","userId":"663a9562526c57e678632d44"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:03:57.599Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:03:57.600Z","userId":"663a995488bd6e401254a1e7"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:03:57.611Z","userId":"663a9562526c57e678632d44"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:03:57.617Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:03:57.886Z","userId":"664c8c6d34b09ebe67101303"}
+{"categoryId":"1","level":"info","message":"Posts retrieved successfully","resultCount":3,"timestamp":"2024-05-29T09:07:19.032Z"}
+{"categoryId":"1","level":"info","message":"Posts retrieved successfully","resultCount":3,"timestamp":"2024-05-29T09:07:19.068Z"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:07:19.082Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:07:19.084Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:07:19.127Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:07:19.132Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:07:19.168Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:07:19.211Z","userId":"663a4ebb526c57e678632c36"}
+{"level":"info","message":"Post retrieved successfully","postId":"19","timestamp":"2024-05-29T09:08:24.105Z"}
+{"level":"info","message":"Post retrieved successfully","postId":"19","timestamp":"2024-05-29T09:08:24.157Z"}
+{"level":"info","message":"Comments retrieved successfully","postId":"19","resultCount":3,"timestamp":"2024-05-29T09:08:24.162Z"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:08:24.214Z","userId":"663a995488bd6e401254a1e7"}
+{"level":"info","message":"Comments retrieved successfully","postId":"19","resultCount":3,"timestamp":"2024-05-29T09:08:24.215Z"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:08:24.241Z","userId":"663a9562526c57e678632d44"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:08:24.244Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:08:24.279Z","userId":"663a995488bd6e401254a1e7"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:08:24.283Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:08:24.287Z","userId":"663a9562526c57e678632d44"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:08:24.288Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:08:24.360Z","userId":"664c8c6d34b09ebe67101303"}
+{"categoryId":"1","level":"info","message":"Posts retrieved successfully","resultCount":3,"timestamp":"2024-05-29T09:08:27.251Z"}
+{"categoryId":"1","level":"info","message":"Posts retrieved successfully","resultCount":3,"timestamp":"2024-05-29T09:08:27.294Z"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:08:27.295Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:08:27.296Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:08:27.333Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:08:27.336Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:08:27.377Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:08:27.420Z","userId":"663a4ebb526c57e678632c36"}
+{"level":"info","message":"Post retrieved successfully","postId":"19","timestamp":"2024-05-29T09:08:44.507Z"}
+{"level":"info","message":"Comments retrieved successfully","postId":"19","resultCount":3,"timestamp":"2024-05-29T09:08:44.586Z"}
+{"level":"info","message":"Post retrieved successfully","postId":"19","timestamp":"2024-05-29T09:08:44.590Z"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:08:44.639Z","userId":"663a9562526c57e678632d44"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:08:44.643Z","userId":"663a995488bd6e401254a1e7"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:08:44.648Z","userId":"663a4ebb526c57e678632c36"}
+{"level":"info","message":"Comments retrieved successfully","postId":"19","resultCount":3,"timestamp":"2024-05-29T09:08:44.649Z"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:08:44.689Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:08:44.693Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:08:44.695Z","userId":"663a9562526c57e678632d44"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:08:44.697Z","userId":"663a995488bd6e401254a1e7"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:08:44.807Z","userId":"664c8c6d34b09ebe67101303"}
+{"count":10,"level":"info","message":"Latest posts retrieved","timestamp":"2024-05-29T09:10:55.400Z"}
+{"count":10,"level":"info","message":"Most commented posts retrieved","timestamp":"2024-05-29T09:10:55.408Z"}
+{"count":10,"level":"info","message":"Most commented posts retrieved","timestamp":"2024-05-29T09:10:55.454Z"}
+{"count":10,"level":"info","message":"Latest posts retrieved","timestamp":"2024-05-29T09:10:55.456Z"}
+{"endpoint":"searchRandomRecipes","level":"info","message":"Random recipes fetched successfully","timestamp":"2024-05-29T09:10:55.986Z"}
+{"count":14,"level":"info","message":"Top-rated recipes retrieved","timestamp":"2024-05-29T09:10:56.671Z"}
+{"endpoint":"searchRandomRecipes","level":"info","message":"Random recipes fetched successfully","timestamp":"2024-05-29T09:10:57.046Z"}
+{"count":14,"level":"info","message":"Top-rated recipes retrieved","timestamp":"2024-05-29T09:10:57.743Z"}
+{"level":"info","message":"Post retrieved successfully","postId":"19","timestamp":"2024-05-29T09:11:04.618Z"}
+{"level":"info","message":"Comments retrieved successfully","postId":"19","resultCount":3,"timestamp":"2024-05-29T09:11:04.662Z"}
+{"level":"info","message":"Post retrieved successfully","postId":"19","timestamp":"2024-05-29T09:11:04.663Z"}
+{"level":"info","message":"Comments retrieved successfully","postId":"19","resultCount":3,"timestamp":"2024-05-29T09:11:04.705Z"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:11:04.708Z","userId":"663a9562526c57e678632d44"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:11:04.709Z","userId":"663a995488bd6e401254a1e7"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:11:04.713Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:11:04.750Z","userId":"663a995488bd6e401254a1e7"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:11:04.752Z","userId":"663a9562526c57e678632d44"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:11:04.753Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:11:04.770Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:11:04.831Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"banUser","level":"info","message":"User banned successfully","timestamp":"2024-05-29T09:11:21.219Z","userId":"663a4ebb526c57e678632c36"}
+{"level":"info","message":"Post retrieved successfully","postId":"19","timestamp":"2024-05-29T09:12:13.799Z"}
+{"level":"info","message":"Comments retrieved successfully","postId":"19","resultCount":3,"timestamp":"2024-05-29T09:12:13.841Z"}
+{"level":"info","message":"Post retrieved successfully","postId":"19","timestamp":"2024-05-29T09:12:13.847Z"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:12:13.883Z","userId":"663a995488bd6e401254a1e7"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:12:13.891Z","userId":"663a9562526c57e678632d44"}
+{"level":"info","message":"Comments retrieved successfully","postId":"19","resultCount":3,"timestamp":"2024-05-29T09:12:13.892Z"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:12:13.895Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:12:13.938Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:12:13.941Z","userId":"663a9562526c57e678632d44"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:12:13.943Z","userId":"663a995488bd6e401254a1e7"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:12:13.944Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:12:14.024Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"unbanUser","level":"info","message":"User unbanned successfully","timestamp":"2024-05-29T09:12:21.347Z","userId":"663a4ebb526c57e678632c36"}
+{"level":"info","message":"Post retrieved successfully","postId":"19","timestamp":"2024-05-29T09:20:10.431Z"}
+{"level":"info","message":"Post retrieved successfully","postId":"19","timestamp":"2024-05-29T09:20:10.480Z"}
+{"level":"info","message":"Comments retrieved successfully","postId":"19","resultCount":3,"timestamp":"2024-05-29T09:20:10.487Z"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:20:10.533Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:20:10.537Z","userId":"663a9562526c57e678632d44"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:20:10.541Z","userId":"663a995488bd6e401254a1e7"}
+{"level":"info","message":"Comments retrieved successfully","postId":"19","resultCount":3,"timestamp":"2024-05-29T09:20:10.542Z"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:20:10.586Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:20:10.596Z","userId":"663a995488bd6e401254a1e7"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:20:10.598Z","userId":"663a9562526c57e678632d44"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:20:10.601Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:20:10.671Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"banUser","level":"info","message":"User banned successfully","timestamp":"2024-05-29T09:20:13.411Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"unbanUser","level":"info","message":"User unbanned successfully","timestamp":"2024-05-29T09:20:15.665Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"banUser","level":"info","message":"User banned successfully","timestamp":"2024-05-29T09:20:19.180Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"unbanUser","level":"info","message":"User unbanned successfully","timestamp":"2024-05-29T09:20:20.766Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"banUser","level":"info","message":"User banned successfully","timestamp":"2024-05-29T09:20:27.417Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"unbanUser","level":"info","message":"User unbanned successfully","timestamp":"2024-05-29T09:20:28.419Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"banUser","level":"info","message":"User banned successfully","timestamp":"2024-05-29T09:20:31.226Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"unbanUser","level":"info","message":"User unbanned successfully","timestamp":"2024-05-29T09:20:32.838Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"getCategories","level":"info","message":"Fetched all categories successfully","resultCount":4,"timestamp":"2024-05-29T09:22:55.523Z"}
+{"count":27,"level":"info","message":"All comments retrieved","timestamp":"2024-05-29T09:22:55.542Z"}
+{"endpoint":"getUsers","level":"info","message":"Fetched all users successfully","resultCount":22,"timestamp":"2024-05-29T09:22:55.556Z"}
+{"count":10,"level":"info","message":"All posts retrieved","timestamp":"2024-05-29T09:22:55.559Z"}
+{"endpoint":"getCategories","level":"info","message":"Fetched all categories successfully","resultCount":4,"timestamp":"2024-05-29T09:22:55.565Z"}
+{"endpoint":"getUsers","level":"info","message":"Fetched all users successfully","resultCount":22,"timestamp":"2024-05-29T09:22:55.610Z"}
+{"count":10,"level":"info","message":"All posts retrieved","timestamp":"2024-05-29T09:22:55.611Z"}
+{"count":27,"level":"info","message":"All comments retrieved","timestamp":"2024-05-29T09:22:55.613Z"}
+{"endpoint":"getUsers","level":"info","message":"Fetched all users successfully","resultCount":22,"timestamp":"2024-05-29T09:22:57.519Z"}
+{"endpoint":"getUsers","level":"info","message":"Fetched all users successfully","resultCount":22,"timestamp":"2024-05-29T09:22:57.571Z"}
+{"endpoint":"makeAdmin","level":"info","message":"User role updated to admin successfully","timestamp":"2024-05-29T09:22:59.440Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"makeAdmin","level":"info","message":"User role updated to admin successfully","timestamp":"2024-05-29T09:23:24.944Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"getCategories","level":"info","message":"Fetched all categories successfully","resultCount":4,"timestamp":"2024-05-29T09:24:04.872Z"}
+{"endpoint":"getCategories","level":"info","message":"Fetched all categories successfully","resultCount":4,"timestamp":"2024-05-29T09:24:04.927Z"}
+{"categoryId":"1","level":"info","message":"Posts retrieved successfully","resultCount":3,"timestamp":"2024-05-29T09:24:07.089Z"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:24:07.138Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:24:07.141Z","userId":"664c8c6d34b09ebe67101303"}
+{"categoryId":"1","level":"info","message":"Posts retrieved successfully","resultCount":3,"timestamp":"2024-05-29T09:24:07.142Z"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:24:07.186Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:24:07.204Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:24:07.225Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:24:07.263Z","userId":"663a4ebb526c57e678632c36"}
+{"level":"info","message":"Post retrieved successfully","postId":"19","timestamp":"2024-05-29T09:24:11.629Z"}
+{"level":"info","message":"Post retrieved successfully","postId":"19","timestamp":"2024-05-29T09:24:11.679Z"}
+{"level":"info","message":"Comments retrieved successfully","postId":"19","resultCount":3,"timestamp":"2024-05-29T09:24:11.688Z"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:24:11.730Z","userId":"663a9562526c57e678632d44"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:24:11.737Z","userId":"663a995488bd6e401254a1e7"}
+{"level":"info","message":"Comments retrieved successfully","postId":"19","resultCount":3,"timestamp":"2024-05-29T09:24:11.738Z"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:24:11.741Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:24:11.789Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:24:11.793Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:24:11.797Z","userId":"663a995488bd6e401254a1e7"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:24:11.799Z","userId":"663a9562526c57e678632d44"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:24:11.890Z","userId":"664c8c6d34b09ebe67101303"}
+{"commentId":"35","level":"info","message":"Comment successfully deleted","postId":19,"timestamp":"2024-05-29T09:24:41.049Z"}
+{"level":"info","message":"Post retrieved successfully","postId":"19","timestamp":"2024-05-29T09:24:42.219Z"}
+{"level":"info","message":"Post retrieved successfully","postId":"19","timestamp":"2024-05-29T09:24:42.267Z"}
+{"level":"info","message":"Comments retrieved successfully","postId":"19","resultCount":2,"timestamp":"2024-05-29T09:24:42.268Z"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:24:42.314Z","userId":"663a995488bd6e401254a1e7"}
+{"level":"info","message":"Comments retrieved successfully","postId":"19","resultCount":2,"timestamp":"2024-05-29T09:24:42.315Z"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:24:42.318Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:24:42.371Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:24:42.377Z","userId":"663a995488bd6e401254a1e7"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:24:42.380Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:24:42.477Z","userId":"664c8c6d34b09ebe67101303"}
+{"level":"info","message":"Post retrieved successfully","postId":"19","timestamp":"2024-05-29T09:24:47.083Z"}
+{"level":"info","message":"Comments retrieved successfully","postId":"19","resultCount":2,"timestamp":"2024-05-29T09:24:47.130Z"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:24:47.209Z","userId":"663a995488bd6e401254a1e7"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:24:47.210Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:24:47.261Z","userId":"664c8c6d34b09ebe67101303"}
+{"authorId":"663a9562526c57e678632d44","commentId":40,"level":"info","message":"New comment created successfully","postId":"19","timestamp":"2024-05-29T09:24:49.010Z"}
+{"level":"info","message":"Post retrieved successfully","postId":"19","timestamp":"2024-05-29T09:24:49.099Z"}
+{"level":"info","message":"Post retrieved successfully","postId":"19","timestamp":"2024-05-29T09:24:50.131Z"}
+{"level":"info","message":"Post retrieved successfully","postId":"19","timestamp":"2024-05-29T09:24:50.177Z"}
+{"level":"info","message":"Comments retrieved successfully","postId":"19","resultCount":3,"timestamp":"2024-05-29T09:24:50.180Z"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:24:50.224Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:24:50.226Z","userId":"663a995488bd6e401254a1e7"}
+{"level":"info","message":"Comments retrieved successfully","postId":"19","resultCount":3,"timestamp":"2024-05-29T09:24:50.226Z"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:24:50.232Z","userId":"663a9562526c57e678632d44"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:24:50.270Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:24:50.272Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:24:50.277Z","userId":"663a995488bd6e401254a1e7"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:24:50.278Z","userId":"663a9562526c57e678632d44"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:24:50.361Z","userId":"664c8c6d34b09ebe67101303"}
+{"count":10,"level":"info","message":"Most commented posts retrieved","timestamp":"2024-05-29T09:29:01.560Z"}
+{"count":10,"level":"info","message":"Latest posts retrieved","timestamp":"2024-05-29T09:29:01.564Z"}
+{"count":10,"level":"info","message":"Latest posts retrieved","timestamp":"2024-05-29T09:29:01.633Z"}
+{"count":10,"level":"info","message":"Most commented posts retrieved","timestamp":"2024-05-29T09:29:01.663Z"}
+{"endpoint":"searchRandomRecipes","level":"info","message":"Random recipes fetched successfully","timestamp":"2024-05-29T09:29:02.492Z"}
+{"count":14,"level":"info","message":"Top-rated recipes retrieved","timestamp":"2024-05-29T09:29:03.709Z"}
+{"endpoint":"searchRandomRecipes","level":"info","message":"Random recipes fetched successfully","timestamp":"2024-05-29T09:29:04.195Z"}
+{"count":14,"level":"info","message":"Top-rated recipes retrieved","timestamp":"2024-05-29T09:29:04.882Z"}
+{"count":10,"level":"info","message":"Latest posts retrieved","timestamp":"2024-05-29T09:29:07.463Z"}
+{"count":10,"level":"info","message":"Most commented posts retrieved","timestamp":"2024-05-29T09:29:07.468Z"}
+{"count":10,"level":"info","message":"Latest posts retrieved","timestamp":"2024-05-29T09:29:07.519Z"}
+{"count":10,"level":"info","message":"Most commented posts retrieved","timestamp":"2024-05-29T09:29:07.523Z"}
+{"endpoint":"searchRandomRecipes","level":"info","message":"Random recipes fetched successfully","timestamp":"2024-05-29T09:29:07.900Z"}
+{"count":14,"level":"info","message":"Top-rated recipes retrieved","timestamp":"2024-05-29T09:29:08.528Z"}
+{"endpoint":"searchRandomRecipes","level":"info","message":"Random recipes fetched successfully","timestamp":"2024-05-29T09:29:09.100Z"}
+{"count":14,"level":"info","message":"Top-rated recipes retrieved","timestamp":"2024-05-29T09:29:09.729Z"}
+{"averageRating":4.25,"level":"info","message":"Average rating retrieved","recipeId":"dce07b3df7335a8adf5fc8b8f86530ea","timestamp":"2024-05-29T09:29:14.565Z"}
+{"averageRating":4.25,"level":"info","message":"Average rating retrieved","recipeId":"dce07b3df7335a8adf5fc8b8f86530ea","timestamp":"2024-05-29T09:29:14.611Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"dce07b3df7335a8adf5fc8b8f86530ea","timestamp":"2024-05-29T09:29:14.695Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"dce07b3df7335a8adf5fc8b8f86530ea","timestamp":"2024-05-29T09:29:14.931Z"}
+{"level":"info","message":"User logged in successfully","timestamp":"2024-05-29T09:29:19.391Z","userId":"663a9562526c57e678632d44"}
+{"averageRating":4.25,"level":"info","message":"Average rating retrieved","recipeId":"dce07b3df7335a8adf5fc8b8f86530ea","timestamp":"2024-05-29T09:29:19.500Z"}
+{"level":"info","message":"User rating retrieved","recipeId":"dce07b3df7335a8adf5fc8b8f86530ea","timestamp":"2024-05-29T09:29:19.503Z","userId":"663a9562526c57e678632d44"}
+{"endpoint":"getFavouriteRecipeList","level":"info","message":"Favorite recipe list retrieved","timestamp":"2024-05-29T09:29:19.545Z","userId":"663a9562526c57e678632d44"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"dce07b3df7335a8adf5fc8b8f86530ea","timestamp":"2024-05-29T09:29:19.554Z"}
+{"averageRating":4.25,"level":"info","message":"Average rating retrieved","recipeId":"dce07b3df7335a8adf5fc8b8f86530ea","timestamp":"2024-05-29T09:29:19.560Z"}
+{"level":"info","message":"User rating retrieved","recipeId":"dce07b3df7335a8adf5fc8b8f86530ea","timestamp":"2024-05-29T09:29:19.561Z","userId":"663a9562526c57e678632d44"}
+{"averageRating":4.25,"level":"info","message":"Average rating retrieved","recipeId":"dce07b3df7335a8adf5fc8b8f86530ea","timestamp":"2024-05-29T09:29:19.605Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"dce07b3df7335a8adf5fc8b8f86530ea","timestamp":"2024-05-29T09:29:19.764Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"dce07b3df7335a8adf5fc8b8f86530ea","timestamp":"2024-05-29T09:29:19.959Z"}
+{"averageRating":4,"level":"info","message":"Average rating recalculated","recipeId":"dce07b3df7335a8adf5fc8b8f86530ea","timestamp":"2024-05-29T09:29:26.675Z"}
+{"level":"info","message":"Rating submitted successfully","rating":4.5,"recipeId":"dce07b3df7335a8adf5fc8b8f86530ea","timestamp":"2024-05-29T09:29:26.678Z","userId":"663a9562526c57e678632d44"}
+{"averageRating":4,"level":"info","message":"Average rating retrieved","recipeId":"dce07b3df7335a8adf5fc8b8f86530ea","timestamp":"2024-05-29T09:29:26.748Z"}
+{"averageRating":3.75,"level":"info","message":"Average rating recalculated","recipeId":"dce07b3df7335a8adf5fc8b8f86530ea","timestamp":"2024-05-29T09:29:29.846Z"}
+{"level":"info","message":"Rating submitted successfully","rating":4,"recipeId":"dce07b3df7335a8adf5fc8b8f86530ea","timestamp":"2024-05-29T09:29:29.847Z","userId":"663a9562526c57e678632d44"}
+{"averageRating":3.75,"level":"info","message":"Average rating retrieved","recipeId":"dce07b3df7335a8adf5fc8b8f86530ea","timestamp":"2024-05-29T09:29:29.901Z"}
+{"averageRating":4.25,"level":"info","message":"Average rating recalculated","recipeId":"dce07b3df7335a8adf5fc8b8f86530ea","timestamp":"2024-05-29T09:29:31.673Z"}
+{"level":"info","message":"Rating submitted successfully","rating":5,"recipeId":"dce07b3df7335a8adf5fc8b8f86530ea","timestamp":"2024-05-29T09:29:31.674Z","userId":"663a9562526c57e678632d44"}
+{"averageRating":4.25,"level":"info","message":"Average rating retrieved","recipeId":"dce07b3df7335a8adf5fc8b8f86530ea","timestamp":"2024-05-29T09:29:31.725Z"}
+{"averageRating":3.75,"level":"info","message":"Average rating recalculated","recipeId":"dce07b3df7335a8adf5fc8b8f86530ea","timestamp":"2024-05-29T09:29:33.528Z"}
+{"level":"info","message":"Rating submitted successfully","rating":4,"recipeId":"dce07b3df7335a8adf5fc8b8f86530ea","timestamp":"2024-05-29T09:29:33.530Z","userId":"663a9562526c57e678632d44"}
+{"averageRating":3.75,"level":"info","message":"Average rating retrieved","recipeId":"dce07b3df7335a8adf5fc8b8f86530ea","timestamp":"2024-05-29T09:29:33.581Z"}
+{"count":10,"level":"info","message":"Most commented posts retrieved","timestamp":"2024-05-29T09:29:36.437Z"}
+{"count":10,"level":"info","message":"Latest posts retrieved","timestamp":"2024-05-29T09:29:36.440Z"}
+{"count":10,"level":"info","message":"Most commented posts retrieved","timestamp":"2024-05-29T09:29:36.498Z"}
+{"count":10,"level":"info","message":"Latest posts retrieved","timestamp":"2024-05-29T09:29:36.501Z"}
+{"endpoint":"searchRandomRecipes","level":"info","message":"Random recipes fetched successfully","timestamp":"2024-05-29T09:29:37.104Z"}
+{"count":14,"level":"info","message":"Top-rated recipes retrieved","timestamp":"2024-05-29T09:29:37.709Z"}
+{"endpoint":"searchRandomRecipes","level":"info","message":"Random recipes fetched successfully","timestamp":"2024-05-29T09:29:38.279Z"}
+{"count":14,"level":"info","message":"Top-rated recipes retrieved","timestamp":"2024-05-29T09:29:38.841Z"}
+{"averageRating":3.8333333333333335,"level":"info","message":"Average rating retrieved","recipeId":"17eb2312c23140509c1603459d6d2675","timestamp":"2024-05-29T09:29:43.264Z"}
+{"level":"info","message":"User rating retrieved","recipeId":"17eb2312c23140509c1603459d6d2675","timestamp":"2024-05-29T09:29:43.266Z","userId":"663a9562526c57e678632d44"}
+{"endpoint":"getFavouriteRecipeList","level":"info","message":"Favorite recipe list retrieved","timestamp":"2024-05-29T09:29:43.311Z","userId":"663a9562526c57e678632d44"}
+{"averageRating":3.8333333333333335,"level":"info","message":"Average rating retrieved","recipeId":"17eb2312c23140509c1603459d6d2675","timestamp":"2024-05-29T09:29:43.312Z"}
+{"level":"info","message":"User rating retrieved","recipeId":"17eb2312c23140509c1603459d6d2675","timestamp":"2024-05-29T09:29:43.313Z","userId":"663a9562526c57e678632d44"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"17eb2312c23140509c1603459d6d2675","timestamp":"2024-05-29T09:29:43.345Z"}
+{"averageRating":3.8333333333333335,"level":"info","message":"Average rating retrieved","recipeId":"17eb2312c23140509c1603459d6d2675","timestamp":"2024-05-29T09:29:43.377Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"17eb2312c23140509c1603459d6d2675","timestamp":"2024-05-29T09:29:43.546Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"17eb2312c23140509c1603459d6d2675","timestamp":"2024-05-29T09:29:43.748Z"}
+{"count":10,"level":"info","message":"Most commented posts retrieved","timestamp":"2024-05-29T09:29:47.495Z"}
+{"count":10,"level":"info","message":"Latest posts retrieved","timestamp":"2024-05-29T09:29:47.521Z"}
+{"count":10,"level":"info","message":"Latest posts retrieved","timestamp":"2024-05-29T09:29:47.571Z"}
+{"count":10,"level":"info","message":"Most commented posts retrieved","timestamp":"2024-05-29T09:29:47.574Z"}
+{"endpoint":"searchRandomRecipes","level":"info","message":"Random recipes fetched successfully","timestamp":"2024-05-29T09:29:47.920Z"}
+{"count":14,"level":"info","message":"Top-rated recipes retrieved","timestamp":"2024-05-29T09:29:48.795Z"}
+{"endpoint":"searchRandomRecipes","level":"info","message":"Random recipes fetched successfully","timestamp":"2024-05-29T09:29:49.247Z"}
+{"count":14,"level":"info","message":"Top-rated recipes retrieved","timestamp":"2024-05-29T09:29:49.961Z"}
+{"count":10,"level":"info","message":"Most commented posts retrieved","timestamp":"2024-05-29T09:33:13.881Z"}
+{"count":10,"level":"info","message":"Latest posts retrieved","timestamp":"2024-05-29T09:33:13.883Z"}
+{"count":10,"level":"info","message":"Latest posts retrieved","timestamp":"2024-05-29T09:33:13.931Z"}
+{"count":10,"level":"info","message":"Most commented posts retrieved","timestamp":"2024-05-29T09:33:13.933Z"}
+{"endpoint":"searchRandomRecipes","level":"info","message":"Random recipes fetched successfully","timestamp":"2024-05-29T09:33:14.583Z"}
+{"count":14,"level":"info","message":"Top-rated recipes retrieved","timestamp":"2024-05-29T09:33:15.151Z"}
+{"endpoint":"searchRandomRecipes","level":"info","message":"Random recipes fetched successfully","timestamp":"2024-05-29T09:33:15.441Z"}
+{"count":14,"level":"info","message":"Top-rated recipes retrieved","timestamp":"2024-05-29T09:33:16.310Z"}
+{"level":"info","message":"User registered successfully","timestamp":"2024-05-29T09:34:00.983Z","userId":"6656f688fc0043aa06aea9bb"}
+{"count":10,"level":"info","message":"Latest posts retrieved","timestamp":"2024-05-29T09:34:01.516Z"}
+{"count":10,"level":"info","message":"Most commented posts retrieved","timestamp":"2024-05-29T09:34:01.518Z"}
+{"count":10,"level":"info","message":"Most commented posts retrieved","timestamp":"2024-05-29T09:34:01.591Z"}
+{"count":10,"level":"info","message":"Latest posts retrieved","timestamp":"2024-05-29T09:34:01.595Z"}
+{"endpoint":"searchRandomRecipes","level":"info","message":"Random recipes fetched successfully","timestamp":"2024-05-29T09:34:03.214Z"}
+{"count":14,"level":"info","message":"Top-rated recipes retrieved","timestamp":"2024-05-29T09:34:03.429Z"}
+{"endpoint":"searchRandomRecipes","level":"info","message":"Random recipes fetched successfully","timestamp":"2024-05-29T09:34:03.696Z"}
+{"count":14,"level":"info","message":"Top-rated recipes retrieved","timestamp":"2024-05-29T09:34:04.601Z"}
+{"level":"info","message":"User logged in successfully","timestamp":"2024-05-29T09:34:13.399Z","userId":"6656f688fc0043aa06aea9bb"}
+{"count":10,"level":"info","message":"Latest posts retrieved","timestamp":"2024-05-29T09:34:13.472Z"}
+{"count":10,"level":"info","message":"Most commented posts retrieved","timestamp":"2024-05-29T09:34:13.473Z"}
+{"count":10,"level":"info","message":"Latest posts retrieved","timestamp":"2024-05-29T09:34:13.534Z"}
+{"count":10,"level":"info","message":"Most commented posts retrieved","timestamp":"2024-05-29T09:34:13.536Z"}
+{"endpoint":"searchRandomRecipes","level":"info","message":"Random recipes fetched successfully","timestamp":"2024-05-29T09:34:14.038Z"}
+{"count":14,"level":"info","message":"Top-rated recipes retrieved","timestamp":"2024-05-29T09:34:14.733Z"}
+{"endpoint":"searchRandomRecipes","level":"info","message":"Random recipes fetched successfully","timestamp":"2024-05-29T09:34:15.316Z"}
+{"count":14,"level":"info","message":"Top-rated recipes retrieved","timestamp":"2024-05-29T09:34:15.808Z"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:34:34.245Z","userId":"6656f688fc0043aa06aea9bb"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:34:34.287Z","userId":"6656f688fc0043aa06aea9bb"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:36:54.171Z","userId":"6656f688fc0043aa06aea9bb"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:36:59.171Z","userId":"6656f688fc0043aa06aea9bb"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:36:59.220Z","userId":"6656f688fc0043aa06aea9bb"}
+{"endpoint":"updateUserDetails","id":"6656f688fc0043aa06aea9bb","level":"info","message":"User details updated successfully","newEmail":"dk.schlingensiepen@googlemail.com","newUsername":"Danny Schlingensiepen","timestamp":"2024-05-29T09:42:09.280Z"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:42:10.625Z","userId":"6656f688fc0043aa06aea9bb"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:42:10.670Z","userId":"6656f688fc0043aa06aea9bb"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:42:29.769Z","userId":"6656f688fc0043aa06aea9bb"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:42:29.814Z","userId":"6656f688fc0043aa06aea9bb"}
+{"count":10,"level":"info","message":"Most commented posts retrieved","timestamp":"2024-05-29T09:42:31.289Z"}
+{"count":10,"level":"info","message":"Latest posts retrieved","timestamp":"2024-05-29T09:42:31.290Z"}
+{"count":10,"level":"info","message":"Most commented posts retrieved","timestamp":"2024-05-29T09:42:31.336Z"}
+{"count":10,"level":"info","message":"Latest posts retrieved","timestamp":"2024-05-29T09:42:31.353Z"}
+{"endpoint":"searchRandomRecipes","level":"info","message":"Random recipes fetched successfully","timestamp":"2024-05-29T09:42:32.056Z"}
+{"count":14,"level":"info","message":"Top-rated recipes retrieved","timestamp":"2024-05-29T09:42:32.598Z"}
+{"endpoint":"searchRandomRecipes","level":"info","message":"Random recipes fetched successfully","timestamp":"2024-05-29T09:42:32.984Z"}
+{"count":14,"level":"info","message":"Top-rated recipes retrieved","timestamp":"2024-05-29T09:42:33.700Z"}
+{"averageRating":5,"level":"info","message":"Average rating retrieved","recipeId":"cd8c6ee3cac54436abacaed6cda4753f","timestamp":"2024-05-29T09:42:40.406Z"}
+{"level":"info","message":"User rating retrieved","recipeId":"cd8c6ee3cac54436abacaed6cda4753f","timestamp":"2024-05-29T09:42:40.406Z","userId":"6656f688fc0043aa06aea9bb"}
+{"endpoint":"getFavouriteRecipeList","level":"info","message":"Favorite recipe list retrieved","timestamp":"2024-05-29T09:42:40.447Z","userId":"6656f688fc0043aa06aea9bb"}
+{"averageRating":5,"level":"info","message":"Average rating retrieved","recipeId":"cd8c6ee3cac54436abacaed6cda4753f","timestamp":"2024-05-29T09:42:40.455Z"}
+{"level":"info","message":"User rating retrieved","recipeId":"cd8c6ee3cac54436abacaed6cda4753f","timestamp":"2024-05-29T09:42:40.457Z","userId":"6656f688fc0043aa06aea9bb"}
+{"averageRating":5,"level":"info","message":"Average rating retrieved","recipeId":"cd8c6ee3cac54436abacaed6cda4753f","timestamp":"2024-05-29T09:42:40.499Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"cd8c6ee3cac54436abacaed6cda4753f","timestamp":"2024-05-29T09:42:40.767Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"cd8c6ee3cac54436abacaed6cda4753f","timestamp":"2024-05-29T09:42:40.918Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"cd8c6ee3cac54436abacaed6cda4753f","timestamp":"2024-05-29T09:42:41.122Z"}
+{"averageRating":5,"level":"info","message":"Average rating recalculated","recipeId":"cd8c6ee3cac54436abacaed6cda4753f","timestamp":"2024-05-29T09:42:44.409Z"}
+{"level":"info","message":"Rating submitted successfully","rating":5,"recipeId":"cd8c6ee3cac54436abacaed6cda4753f","timestamp":"2024-05-29T09:42:44.410Z","userId":"6656f688fc0043aa06aea9bb"}
+{"averageRating":5,"level":"info","message":"Average rating retrieved","recipeId":"cd8c6ee3cac54436abacaed6cda4753f","timestamp":"2024-05-29T09:42:44.464Z"}
+{"endpoint":"addToFavorite","level":"info","message":"Recipe added to favorites","recipeId":"cd8c6ee3cac54436abacaed6cda4753f","timestamp":"2024-05-29T09:42:45.215Z","userId":"6656f688fc0043aa06aea9bb"}
+{"day":"sun","endpoint":"addToWeekMenu","level":"info","message":"Recipe added to week menu","recipeId":"cd8c6ee3cac54436abacaed6cda4753f","timestamp":"2024-05-29T09:42:47.435Z","userId":"6656f688fc0043aa06aea9bb"}
+{"count":10,"level":"info","message":"Most commented posts retrieved","timestamp":"2024-05-29T09:42:52.769Z"}
+{"count":10,"level":"info","message":"Latest posts retrieved","timestamp":"2024-05-29T09:42:52.770Z"}
+{"count":10,"level":"info","message":"Latest posts retrieved","timestamp":"2024-05-29T09:42:52.815Z"}
+{"count":10,"level":"info","message":"Most commented posts retrieved","timestamp":"2024-05-29T09:42:52.821Z"}
+{"endpoint":"searchRandomRecipes","level":"info","message":"Random recipes fetched successfully","timestamp":"2024-05-29T09:42:53.320Z"}
+{"count":14,"level":"info","message":"Top-rated recipes retrieved","timestamp":"2024-05-29T09:42:54.054Z"}
+{"endpoint":"searchRandomRecipes","level":"info","message":"Random recipes fetched successfully","timestamp":"2024-05-29T09:42:54.411Z"}
+{"count":14,"level":"info","message":"Top-rated recipes retrieved","timestamp":"2024-05-29T09:42:55.156Z"}
+{"level":"info","message":"User rating retrieved","recipeId":"17eb2312c23140509c1603459d6d2675","timestamp":"2024-05-29T09:42:58.209Z","userId":"6656f688fc0043aa06aea9bb"}
+{"averageRating":3.8333333333333335,"level":"info","message":"Average rating retrieved","recipeId":"17eb2312c23140509c1603459d6d2675","timestamp":"2024-05-29T09:42:58.212Z"}
+{"endpoint":"getFavouriteRecipeList","level":"info","message":"Favorite recipe list retrieved","timestamp":"2024-05-29T09:42:58.248Z","userId":"6656f688fc0043aa06aea9bb"}
+{"level":"info","message":"User rating retrieved","recipeId":"17eb2312c23140509c1603459d6d2675","timestamp":"2024-05-29T09:42:58.253Z","userId":"6656f688fc0043aa06aea9bb"}
+{"averageRating":3.8333333333333335,"level":"info","message":"Average rating retrieved","recipeId":"17eb2312c23140509c1603459d6d2675","timestamp":"2024-05-29T09:42:58.256Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"17eb2312c23140509c1603459d6d2675","timestamp":"2024-05-29T09:42:58.301Z"}
+{"averageRating":3.8333333333333335,"level":"info","message":"Average rating retrieved","recipeId":"17eb2312c23140509c1603459d6d2675","timestamp":"2024-05-29T09:42:58.305Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"17eb2312c23140509c1603459d6d2675","timestamp":"2024-05-29T09:42:58.503Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"17eb2312c23140509c1603459d6d2675","timestamp":"2024-05-29T09:42:58.707Z"}
+{"averageRating":4.125,"level":"info","message":"Average rating recalculated","recipeId":"17eb2312c23140509c1603459d6d2675","timestamp":"2024-05-29T09:43:00.477Z"}
+{"level":"info","message":"Rating submitted successfully","rating":5,"recipeId":"17eb2312c23140509c1603459d6d2675","timestamp":"2024-05-29T09:43:00.479Z","userId":"6656f688fc0043aa06aea9bb"}
+{"averageRating":4.125,"level":"info","message":"Average rating retrieved","recipeId":"17eb2312c23140509c1603459d6d2675","timestamp":"2024-05-29T09:43:00.533Z"}
+{"endpoint":"addToFavorite","level":"info","message":"Recipe added to favorites","recipeId":"17eb2312c23140509c1603459d6d2675","timestamp":"2024-05-29T09:43:01.431Z","userId":"6656f688fc0043aa06aea9bb"}
+{"count":10,"level":"info","message":"Most commented posts retrieved","timestamp":"2024-05-29T09:43:05.380Z"}
+{"count":10,"level":"info","message":"Latest posts retrieved","timestamp":"2024-05-29T09:43:05.386Z"}
+{"count":10,"level":"info","message":"Most commented posts retrieved","timestamp":"2024-05-29T09:43:05.434Z"}
+{"count":10,"level":"info","message":"Latest posts retrieved","timestamp":"2024-05-29T09:43:05.443Z"}
+{"endpoint":"searchRandomRecipes","level":"info","message":"Random recipes fetched successfully","timestamp":"2024-05-29T09:43:05.934Z"}
+{"count":14,"level":"info","message":"Top-rated recipes retrieved","timestamp":"2024-05-29T09:43:06.683Z"}
+{"endpoint":"searchRandomRecipes","level":"info","message":"Random recipes fetched successfully","timestamp":"2024-05-29T09:43:07.162Z"}
+{"count":14,"level":"info","message":"Top-rated recipes retrieved","timestamp":"2024-05-29T09:43:07.776Z"}
+{"endpoint":"search","level":"info","message":"Recipes fetched successfully","query":{"q":"Salad"},"timestamp":"2024-05-29T09:43:09.208Z"}
+{"endpoint":"search","level":"info","message":"Recipes fetched successfully","query":{"q":"Salad"},"timestamp":"2024-05-29T09:43:09.830Z"}
+{"level":"info","message":"User rating retrieved","recipeId":"71f461b78850e13b66e5c0c30de6e502","timestamp":"2024-05-29T09:43:25.438Z","userId":"6656f688fc0043aa06aea9bb"}
+{"endpoint":"getFavouriteRecipeList","level":"info","message":"Favorite recipe list retrieved","timestamp":"2024-05-29T09:43:25.479Z","userId":"6656f688fc0043aa06aea9bb"}
+{"level":"info","message":"User rating retrieved","recipeId":"71f461b78850e13b66e5c0c30de6e502","timestamp":"2024-05-29T09:43:25.482Z","userId":"6656f688fc0043aa06aea9bb"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"71f461b78850e13b66e5c0c30de6e502","timestamp":"2024-05-29T09:43:25.752Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"71f461b78850e13b66e5c0c30de6e502","timestamp":"2024-05-29T09:43:25.950Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"71f461b78850e13b66e5c0c30de6e502","timestamp":"2024-05-29T09:43:26.194Z"}
+{"level":"info","message":"User rating retrieved","recipeId":"71f461b78850e13b66e5c0c30de6e502","timestamp":"2024-05-29T09:43:34.503Z","userId":"6656f688fc0043aa06aea9bb"}
+{"endpoint":"getFavouriteRecipeList","level":"info","message":"Favorite recipe list retrieved","timestamp":"2024-05-29T09:43:34.537Z","userId":"6656f688fc0043aa06aea9bb"}
+{"level":"info","message":"User rating retrieved","recipeId":"71f461b78850e13b66e5c0c30de6e502","timestamp":"2024-05-29T09:43:34.556Z","userId":"6656f688fc0043aa06aea9bb"}
+{"endpoint":"getRecipe","error":"Request failed with status code 429","level":"error","message":"Error fetching recipe","recipeId":"71f461b78850e13b66e5c0c30de6e502","timestamp":"2024-05-29T09:43:34.766Z"}
+{"endpoint":"getRecipe","error":"Request failed with status code 429","level":"error","message":"Error fetching recipe","recipeId":"71f461b78850e13b66e5c0c30de6e502","timestamp":"2024-05-29T09:43:34.962Z"}
+{"endpoint":"getRecipe","error":"Request failed with status code 429","level":"error","message":"Error fetching recipe","recipeId":"71f461b78850e13b66e5c0c30de6e502","timestamp":"2024-05-29T09:43:35.160Z"}
+{"level":"info","message":"User rating retrieved","recipeId":"71f461b78850e13b66e5c0c30de6e502","timestamp":"2024-05-29T09:43:42.314Z","userId":"6656f688fc0043aa06aea9bb"}
+{"endpoint":"getFavouriteRecipeList","level":"info","message":"Favorite recipe list retrieved","timestamp":"2024-05-29T09:43:42.321Z","userId":"6656f688fc0043aa06aea9bb"}
+{"level":"info","message":"User rating retrieved","recipeId":"71f461b78850e13b66e5c0c30de6e502","timestamp":"2024-05-29T09:43:42.361Z","userId":"6656f688fc0043aa06aea9bb"}
+{"endpoint":"getRecipe","error":"Request failed with status code 429","level":"error","message":"Error fetching recipe","recipeId":"71f461b78850e13b66e5c0c30de6e502","timestamp":"2024-05-29T09:43:42.560Z"}
+{"endpoint":"getRecipe","error":"Request failed with status code 429","level":"error","message":"Error fetching recipe","recipeId":"71f461b78850e13b66e5c0c30de6e502","timestamp":"2024-05-29T09:43:42.800Z"}
+{"endpoint":"getRecipe","error":"Request failed with status code 429","level":"error","message":"Error fetching recipe","recipeId":"71f461b78850e13b66e5c0c30de6e502","timestamp":"2024-05-29T09:43:42.959Z"}
+{"endpoint":"search","error":"Request failed with status code 429","level":"error","message":"Error fetching recipes","timestamp":"2024-05-29T09:43:47.039Z"}
+{"endpoint":"search","error":"Request failed with status code 429","level":"error","message":"Error fetching recipes","timestamp":"2024-05-29T09:43:47.237Z"}
+{"endpoint":"search","level":"info","message":"Recipes fetched successfully","query":{"q":"Salad"},"timestamp":"2024-05-29T09:44:01.054Z"}
+{"endpoint":"search","level":"info","message":"Recipes fetched successfully","query":{"q":"Salad"},"timestamp":"2024-05-29T09:44:01.416Z"}
+{"email":"dk.schlingensiepen@gmai.com","level":"warn","message":"Authentication failed","timestamp":"2024-05-29T09:44:16.461Z"}
+{"level":"info","message":"User logged in successfully","timestamp":"2024-05-29T09:44:27.020Z","userId":"6656f688fc0043aa06aea9bb"}
+{"endpoint":"search","level":"info","message":"Recipes fetched successfully","query":{"q":"Salad"},"timestamp":"2024-05-29T09:44:27.818Z"}
+{"endpoint":"search","level":"info","message":"Recipes fetched successfully","query":{"q":"Salad"},"timestamp":"2024-05-29T09:44:28.217Z"}
+{"endpoint":"getWeekMenu","level":"info","message":"Week menu retrieved","timestamp":"2024-05-29T09:45:24.578Z","userId":"6656f688fc0043aa06aea9bb"}
+{"endpoint":"getWeekMenu","level":"info","message":"Week menu retrieved","timestamp":"2024-05-29T09:45:24.625Z","userId":"6656f688fc0043aa06aea9bb"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"cd8c6ee3cac54436abacaed6cda4753f","timestamp":"2024-05-29T09:45:24.952Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"cd8c6ee3cac54436abacaed6cda4753f","timestamp":"2024-05-29T09:45:25.155Z"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:45:33.126Z","userId":"6656f688fc0043aa06aea9bb"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:45:33.417Z","userId":"6656f688fc0043aa06aea9bb"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:45:38.993Z","userId":"6656f688fc0043aa06aea9bb"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:45:39.577Z","userId":"6656f688fc0043aa06aea9bb"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:46:15.067Z","userId":"6656f688fc0043aa06aea9bb"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:46:15.178Z","userId":"6656f688fc0043aa06aea9bb"}
+{"level":"info","message":"User logged in successfully","timestamp":"2024-05-29T09:46:35.036Z","userId":"663a9562526c57e678632d44"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:46:35.217Z","userId":"663a9562526c57e678632d44"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:46:35.264Z","userId":"663a9562526c57e678632d44"}
+{"endpoint":"getCategories","level":"info","message":"Fetched all categories successfully","resultCount":4,"timestamp":"2024-05-29T09:46:39.137Z"}
+{"endpoint":"getUsers","level":"info","message":"Fetched all users successfully","resultCount":23,"timestamp":"2024-05-29T09:46:39.155Z"}
+{"count":27,"level":"info","message":"All comments retrieved","timestamp":"2024-05-29T09:46:39.159Z"}
+{"count":10,"level":"info","message":"All posts retrieved","timestamp":"2024-05-29T09:46:39.162Z"}
+{"endpoint":"getCategories","level":"info","message":"Fetched all categories successfully","resultCount":4,"timestamp":"2024-05-29T09:46:39.187Z"}
+{"count":10,"level":"info","message":"All posts retrieved","timestamp":"2024-05-29T09:46:39.215Z"}
+{"count":27,"level":"info","message":"All comments retrieved","timestamp":"2024-05-29T09:46:39.224Z"}
+{"endpoint":"getUsers","level":"info","message":"Fetched all users successfully","resultCount":23,"timestamp":"2024-05-29T09:46:39.232Z"}
+{"endpoint":"getUsers","level":"info","message":"Fetched all users successfully","resultCount":23,"timestamp":"2024-05-29T09:46:41.897Z"}
+{"endpoint":"getUsers","level":"info","message":"Fetched all users successfully","resultCount":23,"timestamp":"2024-05-29T09:46:41.948Z"}
+{"endpoint":"getUsers","level":"info","message":"Fetched all users successfully","resultCount":23,"timestamp":"2024-05-29T09:46:45.192Z"}
+{"endpoint":"getUsers","level":"info","message":"Fetched all users successfully","resultCount":23,"timestamp":"2024-05-29T09:46:45.252Z"}
+{"endpoint":"getUsers","level":"info","message":"Fetched all users successfully","resultCount":23,"timestamp":"2024-05-29T09:46:49.195Z"}
+{"endpoint":"getUsers","level":"info","message":"Fetched all users successfully","resultCount":23,"timestamp":"2024-05-29T09:46:49.251Z"}
+{"endpoint":"getUsers","level":"info","message":"Fetched all users successfully","resultCount":23,"timestamp":"2024-05-29T09:48:41.423Z"}
+{"endpoint":"getUsers","level":"info","message":"Fetched all users successfully","resultCount":23,"timestamp":"2024-05-29T09:48:41.482Z"}
+{"endpoint":"getUsers","level":"info","message":"Fetched all users successfully","resultCount":23,"timestamp":"2024-05-29T09:48:54.863Z"}
+{"endpoint":"getUsers","level":"info","message":"Fetched all users successfully","resultCount":23,"timestamp":"2024-05-29T09:48:54.916Z"}
+{"endpoint":"makeAdmin","level":"info","message":"User role updated to admin successfully","timestamp":"2024-05-29T09:49:13.696Z","userId":"6656f688fc0043aa06aea9bb"}
+{"endpoint":"getUsers","level":"info","message":"Fetched all users successfully","resultCount":23,"timestamp":"2024-05-29T09:51:05.789Z"}
+{"endpoint":"getUsers","level":"info","message":"Fetched all users successfully","resultCount":23,"timestamp":"2024-05-29T09:51:05.855Z"}
+{"count":27,"level":"info","message":"All comments retrieved","timestamp":"2024-05-29T09:51:28.014Z"}
+{"endpoint":"getCategories","level":"info","message":"Fetched all categories successfully","resultCount":4,"timestamp":"2024-05-29T09:51:28.016Z"}
+{"endpoint":"getUsers","level":"info","message":"Fetched all users successfully","resultCount":23,"timestamp":"2024-05-29T09:51:28.026Z"}
+{"count":10,"level":"info","message":"All posts retrieved","timestamp":"2024-05-29T09:51:28.029Z"}
+{"count":27,"level":"info","message":"All comments retrieved","timestamp":"2024-05-29T09:51:28.084Z"}
+{"endpoint":"getCategories","level":"info","message":"Fetched all categories successfully","resultCount":4,"timestamp":"2024-05-29T09:51:28.086Z"}
+{"count":10,"level":"info","message":"All posts retrieved","timestamp":"2024-05-29T09:51:28.100Z"}
+{"endpoint":"getUsers","level":"info","message":"Fetched all users successfully","resultCount":23,"timestamp":"2024-05-29T09:51:28.109Z"}
+{"endpoint":"getUsers","level":"info","message":"Fetched all users successfully","resultCount":23,"timestamp":"2024-05-29T09:51:31.526Z"}
+{"endpoint":"getUsers","level":"info","message":"Fetched all users successfully","resultCount":23,"timestamp":"2024-05-29T09:51:31.583Z"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:51:34.741Z","userId":"663a9562526c57e678632d44"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:51:34.905Z","userId":"663a9562526c57e678632d44"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:51:40.432Z","userId":"663a9562526c57e678632d44"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:51:40.511Z","userId":"663a9562526c57e678632d44"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:51:42.940Z","userId":"663a9562526c57e678632d44"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T09:51:42.988Z","userId":"663a9562526c57e678632d44"}
+{"level":"info","message":"User logged in successfully","timestamp":"2024-05-29T10:32:33.331Z","userId":"663a9562526c57e678632d44"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T10:32:35.069Z","userId":"663a9562526c57e678632d44"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T10:32:35.127Z","userId":"663a9562526c57e678632d44"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T10:35:39.406Z","userId":"663a9562526c57e678632d44"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T10:35:39.466Z","userId":"663a9562526c57e678632d44"}
+{"level":"info","message":"User logged in successfully","timestamp":"2024-05-29T10:36:28.923Z","userId":"6656f688fc0043aa06aea9bb"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T10:36:28.987Z","userId":"6656f688fc0043aa06aea9bb"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T10:36:29.098Z","userId":"6656f688fc0043aa06aea9bb"}
+{"error":"Invalid character in name","level":"error","message":"Error exporting user data","timestamp":"2024-05-29T10:37:06.156Z","userId":"6656f688fc0043aa06aea9bb"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T10:46:29.619Z","userId":"6656f688fc0043aa06aea9bb"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T10:46:29.667Z","userId":"6656f688fc0043aa06aea9bb"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T10:46:34.001Z","userId":"6656f688fc0043aa06aea9bb"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T10:46:34.070Z","userId":"6656f688fc0043aa06aea9bb"}
+{"error":"Posts is not defined","format":"json","level":"error","message":"Error exporting user data","timestamp":"2024-05-29T10:46:35.716Z","userId":"6656f688fc0043aa06aea9bb"}
+{"level":"info","message":"User logged in successfully","timestamp":"2024-05-29T10:46:56.176Z","userId":"6656f688fc0043aa06aea9bb"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T10:46:56.249Z","userId":"6656f688fc0043aa06aea9bb"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T10:46:56.298Z","userId":"6656f688fc0043aa06aea9bb"}
+{"error":"Posts is not defined","format":"json","level":"error","message":"Error exporting user data","timestamp":"2024-05-29T10:46:58.611Z","userId":"6656f688fc0043aa06aea9bb"}
+{"error":"Posts is not defined","format":"csv","level":"error","message":"Error exporting user data","timestamp":"2024-05-29T10:47:07.391Z","userId":"6656f688fc0043aa06aea9bb"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T10:50:27.893Z","userId":"6656f688fc0043aa06aea9bb"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T10:50:27.949Z","userId":"6656f688fc0043aa06aea9bb"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T10:50:35.252Z","userId":"6656f688fc0043aa06aea9bb"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T10:50:35.299Z","userId":"6656f688fc0043aa06aea9bb"}
+{"count":10,"level":"info","message":"Most commented posts retrieved","timestamp":"2024-05-29T10:53:38.327Z"}
+{"count":10,"level":"info","message":"Latest posts retrieved","timestamp":"2024-05-29T10:53:38.345Z"}
+{"count":10,"level":"info","message":"Latest posts retrieved","timestamp":"2024-05-29T10:53:38.395Z"}
+{"count":10,"level":"info","message":"Most commented posts retrieved","timestamp":"2024-05-29T10:53:38.398Z"}
+{"endpoint":"searchRandomRecipes","level":"info","message":"Random recipes fetched successfully","timestamp":"2024-05-29T10:53:39.663Z"}
+{"count":14,"level":"info","message":"Top-rated recipes retrieved","timestamp":"2024-05-29T10:53:39.767Z"}
+{"endpoint":"searchRandomRecipes","level":"info","message":"Random recipes fetched successfully","timestamp":"2024-05-29T10:53:40.043Z"}
+{"count":14,"level":"info","message":"Top-rated recipes retrieved","timestamp":"2024-05-29T10:53:40.848Z"}
+{"averageRating":5,"level":"info","message":"Average rating retrieved","recipeId":"cd8c6ee3cac54436abacaed6cda4753f","timestamp":"2024-05-29T10:53:44.980Z"}
+{"level":"info","message":"User rating retrieved","recipeId":"cd8c6ee3cac54436abacaed6cda4753f","timestamp":"2024-05-29T10:53:45.014Z","userId":"6656f688fc0043aa06aea9bb"}
+{"averageRating":4.125,"level":"info","message":"Average rating retrieved","recipeId":"17eb2312c23140509c1603459d6d2675","timestamp":"2024-05-29T10:53:45.021Z"}
+{"level":"info","message":"User rating retrieved","recipeId":"17eb2312c23140509c1603459d6d2675","timestamp":"2024-05-29T10:53:45.026Z","userId":"6656f688fc0043aa06aea9bb"}
+{"averageRating":5,"level":"info","message":"Average rating retrieved","recipeId":"cd8c6ee3cac54436abacaed6cda4753f","timestamp":"2024-05-29T10:53:45.051Z"}
+{"endpoint":"getFavouriteRecipeList","level":"info","message":"Favorite recipe list retrieved","timestamp":"2024-05-29T10:53:45.058Z","userId":"6656f688fc0043aa06aea9bb"}
+{"level":"info","message":"User rating retrieved","recipeId":"cd8c6ee3cac54436abacaed6cda4753f","timestamp":"2024-05-29T10:53:45.065Z","userId":"6656f688fc0043aa06aea9bb"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"cd8c6ee3cac54436abacaed6cda4753f","timestamp":"2024-05-29T10:53:45.068Z"}
+{"averageRating":4.125,"level":"info","message":"Average rating retrieved","recipeId":"17eb2312c23140509c1603459d6d2675","timestamp":"2024-05-29T10:53:45.070Z"}
+{"level":"info","message":"User rating retrieved","recipeId":"17eb2312c23140509c1603459d6d2675","timestamp":"2024-05-29T10:53:45.087Z","userId":"6656f688fc0043aa06aea9bb"}
+{"averageRating":5,"level":"info","message":"Average rating retrieved","recipeId":"cd8c6ee3cac54436abacaed6cda4753f","timestamp":"2024-05-29T10:53:45.097Z"}
+{"averageRating":4.125,"level":"info","message":"Average rating retrieved","recipeId":"17eb2312c23140509c1603459d6d2675","timestamp":"2024-05-29T10:53:45.128Z"}
+{"averageRating":4,"level":"info","message":"Average rating retrieved","recipeId":"727d5dca2124a48fe172f59b729679a0","timestamp":"2024-05-29T10:53:45.135Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"17eb2312c23140509c1603459d6d2675","timestamp":"2024-05-29T10:53:45.139Z"}
+{"endpoint":"getFavouriteRecipeList","level":"info","message":"Favorite recipe list retrieved","timestamp":"2024-05-29T10:53:45.148Z","userId":"6656f688fc0043aa06aea9bb"}
+{"level":"info","message":"User rating retrieved","recipeId":"727d5dca2124a48fe172f59b729679a0","timestamp":"2024-05-29T10:53:45.207Z","userId":"6656f688fc0043aa06aea9bb"}
+{"averageRating":4,"level":"info","message":"Average rating retrieved","recipeId":"727d5dca2124a48fe172f59b729679a0","timestamp":"2024-05-29T10:53:45.217Z"}
+{"level":"info","message":"User rating retrieved","recipeId":"727d5dca2124a48fe172f59b729679a0","timestamp":"2024-05-29T10:53:45.248Z","userId":"6656f688fc0043aa06aea9bb"}
+{"averageRating":4,"level":"info","message":"Average rating retrieved","recipeId":"727d5dca2124a48fe172f59b729679a0","timestamp":"2024-05-29T10:53:45.255Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"727d5dca2124a48fe172f59b729679a0","timestamp":"2024-05-29T10:53:45.274Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"cd8c6ee3cac54436abacaed6cda4753f","timestamp":"2024-05-29T10:53:45.275Z"}
+{"endpoint":"getFavouriteRecipeList","level":"info","message":"Favorite recipe list retrieved","timestamp":"2024-05-29T10:53:45.334Z","userId":"6656f688fc0043aa06aea9bb"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"17eb2312c23140509c1603459d6d2675","timestamp":"2024-05-29T10:53:45.342Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"cd8c6ee3cac54436abacaed6cda4753f","timestamp":"2024-05-29T10:53:45.468Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"727d5dca2124a48fe172f59b729679a0","timestamp":"2024-05-29T10:53:45.486Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"17eb2312c23140509c1603459d6d2675","timestamp":"2024-05-29T10:53:45.549Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"727d5dca2124a48fe172f59b729679a0","timestamp":"2024-05-29T10:53:45.646Z"}
+{"endpoint":"addToFavorite","level":"info","message":"Recipe added to favorites","recipeId":"727d5dca2124a48fe172f59b729679a0","timestamp":"2024-05-29T10:53:50.798Z","userId":"6656f688fc0043aa06aea9bb"}
+{"averageRating":4.333333333333333,"level":"info","message":"Average rating recalculated","recipeId":"727d5dca2124a48fe172f59b729679a0","timestamp":"2024-05-29T10:53:53.726Z"}
+{"level":"info","message":"Rating submitted successfully","rating":5,"recipeId":"727d5dca2124a48fe172f59b729679a0","timestamp":"2024-05-29T10:53:53.728Z","userId":"6656f688fc0043aa06aea9bb"}
+{"averageRating":4.333333333333333,"level":"info","message":"Average rating retrieved","recipeId":"727d5dca2124a48fe172f59b729679a0","timestamp":"2024-05-29T10:53:53.781Z"}
+{"averageRating":3.8333333333333335,"level":"info","message":"Average rating recalculated","recipeId":"727d5dca2124a48fe172f59b729679a0","timestamp":"2024-05-29T10:53:56.428Z"}
+{"level":"info","message":"Rating submitted successfully","rating":3.5,"recipeId":"727d5dca2124a48fe172f59b729679a0","timestamp":"2024-05-29T10:53:56.429Z","userId":"6656f688fc0043aa06aea9bb"}
+{"averageRating":3.8333333333333335,"level":"info","message":"Average rating retrieved","recipeId":"727d5dca2124a48fe172f59b729679a0","timestamp":"2024-05-29T10:53:56.477Z"}
+{"averageRating":4.166666666666667,"level":"info","message":"Average rating recalculated","recipeId":"727d5dca2124a48fe172f59b729679a0","timestamp":"2024-05-29T10:53:57.961Z"}
+{"level":"info","message":"Rating submitted successfully","rating":4.5,"recipeId":"727d5dca2124a48fe172f59b729679a0","timestamp":"2024-05-29T10:53:57.963Z","userId":"6656f688fc0043aa06aea9bb"}
+{"averageRating":4.166666666666667,"level":"info","message":"Average rating retrieved","recipeId":"727d5dca2124a48fe172f59b729679a0","timestamp":"2024-05-29T10:53:58.014Z"}
+{"day":"tue","endpoint":"addToWeekMenu","level":"info","message":"Recipe added to week menu","recipeId":"17eb2312c23140509c1603459d6d2675","timestamp":"2024-05-29T10:54:05.817Z","userId":"6656f688fc0043aa06aea9bb"}
+{"count":10,"level":"info","message":"All posts retrieved","timestamp":"2024-05-29T10:54:14.279Z"}
+{"count":27,"level":"info","message":"All comments retrieved","timestamp":"2024-05-29T10:54:14.282Z"}
+{"endpoint":"getUsers","level":"info","message":"Fetched all users successfully","resultCount":23,"timestamp":"2024-05-29T10:54:14.292Z"}
+{"endpoint":"getCategories","level":"info","message":"Fetched all categories successfully","resultCount":4,"timestamp":"2024-05-29T10:54:14.292Z"}
+{"count":10,"level":"info","message":"All posts retrieved","timestamp":"2024-05-29T10:54:14.321Z"}
+{"count":27,"level":"info","message":"All comments retrieved","timestamp":"2024-05-29T10:54:14.324Z"}
+{"endpoint":"getUsers","level":"info","message":"Fetched all users successfully","resultCount":23,"timestamp":"2024-05-29T10:54:14.339Z"}
+{"endpoint":"getCategories","level":"info","message":"Fetched all categories successfully","resultCount":4,"timestamp":"2024-05-29T10:54:14.341Z"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T10:54:16.049Z","userId":"6656f688fc0043aa06aea9bb"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T10:54:16.091Z","userId":"6656f688fc0043aa06aea9bb"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T11:03:13.694Z","userId":"6656f688fc0043aa06aea9bb"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T11:03:13.748Z","userId":"6656f688fc0043aa06aea9bb"}
+{"level":"info","message":"User logged in successfully","timestamp":"2024-05-29T11:09:50.607Z","userId":"6656f688fc0043aa06aea9bb"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T11:09:50.984Z","userId":"6656f688fc0043aa06aea9bb"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T11:09:51.066Z","userId":"6656f688fc0043aa06aea9bb"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T11:15:57.474Z","userId":"6656f688fc0043aa06aea9bb"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T11:15:57.525Z","userId":"6656f688fc0043aa06aea9bb"}
+{"count":10,"level":"info","message":"Most commented posts retrieved","timestamp":"2024-05-29T11:16:01.717Z"}
+{"count":10,"level":"info","message":"Latest posts retrieved","timestamp":"2024-05-29T11:16:01.747Z"}
+{"count":10,"level":"info","message":"Latest posts retrieved","timestamp":"2024-05-29T11:16:01.809Z"}
+{"count":10,"level":"info","message":"Most commented posts retrieved","timestamp":"2024-05-29T11:16:01.813Z"}
+{"endpoint":"searchRandomRecipes","level":"info","message":"Random recipes fetched successfully","timestamp":"2024-05-29T11:16:02.580Z"}
+{"count":14,"level":"info","message":"Top-rated recipes retrieved","timestamp":"2024-05-29T11:16:03.654Z"}
+{"endpoint":"searchRandomRecipes","level":"info","message":"Random recipes fetched successfully","timestamp":"2024-05-29T11:16:03.986Z"}
+{"count":14,"level":"info","message":"Top-rated recipes retrieved","timestamp":"2024-05-29T11:16:04.738Z"}
+{"count":10,"level":"info","message":"Most commented posts retrieved","timestamp":"2024-05-29T11:16:05.085Z"}
+{"count":10,"level":"info","message":"Latest posts retrieved","timestamp":"2024-05-29T11:16:05.095Z"}
+{"count":10,"level":"info","message":"Most commented posts retrieved","timestamp":"2024-05-29T11:16:05.144Z"}
+{"count":10,"level":"info","message":"Latest posts retrieved","timestamp":"2024-05-29T11:16:05.151Z"}
+{"endpoint":"searchRandomRecipes","level":"info","message":"Random recipes fetched successfully","timestamp":"2024-05-29T11:16:05.456Z"}
+{"count":14,"level":"info","message":"Top-rated recipes retrieved","timestamp":"2024-05-29T11:16:06.106Z"}
+{"endpoint":"searchRandomRecipes","level":"info","message":"Random recipes fetched successfully","timestamp":"2024-05-29T11:16:06.507Z"}
+{"count":14,"level":"info","message":"Top-rated recipes retrieved","timestamp":"2024-05-29T11:16:07.269Z"}
+{"level":"info","message":"User logged in successfully","timestamp":"2024-05-29T11:16:08.266Z","userId":"6656f688fc0043aa06aea9bb"}
+{"count":10,"level":"info","message":"Most commented posts retrieved","timestamp":"2024-05-29T11:16:08.393Z"}
+{"count":10,"level":"info","message":"Latest posts retrieved","timestamp":"2024-05-29T11:16:08.396Z"}
+{"count":10,"level":"info","message":"Latest posts retrieved","timestamp":"2024-05-29T11:16:08.476Z"}
+{"count":10,"level":"info","message":"Most commented posts retrieved","timestamp":"2024-05-29T11:16:08.480Z"}
+{"endpoint":"searchRandomRecipes","level":"info","message":"Random recipes fetched successfully","timestamp":"2024-05-29T11:16:08.780Z"}
+{"count":14,"level":"info","message":"Top-rated recipes retrieved","timestamp":"2024-05-29T11:16:09.424Z"}
+{"endpoint":"searchRandomRecipes","level":"info","message":"Random recipes fetched successfully","timestamp":"2024-05-29T11:16:09.828Z"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T11:16:10.137Z","userId":"6656f688fc0043aa06aea9bb"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T11:16:10.195Z","userId":"6656f688fc0043aa06aea9bb"}
+{"count":14,"level":"info","message":"Top-rated recipes retrieved","timestamp":"2024-05-29T11:16:10.551Z"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T11:17:04.426Z","userId":"6656f688fc0043aa06aea9bb"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T11:17:04.495Z","userId":"6656f688fc0043aa06aea9bb"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T11:17:54.360Z","userId":"6656f688fc0043aa06aea9bb"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T11:17:54.426Z","userId":"6656f688fc0043aa06aea9bb"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T11:20:26.561Z","userId":"6656f688fc0043aa06aea9bb"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T11:20:26.607Z","userId":"6656f688fc0043aa06aea9bb"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T11:25:58.495Z","userId":"6656f688fc0043aa06aea9bb"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T11:26:53.145Z","userId":"6656f688fc0043aa06aea9bb"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T11:28:26.099Z","userId":"6656f688fc0043aa06aea9bb"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T11:28:26.157Z","userId":"6656f688fc0043aa06aea9bb"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T11:29:35.803Z","userId":"6656f688fc0043aa06aea9bb"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T11:29:35.849Z","userId":"6656f688fc0043aa06aea9bb"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T11:30:02.285Z","userId":"6656f688fc0043aa06aea9bb"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T11:30:02.328Z","userId":"6656f688fc0043aa06aea9bb"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T11:31:34.815Z","userId":"6656f688fc0043aa06aea9bb"}
+{"count":27,"level":"info","message":"All comments retrieved","timestamp":"2024-05-29T11:31:50.406Z"}
+{"endpoint":"getUsers","level":"info","message":"Fetched all users successfully","resultCount":23,"timestamp":"2024-05-29T11:31:50.420Z"}
+{"endpoint":"getCategories","level":"info","message":"Fetched all categories successfully","resultCount":4,"timestamp":"2024-05-29T11:31:50.421Z"}
+{"count":10,"level":"info","message":"All posts retrieved","timestamp":"2024-05-29T11:31:50.422Z"}
+{"count":27,"level":"info","message":"All comments retrieved","timestamp":"2024-05-29T11:31:50.450Z"}
+{"count":10,"level":"info","message":"All posts retrieved","timestamp":"2024-05-29T11:31:50.464Z"}
+{"endpoint":"getUsers","level":"info","message":"Fetched all users successfully","resultCount":23,"timestamp":"2024-05-29T11:31:50.468Z"}
+{"endpoint":"getCategories","level":"info","message":"Fetched all categories successfully","resultCount":4,"timestamp":"2024-05-29T11:31:50.479Z"}
+{"endpoint":"getUsers","level":"info","message":"Fetched all users successfully","resultCount":23,"timestamp":"2024-05-29T11:31:55.541Z"}
+{"endpoint":"getUsers","level":"info","message":"Fetched all users successfully","resultCount":23,"timestamp":"2024-05-29T11:31:55.590Z"}
+{"endpoint":"getUsers","level":"info","message":"Fetched all users successfully","resultCount":23,"timestamp":"2024-05-29T11:35:26.542Z"}
+{"endpoint":"getUsers","level":"info","message":"Fetched all users successfully","resultCount":23,"timestamp":"2024-05-29T11:35:26.599Z"}
+{"endpoint":"getCategories","level":"info","message":"Fetched all categories successfully","resultCount":4,"timestamp":"2024-05-29T11:35:37.733Z"}
+{"count":10,"level":"info","message":"All posts retrieved","timestamp":"2024-05-29T11:35:37.739Z"}
+{"count":27,"level":"info","message":"All comments retrieved","timestamp":"2024-05-29T11:35:37.746Z"}
+{"endpoint":"getUsers","level":"info","message":"Fetched all users successfully","resultCount":23,"timestamp":"2024-05-29T11:35:37.750Z"}
+{"endpoint":"getCategories","level":"info","message":"Fetched all categories successfully","resultCount":4,"timestamp":"2024-05-29T11:35:37.771Z"}
+{"count":10,"level":"info","message":"All posts retrieved","timestamp":"2024-05-29T11:35:37.783Z"}
+{"endpoint":"getUsers","level":"info","message":"Fetched all users successfully","resultCount":23,"timestamp":"2024-05-29T11:35:37.798Z"}
+{"count":27,"level":"info","message":"All comments retrieved","timestamp":"2024-05-29T11:35:37.799Z"}
+{"endpoint":"getCategories","level":"info","message":"Fetched all categories successfully","resultCount":4,"timestamp":"2024-05-29T11:36:37.750Z"}
+{"count":10,"level":"info","message":"All posts retrieved","timestamp":"2024-05-29T11:36:37.755Z"}
+{"count":27,"level":"info","message":"All comments retrieved","timestamp":"2024-05-29T11:36:37.759Z"}
+{"endpoint":"getUsers","level":"info","message":"Fetched all users successfully","resultCount":23,"timestamp":"2024-05-29T11:36:37.766Z"}
+{"endpoint":"getCategories","level":"info","message":"Fetched all categories successfully","resultCount":4,"timestamp":"2024-05-29T11:37:37.770Z"}
+{"endpoint":"getUsers","level":"info","message":"Fetched all users successfully","resultCount":23,"timestamp":"2024-05-29T11:37:37.792Z"}
+{"count":10,"level":"info","message":"All posts retrieved","timestamp":"2024-05-29T11:37:37.793Z"}
+{"count":27,"level":"info","message":"All comments retrieved","timestamp":"2024-05-29T11:37:37.796Z"}
+{"endpoint":"getUsers","level":"info","message":"Fetched all users successfully","resultCount":23,"timestamp":"2024-05-29T11:37:51.638Z"}
+{"endpoint":"getCategories","level":"info","message":"Fetched all categories successfully","resultCount":4,"timestamp":"2024-05-29T11:37:51.640Z"}
+{"count":27,"level":"info","message":"All comments retrieved","timestamp":"2024-05-29T11:37:51.643Z"}
+{"count":10,"level":"info","message":"All posts retrieved","timestamp":"2024-05-29T11:37:51.662Z"}
+{"endpoint":"getUsers","level":"info","message":"Fetched all users successfully","resultCount":23,"timestamp":"2024-05-29T11:37:51.692Z"}
+{"endpoint":"getCategories","level":"info","message":"Fetched all categories successfully","resultCount":4,"timestamp":"2024-05-29T11:37:51.694Z"}
+{"count":27,"level":"info","message":"All comments retrieved","timestamp":"2024-05-29T11:37:51.699Z"}
+{"count":10,"level":"info","message":"All posts retrieved","timestamp":"2024-05-29T11:37:51.712Z"}
+{"endpoint":"getUsers","level":"info","message":"Fetched all users successfully","resultCount":23,"timestamp":"2024-05-29T11:38:37.601Z"}
+{"endpoint":"getUsers","level":"info","message":"Fetched all users successfully","resultCount":23,"timestamp":"2024-05-29T11:38:37.649Z"}
+{"endpoint":"getUsers","level":"info","message":"Fetched all users successfully","resultCount":23,"timestamp":"2024-05-29T11:45:17.830Z"}
+{"endpoint":"getUsers","level":"info","message":"Fetched all users successfully","resultCount":23,"timestamp":"2024-05-29T11:45:17.889Z"}
+{"endpoint":"getUsers","level":"info","message":"Fetched all users successfully","resultCount":23,"timestamp":"2024-05-29T11:52:04.668Z"}
+{"endpoint":"getUsers","level":"info","message":"Fetched all users successfully","resultCount":23,"timestamp":"2024-05-29T11:52:04.730Z"}
+{"endpoint":"getUsers","level":"info","message":"Fetched all users successfully","resultCount":23,"timestamp":"2024-05-29T11:52:49.161Z"}
+{"endpoint":"getUsers","level":"info","message":"Fetched all users successfully","resultCount":23,"timestamp":"2024-05-29T11:52:49.215Z"}
+{"endpoint":"getUsers","level":"info","message":"Fetched all users successfully","resultCount":23,"timestamp":"2024-05-29T11:53:35.878Z"}
+{"endpoint":"getUsers","level":"info","message":"Fetched all users successfully","resultCount":23,"timestamp":"2024-05-29T11:53:35.925Z"}
+{"endpoint":"getUsers","level":"info","message":"Fetched all users successfully","resultCount":23,"timestamp":"2024-05-29T11:54:48.122Z"}
+{"endpoint":"getUsers","level":"info","message":"Fetched all users successfully","resultCount":23,"timestamp":"2024-05-29T11:54:48.167Z"}
+{"endpoint":"getUsers","level":"info","message":"Fetched all users successfully","resultCount":23,"timestamp":"2024-05-29T11:55:11.640Z"}
+{"endpoint":"getUsers","level":"info","message":"Fetched all users successfully","resultCount":23,"timestamp":"2024-05-29T11:55:11.695Z"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T11:57:26.646Z","userId":"6656f688fc0043aa06aea9bb"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T11:57:26.687Z","userId":"6656f688fc0043aa06aea9bb"}
+{"count":27,"level":"info","message":"All comments retrieved","timestamp":"2024-05-29T11:57:30.608Z"}
+{"endpoint":"getUsers","level":"info","message":"Fetched all users successfully","resultCount":23,"timestamp":"2024-05-29T11:57:30.614Z"}
+{"count":10,"level":"info","message":"All posts retrieved","timestamp":"2024-05-29T11:57:30.616Z"}
+{"endpoint":"getCategories","level":"info","message":"Fetched all categories successfully","resultCount":4,"timestamp":"2024-05-29T11:57:30.617Z"}
+{"count":27,"level":"info","message":"All comments retrieved","timestamp":"2024-05-29T11:57:30.667Z"}
+{"count":10,"level":"info","message":"All posts retrieved","timestamp":"2024-05-29T11:57:30.669Z"}
+{"endpoint":"getCategories","level":"info","message":"Fetched all categories successfully","resultCount":4,"timestamp":"2024-05-29T11:57:30.669Z"}
+{"endpoint":"getUsers","level":"info","message":"Fetched all users successfully","resultCount":23,"timestamp":"2024-05-29T11:57:30.746Z"}
+{"endpoint":"getUsers","level":"info","message":"Fetched all users successfully","resultCount":23,"timestamp":"2024-05-29T11:57:32.154Z"}
+{"endpoint":"getUsers","level":"info","message":"Fetched all users successfully","resultCount":23,"timestamp":"2024-05-29T11:57:32.207Z"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T11:57:35.548Z","userId":"6656f688fc0043aa06aea9bb"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T11:57:35.595Z","userId":"6656f688fc0043aa06aea9bb"}
+{"count":10,"level":"info","message":"All posts retrieved","timestamp":"2024-05-29T11:57:37.919Z"}
+{"count":27,"level":"info","message":"All comments retrieved","timestamp":"2024-05-29T11:57:37.922Z"}
+{"endpoint":"getCategories","level":"info","message":"Fetched all categories successfully","resultCount":4,"timestamp":"2024-05-29T11:57:37.924Z"}
+{"endpoint":"getUsers","level":"info","message":"Fetched all users successfully","resultCount":23,"timestamp":"2024-05-29T11:57:37.937Z"}
+{"count":10,"level":"info","message":"All posts retrieved","timestamp":"2024-05-29T11:57:37.982Z"}
+{"count":27,"level":"info","message":"All comments retrieved","timestamp":"2024-05-29T11:57:37.985Z"}
+{"endpoint":"getUsers","level":"info","message":"Fetched all users successfully","resultCount":23,"timestamp":"2024-05-29T11:57:37.992Z"}
+{"endpoint":"getCategories","level":"info","message":"Fetched all categories successfully","resultCount":4,"timestamp":"2024-05-29T11:57:37.993Z"}
+{"endpoint":"getUsers","level":"info","message":"Fetched all users successfully","resultCount":23,"timestamp":"2024-05-29T11:57:40.393Z"}
+{"endpoint":"getUsers","level":"info","message":"Fetched all users successfully","resultCount":23,"timestamp":"2024-05-29T11:57:40.438Z"}
+{"count":10,"level":"info","message":"All posts retrieved","timestamp":"2024-05-29T11:58:49.677Z"}
+{"endpoint":"getUsers","level":"info","message":"Fetched all users successfully","resultCount":23,"timestamp":"2024-05-29T11:58:49.685Z"}
+{"endpoint":"getCategories","level":"info","message":"Fetched all categories successfully","resultCount":4,"timestamp":"2024-05-29T11:58:49.686Z"}
+{"count":27,"level":"info","message":"All comments retrieved","timestamp":"2024-05-29T11:58:49.688Z"}
+{"count":10,"level":"info","message":"All posts retrieved","timestamp":"2024-05-29T11:58:49.717Z"}
+{"count":27,"level":"info","message":"All comments retrieved","timestamp":"2024-05-29T11:58:49.727Z"}
+{"endpoint":"getCategories","level":"info","message":"Fetched all categories successfully","resultCount":4,"timestamp":"2024-05-29T11:58:49.728Z"}
+{"endpoint":"getUsers","level":"info","message":"Fetched all users successfully","resultCount":23,"timestamp":"2024-05-29T11:58:49.744Z"}
+{"endpoint":"getUsers","level":"info","message":"Fetched all users successfully","resultCount":23,"timestamp":"2024-05-29T11:58:50.826Z"}
+{"endpoint":"getUsers","level":"info","message":"Fetched all users successfully","resultCount":23,"timestamp":"2024-05-29T11:58:50.880Z"}
+{"endpoint":"getUsers","level":"info","message":"Fetched all users successfully","resultCount":23,"timestamp":"2024-05-29T12:16:07.455Z"}
+{"endpoint":"getUsers","level":"info","message":"Fetched all users successfully","resultCount":23,"timestamp":"2024-05-29T12:16:07.536Z"}
+{"level":"info","message":"User logged in successfully","timestamp":"2024-05-29T12:16:29.004Z","userId":"6656f688fc0043aa06aea9bb"}
+{"endpoint":"getUsers","level":"info","message":"Fetched all users successfully","resultCount":23,"timestamp":"2024-05-29T12:16:29.084Z"}
+{"endpoint":"getUsers","level":"info","message":"Fetched all users successfully","resultCount":23,"timestamp":"2024-05-29T12:16:29.136Z"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T12:16:53.943Z","userId":"6656f688fc0043aa06aea9bb"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T12:16:54.043Z","userId":"6656f688fc0043aa06aea9bb"}
+{"error":"Cannot read properties of undefined (reading 'length')","format":"pdf","level":"error","message":"Error exporting user data","timestamp":"2024-05-29T12:17:42.991Z","userId":"6656f688fc0043aa06aea9bb"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T12:19:56.584Z","userId":"6656f688fc0043aa06aea9bb"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-29T12:19:56.634Z","userId":"6656f688fc0043aa06aea9bb"}

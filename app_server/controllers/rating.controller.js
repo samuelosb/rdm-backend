@@ -9,6 +9,7 @@
 const Rating = require('../models/rating');
 const AverageRating = require('../models/averageRating');
 const axios = require('axios');
+const logger = require('../../logs/winston');
 
 /**
  * Rate a recipe
@@ -39,7 +40,9 @@ exports.rateRecipe = async (req, res) => {
         await recalculateAverageRating(recipeId);
 
         res.status(200).json({message: 'Rating submitted successfully'});
+        logger.info('Rating submitted successfully', {recipeId, userId, rating});
     } catch (error) {
+        logger.error('Error submitting rating', {recipeId, userId, error: error.message});
         res.status(500).json({message: 'Server error', error: error.message});
     }
 };
@@ -69,32 +72,7 @@ const recalculateAverageRating = async (recipeId) => {
         const newAverageRating = new AverageRating({recipeId, averageRating, numberOfRatings: ratings.length});
         await newAverageRating.save();
     }
-};
-
-/**
- * Get the average rating of a recipe
- * @param {Object} req - Express request object
- * @param {Object} res - Express response object
- * This function retrieves the average rating for a specified recipe.
- */
-exports.getAverageRating = async (req, res) => {
-    const {recipeId} = req.query;
-
-    if (!recipeId) {
-        return res.status(400).json({message: 'Recipe ID is required.'});
-    }
-
-    try {
-        const averageRatingDoc = await AverageRating.findOne({recipeId});
-
-        if (!averageRatingDoc) {
-            return res.status(404).json({message: 'No ratings found for this recipe.'});
-        }
-
-        res.status(200).json(averageRatingDoc);
-    } catch (error) {
-        res.status(500).json({message: 'Server error', error: error.message});
-    }
+    logger.info('Average rating recalculated', {recipeId, averageRating});
 };
 
 /**
@@ -112,7 +90,9 @@ exports.recalculateAllAverageRatings = async (req, res) => {
         }
 
         res.status(200).json({message: 'All average ratings recalculated successfully.'});
+        logger.info('All average ratings recalculated');
     } catch (error) {
+        logger.error('Error recalculating all average ratings', {error: error.message});
         res.status(500).json({message: 'Server error', error: error.message});
     }
 };
@@ -146,7 +126,7 @@ exports.getTopRatedRecipes = async (req, res) => {
                         numberOfRatings: rating.numberOfRatings
                     };
                 } catch (error) {
-                    console.error(`Error fetching recipe with ID ${recipeId}:`, error.message);
+                    logger.error(`Error fetching recipe with ID ${recipeId}`, {error: error.message});
                     return null;
                 }
             })
@@ -155,7 +135,9 @@ exports.getTopRatedRecipes = async (req, res) => {
         const filteredTopRecipes = topRecipes.filter(recipe => recipe !== null);
 
         res.status(200).json(filteredTopRecipes);
+        logger.info('Top-rated recipes retrieved', {count: filteredTopRecipes.length});
     } catch (error) {
+        logger.error('Error fetching top-rated recipes', {error: error.message});
         res.status(500).json({message: 'Server error', error: error.message});
     }
 };
@@ -169,31 +151,56 @@ exports.getTopRatedRecipes = async (req, res) => {
 exports.getUserRating = async (req, res) => {
     const {recipeId, userId} = req.query;
 
-    if (!recipeId || !userId) {
-        return res.status(400).json({message: 'Recipe ID and User ID are required.'});
+    if (!recipeId) {
+        return res.status(400).json({message: 'Recipe ID is required.'});
     }
 
     try {
         const rating = await Rating.findOne({recipeId, userId});
-        const averageRatingDoc = await AverageRating.findOne({recipeId});
-
-        if (!rating) {
-            return res.status(200).json({
-                message: 'No rating found for this recipe by this user.',
-                userRating: null,
-                averageRating: averageRatingDoc ? averageRatingDoc.averageRating : null,
-                numberOfRatings: averageRatingDoc ? averageRatingDoc.numberOfRatings : 0
-            });
-        }
 
         const response = {
-            userRating: rating,
-            averageRating: averageRatingDoc ? averageRatingDoc.averageRating : null,
-            numberOfRatings: averageRatingDoc ? averageRatingDoc.numberOfRatings : 0
+            userRating: rating ? rating.rating : null,
+            message: rating ? 'User rating retrieved' : 'No rating found for this recipe by this user.'
         };
 
         res.status(200).json(response);
+        logger.info('User rating retrieved', {recipeId, userId});
     } catch (error) {
+        logger.error('Error fetching user rating', {recipeId, userId, error: error.message});
+        res.status(500).json({message: 'Server error', error: error.message});
+    }
+};
+
+/**
+ * Get the average rating of a recipe
+ * @param {Object} req - Express request object
+ * @param {Object} res - Express response object
+ * This function retrieves the average rating for a specified recipe.
+ */
+exports.getAverageRating = async (req, res) => {
+    const {recipeId} = req.query;
+
+    if (!recipeId) {
+        return res.status(400).json({message: 'Recipe ID is required.'});
+    }
+
+    try {
+        const averageRatingDoc = await AverageRating.findOne({recipeId});
+
+        if (!averageRatingDoc) {
+            return res.status(200).json({
+                averageRating: 0,
+                numberOfRatings: 0
+            });
+        }
+
+        res.status(200).json({
+            averageRating: averageRatingDoc.averageRating,
+            numberOfRatings: averageRatingDoc.numberOfRatings
+        });
+        logger.info('Average rating retrieved', {recipeId, averageRating: averageRatingDoc.averageRating});
+    } catch (error) {
+        logger.error('Error retrieving average rating', {recipeId, error: error.message});
         res.status(500).json({message: 'Server error', error: error.message});
     }
 };

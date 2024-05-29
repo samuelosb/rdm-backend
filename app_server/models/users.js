@@ -27,8 +27,8 @@ const UserSchema = new Mongoose.Schema({
     },
     gender: {
         type: String,
-        enum: ['Hombre', 'Mujer', 'No binario'],
-        default: 'No Binario',
+        enum: ['Hombre', 'Mujer', 'No binario', 'Prefiero no decirlo'],
+        default: 'Prefiero no decirlo',
         required: true,
     },
     creationAccountDate: {

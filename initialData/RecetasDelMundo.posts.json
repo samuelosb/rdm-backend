@@ -1,0 +1,105 @@
+[{
+  "_id": {
+    "$oid": "6640855db0f575aa8c8db404"
+  },
+  "postId": 9,
+  "categoryId": 1,
+  "authorId": "663a4ebb526c57e678632c36",
+  "postTitle": "Titulo de prueba",
+  "content": "texto de prueba",
+  "numberOfComments": 5,
+  "timePublication": {
+    "$date": "2024-05-12T09:01:17.448Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6646791b3840cd96299df387"
+  },
+  "postId": 18,
+  "categoryId": 3,
+  "authorId": "663a4ebb526c57e678632c36",
+  "postTitle": "Necesito ayuda para elegir la mejor panificadora!!!",
+  "content": "Estoy pensando en comprar una panificadora automática y quisiera vuestra opinión. He investigado y encontrado estas cuatro joyas en Amazon. ¿Cuál creéis que sería la mejor adquisición para un aficionado a la panadería como yo? Aquí están las opciones:\n\nPanasonic SD-YR2550SXE: https://www.amazon.es/Panasonic-Panificadora-Dispensador-Temperatura-Temporizador/dp/B0921SL9SV?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=Panasonic%2BSD-YR2550SXE%2BPanificadora%2BAutom%C3%A1tica%2Bcon%2BDispensador&qid=1702061418&sr=8-1&ufe=app_do:amzn1.fos.0fd54328-1d46-4534-bd0f-16141b40bb5b&th=1&linkCode=sl1&tag=productinsi02-21&linkId=ca18221d3a5bb12fed4277afaf71188a&language=es_ES&ref_=as_li_ss_tl\nInvolly Panificadora Automática 15 en 1: https://www.amazon.es/Panificadora-Autom%C3%A1tica-Ingredientes-Temporizador-Antiadherente/dp/B0C1Z6B3GK?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=PGVGWFHAFKWH&keywords=involly+panificadora&qid=1702064145&sprefix=involly+panificadora,aps,163&sr=8-1-spons&ufe=app_do:amzn1.fos.7911a93e-3532-4810-a632-e84fe123af2b&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1&linkCode=sl1&tag=productinsi02-21&linkId=b38067ec1336e6576dd89af74462cbc1&language=es_ES&ref_=as_li_ss_tl",
+  "numberOfComments": 3,
+  "timePublication": {
+    "$date": "2024-05-16T21:22:35.169Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "664d152d7d4d359fe824cc52"
+  },
+  "postId": 19,
+  "categoryId": 1,
+  "authorId": "664c8c6d34b09ebe67101303",
+  "postTitle": "Carbonara con nata?",
+  "content": "Hola mundo!\nEn Alemania, es muy común preparar una carbonara con nata. Pero esto ha disgustado a un amigo mío italiano. Desde que le pregunté, ya no quiere ser mi amigo. Entonces, ¿es verdad que no se cocina carbonara con nata?\n\nSaludos cordiales\nDaniel",
+  "numberOfComments": 3,
+  "timePublication": {
+    "$date": "2024-05-21T21:42:05.522Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6651121dcace76d1a4329253"
+  },
+  "postId": 20,
+  "categoryId": 4,
+  "authorId": "663a9562526c57e678632d44",
+  "postTitle": "¿Un vino que cuesta 1,90 euros ya es un buen vino?",
+  "content": "Hoy he comprado un vino por 1,90 euros y quería preguntar a los profesionales del foro si ya es un buen vino para los entendidos. \nNo tiene corcho, sino tapón de rosca y viene en un tetrapack. En realidad es mucho mejor, ¿no? Así probablemente durará más, ¿no?\n\nSaludos\nDaniel (aka Demo User)",
+  "numberOfComments": 1,
+  "timePublication": {
+    "$date": "2024-05-24T22:18:05.571Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "665115d3cace76d1a43293f0"
+  },
+  "postId": 21,
+  "categoryId": 2,
+  "authorId": "664c8c6d34b09ebe67101303",
+  "postTitle": "Truco para deshacerse del olor a ajo de las manos",
+  "content": "Hola a todos!\n\nEste es un truco rápido para deshacerse del olor a ajo de las manos. Basta con poner una cuchara de metal bajo un chorro de agua fría durante unos 30 segundos y frotar las manos con ella. El metal neutraliza el olor y te deja las manos frescas. Pruébalo la próxima vez que tengas que lidiar con el ajo y comparte los resultados.\n¡Lo digo completamente en serio! ¡Pruébalo la próxima vez que cocines!\n\nsaludos \nDaniel!",
+  "numberOfComments": 0,
+  "timePublication": {
+    "$date": "2024-05-24T22:33:55.250Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66560e30321812527f56ac70"
+  },
+  "postId": 24,
+  "categoryId": 2,
+  "authorId": "663a9562526c57e678632d44",
+  "postTitle": "hai",
+  "content": "test easy",
+  "numberOfComments": 0,
+  "timePublication": {
+    "$date": "2024-05-28T17:02:40.541Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66560f45c79b9abfe4dae2e3"
+  },
+  "postId": 25,
+  "categoryId": 3,
+  "authorId": "663a4ebb526c57e678632c36",
+  "postTitle": "que amasadora comprar? ( principalmente pizza )",
+  "content": "tengo el cacharro este https://www.amazon.es/gp/product/B000FMM7NQ/, y bueno, va bien para cosas que hay que amasar poco rato ( tambien me hago el pan ), pero creo que me saldrian mejor las pizzas con una amasadora de verdad, alguna caracteristica concreta a mirar?, normalmente hago para para 5-6 pizzas a la vez ( 1 kilo de harina )\n\ncon que tipo de \"ganchos\" deberia venir para que fuera lo mejor posible para masa de pizza? ( harina caputo y almenos 70% de agua )\n\nen un principio le tengo el ojo echado a esta https://www.amazon.es/dp/B081D36NZY y usar la varilla que sale en laprimera foto\n\nalgun comentario, opcion mejor o cosa que tenga que tener en cuenta?",
+  "numberOfComments": 3,
+  "timePublication": {
+    "$date": "2024-05-28T17:07:17.217Z"
+  },
+  "__v": 0
+}]

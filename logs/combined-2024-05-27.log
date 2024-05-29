@@ -1,0 +1,552 @@
+{"level":"info","message":"Most commented posts found successfully","service":"project-service","timestamp":"2024-05-27T12:43:38.660Z"}
+{"level":"info","message":"Latest posts found successfully","service":"project-service","timestamp":"2024-05-27T12:43:38.667Z"}
+{"level":"info","message":"Latest posts found successfully","service":"project-service","timestamp":"2024-05-27T12:43:38.670Z"}
+{"level":"info","message":"Most commented posts found successfully","service":"project-service","timestamp":"2024-05-27T12:43:38.673Z"}
+{"endpoint":"getWeekMenu","level":"info","message":"Week menu retrieved","service":"project-service","timestamp":"2024-05-27T12:43:46.085Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"getWeekMenu","level":"info","message":"Week menu retrieved","service":"project-service","timestamp":"2024-05-27T12:43:46.090Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"cd8c6ee3cac54436abacaed6cda4753f","service":"project-service","timestamp":"2024-05-27T12:43:46.580Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"1cbb91fec1859f4861ff386b1b19a57b","service":"project-service","timestamp":"2024-05-27T12:43:46.615Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"54304e0192b24799853daab8ebefed73","service":"project-service","timestamp":"2024-05-27T12:43:46.694Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"54304e0192b24799853daab8ebefed73","service":"project-service","timestamp":"2024-05-27T12:43:46.725Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"cd8c6ee3cac54436abacaed6cda4753f","service":"project-service","timestamp":"2024-05-27T12:43:46.746Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"1cbb91fec1859f4861ff386b1b19a57b","service":"project-service","timestamp":"2024-05-27T12:43:46.809Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"2dbc6a713fbbc572b52054d5e6571f7a","service":"project-service","timestamp":"2024-05-27T12:43:46.880Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"09cda8bc28b125470090c0877c45d86a","service":"project-service","timestamp":"2024-05-27T12:43:46.947Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"09cda8bc28b125470090c0877c45d86a","service":"project-service","timestamp":"2024-05-27T12:43:47.084Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"2dbc6a713fbbc572b52054d5e6571f7a","service":"project-service","timestamp":"2024-05-27T12:43:47.087Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"1cbb91fec1859f4861ff386b1b19a57b","service":"project-service","timestamp":"2024-05-27T12:43:47.164Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"54304e0192b24799853daab8ebefed73","service":"project-service","timestamp":"2024-05-27T12:43:47.217Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"1cbb91fec1859f4861ff386b1b19a57b","service":"project-service","timestamp":"2024-05-27T12:43:47.287Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"54304e0192b24799853daab8ebefed73","service":"project-service","timestamp":"2024-05-27T12:43:47.345Z"}
+{"level":"info","message":"Categories found successfully.","timestamp":"2024-05-27T12:44:29.430Z"}
+{"endpoint":"getUsers","level":"info","message":"Fetched all users successfully","resultCount":21,"timestamp":"2024-05-27T12:44:29.458Z"}
+{"endpoint":"getUsers","level":"info","message":"Fetched all users successfully","resultCount":21,"timestamp":"2024-05-27T12:44:30.632Z"}
+{"endpoint":"getUsers","level":"info","message":"Fetched all users successfully","resultCount":21,"timestamp":"2024-05-27T12:44:30.643Z"}
+{"endpoint":"withdrawAdmin","level":"info","message":"Admin rights withdrawn successfully","timestamp":"2024-05-27T12:44:55.599Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"makeAdmin","level":"info","message":"User role updated to admin successfully","timestamp":"2024-05-27T12:44:56.399Z","userId":"663a4ebb526c57e678632c36"}
+{"count":12,"level":"info","message":"Most commented posts retrieved","timestamp":"2024-05-27T12:56:50.484Z"}
+{"count":12,"level":"info","message":"Latest posts retrieved","timestamp":"2024-05-27T12:56:50.490Z"}
+{"count":12,"level":"info","message":"Latest posts retrieved","timestamp":"2024-05-27T12:56:50.494Z"}
+{"count":12,"level":"info","message":"Most commented posts retrieved","timestamp":"2024-05-27T12:56:50.497Z"}
+{"count":12,"level":"info","message":"Most commented posts retrieved","timestamp":"2024-05-27T12:56:51.955Z"}
+{"count":12,"level":"info","message":"Most commented posts retrieved","timestamp":"2024-05-27T12:56:51.961Z"}
+{"count":12,"level":"info","message":"Latest posts retrieved","timestamp":"2024-05-27T12:56:51.965Z"}
+{"count":12,"level":"info","message":"Latest posts retrieved","timestamp":"2024-05-27T12:56:51.969Z"}
+{"level":"info","message":"User logged in successfully","timestamp":"2024-05-27T12:57:00.381Z","userId":"664c8c6d34b09ebe67101303"}
+{"count":12,"level":"info","message":"Latest posts retrieved","timestamp":"2024-05-27T12:57:00.461Z"}
+{"count":12,"level":"info","message":"Most commented posts retrieved","timestamp":"2024-05-27T12:57:00.463Z"}
+{"count":12,"level":"info","message":"Most commented posts retrieved","timestamp":"2024-05-27T12:57:00.465Z"}
+{"count":12,"level":"info","message":"Latest posts retrieved","timestamp":"2024-05-27T12:57:00.467Z"}
+{"count":12,"level":"info","message":"Most commented posts retrieved","timestamp":"2024-05-27T12:57:02.761Z"}
+{"count":12,"level":"info","message":"Latest posts retrieved","timestamp":"2024-05-27T12:57:02.766Z"}
+{"endpoint":"searchRandomRecipes","level":"info","message":"Random recipes fetched successfully","timestamp":"2024-05-27T12:57:03.857Z"}
+{"count":12,"level":"info","message":"Top-rated recipes retrieved","timestamp":"2024-05-27T12:57:04.179Z"}
+{"endpoint":"getFavouriteRecipeList","level":"info","message":"Favorite recipe list retrieved","timestamp":"2024-05-27T12:57:11.869Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"119daab6b186cda18eb9e10db0e580f4","timestamp":"2024-05-27T12:57:12.808Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"119daab6b186cda18eb9e10db0e580f4","timestamp":"2024-05-27T12:57:12.959Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"119daab6b186cda18eb9e10db0e580f4","timestamp":"2024-05-27T12:57:13.162Z"}
+{"endpoint":"addToFavorite","level":"info","message":"Recipe added to favorites","recipeId":"119daab6b186cda18eb9e10db0e580f4","timestamp":"2024-05-27T12:57:15.388Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"getFavouriteRecipeList","level":"info","message":"Favorite recipe list retrieved","timestamp":"2024-05-27T12:57:21.448Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"getFavouriteRecipeList","level":"info","message":"Favorite recipe list retrieved","timestamp":"2024-05-27T12:57:21.455Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"09cda8bc28b125470090c0877c45d86a","timestamp":"2024-05-27T12:57:21.830Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"763b4b1ced75faae48164b68ee9e3fad","timestamp":"2024-05-27T12:57:21.899Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"54304e0192b24799853daab8ebefed73","timestamp":"2024-05-27T12:57:21.966Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"cd8c6ee3cac54436abacaed6cda4753f","timestamp":"2024-05-27T12:57:22.047Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"17eb2312c23140509c1603459d6d2675","timestamp":"2024-05-27T12:57:22.098Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"625a70e7104971905f8abc70d0def5af","timestamp":"2024-05-27T12:57:22.164Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"1cbb91fec1859f4861ff386b1b19a57b","timestamp":"2024-05-27T12:57:22.228Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"119daab6b186cda18eb9e10db0e580f4","timestamp":"2024-05-27T12:57:22.300Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"51625cccfb3344a4ced69779116c94be","timestamp":"2024-05-27T12:57:22.364Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"09cda8bc28b125470090c0877c45d86a","timestamp":"2024-05-27T12:57:22.429Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"cd8c6ee3cac54436abacaed6cda4753f","timestamp":"2024-05-27T12:57:22.498Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"625a70e7104971905f8abc70d0def5af","timestamp":"2024-05-27T12:57:22.565Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"17eb2312c23140509c1603459d6d2675","timestamp":"2024-05-27T12:57:22.631Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"763b4b1ced75faae48164b68ee9e3fad","timestamp":"2024-05-27T12:57:22.701Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"54304e0192b24799853daab8ebefed73","timestamp":"2024-05-27T12:57:22.764Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"51625cccfb3344a4ced69779116c94be","timestamp":"2024-05-27T12:57:22.833Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"1cbb91fec1859f4861ff386b1b19a57b","timestamp":"2024-05-27T12:57:22.909Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"119daab6b186cda18eb9e10db0e580f4","timestamp":"2024-05-27T12:57:22.972Z"}
+{"endpoint":"getFavouriteRecipeList","level":"info","message":"Favorite recipe list retrieved","timestamp":"2024-05-27T12:57:26.394Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"removeFromFavorite","level":"info","message":"Recipe removed from favorites","recipeId":"119daab6b186cda18eb9e10db0e580f4","timestamp":"2024-05-27T12:57:26.414Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"119daab6b186cda18eb9e10db0e580f4","timestamp":"2024-05-27T12:57:26.478Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"119daab6b186cda18eb9e10db0e580f4","timestamp":"2024-05-27T12:57:26.682Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"119daab6b186cda18eb9e10db0e580f4","timestamp":"2024-05-27T12:57:26.883Z"}
+{"endpoint":"getFavouriteRecipeList","level":"info","message":"Favorite recipe list retrieved","timestamp":"2024-05-27T12:57:27.270Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"119daab6b186cda18eb9e10db0e580f4","timestamp":"2024-05-27T12:57:27.340Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"119daab6b186cda18eb9e10db0e580f4","timestamp":"2024-05-27T12:57:27.543Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"119daab6b186cda18eb9e10db0e580f4","timestamp":"2024-05-27T12:57:27.744Z"}
+{"endpoint":"getFavouriteRecipeList","level":"info","message":"Favorite recipe list retrieved","timestamp":"2024-05-27T12:57:31.616Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"getFavouriteRecipeList","level":"info","message":"Favorite recipe list retrieved","timestamp":"2024-05-27T12:57:31.639Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"09cda8bc28b125470090c0877c45d86a","timestamp":"2024-05-27T12:57:31.765Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"cd8c6ee3cac54436abacaed6cda4753f","timestamp":"2024-05-27T12:57:31.837Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"625a70e7104971905f8abc70d0def5af","timestamp":"2024-05-27T12:57:31.902Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"1cbb91fec1859f4861ff386b1b19a57b","timestamp":"2024-05-27T12:57:31.964Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"51625cccfb3344a4ced69779116c94be","timestamp":"2024-05-27T12:57:32.032Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"54304e0192b24799853daab8ebefed73","timestamp":"2024-05-27T12:57:32.104Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"763b4b1ced75faae48164b68ee9e3fad","timestamp":"2024-05-27T12:57:32.174Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"17eb2312c23140509c1603459d6d2675","timestamp":"2024-05-27T12:57:32.230Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"09cda8bc28b125470090c0877c45d86a","timestamp":"2024-05-27T12:57:32.298Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"625a70e7104971905f8abc70d0def5af","timestamp":"2024-05-27T12:57:32.370Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"cd8c6ee3cac54436abacaed6cda4753f","timestamp":"2024-05-27T12:57:32.433Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"17eb2312c23140509c1603459d6d2675","timestamp":"2024-05-27T12:57:32.496Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"763b4b1ced75faae48164b68ee9e3fad","timestamp":"2024-05-27T12:57:32.564Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"54304e0192b24799853daab8ebefed73","timestamp":"2024-05-27T12:57:32.630Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"1cbb91fec1859f4861ff386b1b19a57b","timestamp":"2024-05-27T12:57:32.726Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"51625cccfb3344a4ced69779116c94be","timestamp":"2024-05-27T12:57:32.770Z"}
+{"endpoint":"getFavouriteRecipeList","level":"info","message":"Favorite recipe list retrieved","timestamp":"2024-05-27T12:57:34.541Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"removeFromFavorite","level":"info","message":"Recipe removed from favorites","recipeId":"51625cccfb3344a4ced69779116c94be","timestamp":"2024-05-27T12:57:34.543Z","userId":"664c8c6d34b09ebe67101303"}
+{"level":"info","message":"User rating retrieved","recipeId":"51625cccfb3344a4ced69779116c94be","timestamp":"2024-05-27T12:57:34.569Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"51625cccfb3344a4ced69779116c94be","timestamp":"2024-05-27T12:57:34.609Z"}
+{"level":"info","message":"User rating retrieved","recipeId":"51625cccfb3344a4ced69779116c94be","timestamp":"2024-05-27T12:57:34.627Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"51625cccfb3344a4ced69779116c94be","timestamp":"2024-05-27T12:57:34.811Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"51625cccfb3344a4ced69779116c94be","timestamp":"2024-05-27T12:57:35.008Z"}
+{"endpoint":"getFavouriteRecipeList","level":"info","message":"Favorite recipe list retrieved","timestamp":"2024-05-27T12:57:35.161Z","userId":"664c8c6d34b09ebe67101303"}
+{"level":"info","message":"User rating retrieved","recipeId":"51625cccfb3344a4ced69779116c94be","timestamp":"2024-05-27T12:57:35.208Z","userId":"664c8c6d34b09ebe67101303"}
+{"level":"info","message":"User rating retrieved","recipeId":"51625cccfb3344a4ced69779116c94be","timestamp":"2024-05-27T12:57:35.214Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"51625cccfb3344a4ced69779116c94be","timestamp":"2024-05-27T12:57:35.226Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"51625cccfb3344a4ced69779116c94be","timestamp":"2024-05-27T12:57:35.427Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"51625cccfb3344a4ced69779116c94be","timestamp":"2024-05-27T12:57:35.628Z"}
+{"endpoint":"getFavouriteRecipeList","level":"info","message":"Favorite recipe list retrieved","timestamp":"2024-05-27T12:57:41.973Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"getFavouriteRecipeList","level":"info","message":"Favorite recipe list retrieved","timestamp":"2024-05-27T12:57:42.132Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"09cda8bc28b125470090c0877c45d86a","timestamp":"2024-05-27T12:57:42.425Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"17eb2312c23140509c1603459d6d2675","timestamp":"2024-05-27T12:57:42.491Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"cd8c6ee3cac54436abacaed6cda4753f","timestamp":"2024-05-27T12:57:42.559Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"625a70e7104971905f8abc70d0def5af","timestamp":"2024-05-27T12:57:42.621Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"54304e0192b24799853daab8ebefed73","timestamp":"2024-05-27T12:57:42.706Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"1cbb91fec1859f4861ff386b1b19a57b","timestamp":"2024-05-27T12:57:42.759Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"763b4b1ced75faae48164b68ee9e3fad","timestamp":"2024-05-27T12:57:42.843Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"09cda8bc28b125470090c0877c45d86a","timestamp":"2024-05-27T12:57:42.888Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"625a70e7104971905f8abc70d0def5af","timestamp":"2024-05-27T12:57:42.956Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"17eb2312c23140509c1603459d6d2675","timestamp":"2024-05-27T12:57:43.024Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"cd8c6ee3cac54436abacaed6cda4753f","timestamp":"2024-05-27T12:57:43.092Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"54304e0192b24799853daab8ebefed73","timestamp":"2024-05-27T12:57:43.189Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"763b4b1ced75faae48164b68ee9e3fad","timestamp":"2024-05-27T12:57:43.241Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"1cbb91fec1859f4861ff386b1b19a57b","timestamp":"2024-05-27T12:57:43.305Z"}
+{"endpoint":"getFavouriteRecipeList","level":"info","message":"Favorite recipe list retrieved","timestamp":"2024-05-27T12:57:46.222Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"removeFromFavorite","level":"info","message":"Recipe removed from favorites","recipeId":"54304e0192b24799853daab8ebefed73","timestamp":"2024-05-27T12:57:46.229Z","userId":"664c8c6d34b09ebe67101303"}
+{"level":"info","message":"User rating retrieved","recipeId":"54304e0192b24799853daab8ebefed73","timestamp":"2024-05-27T12:57:46.293Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"54304e0192b24799853daab8ebefed73","timestamp":"2024-05-27T12:57:46.315Z"}
+{"level":"info","message":"User rating retrieved","recipeId":"54304e0192b24799853daab8ebefed73","timestamp":"2024-05-27T12:57:46.384Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"54304e0192b24799853daab8ebefed73","timestamp":"2024-05-27T12:57:46.556Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"54304e0192b24799853daab8ebefed73","timestamp":"2024-05-27T12:57:46.717Z"}
+{"endpoint":"getFavouriteRecipeList","level":"info","message":"Favorite recipe list retrieved","timestamp":"2024-05-27T12:57:46.827Z","userId":"664c8c6d34b09ebe67101303"}
+{"level":"info","message":"User rating retrieved","recipeId":"54304e0192b24799853daab8ebefed73","timestamp":"2024-05-27T12:57:46.866Z","userId":"664c8c6d34b09ebe67101303"}
+{"level":"info","message":"User rating retrieved","recipeId":"54304e0192b24799853daab8ebefed73","timestamp":"2024-05-27T12:57:46.875Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"54304e0192b24799853daab8ebefed73","timestamp":"2024-05-27T12:57:46.920Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"54304e0192b24799853daab8ebefed73","timestamp":"2024-05-27T12:57:47.113Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"54304e0192b24799853daab8ebefed73","timestamp":"2024-05-27T12:57:47.318Z"}
+{"endpoint":"addToFavorite","level":"info","message":"Recipe added to favorites","recipeId":"54304e0192b24799853daab8ebefed73","timestamp":"2024-05-27T12:58:29.907Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"getFavouriteRecipeList","level":"info","message":"Favorite recipe list retrieved","timestamp":"2024-05-27T12:58:30.917Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"getFavouriteRecipeList","level":"info","message":"Favorite recipe list retrieved","timestamp":"2024-05-27T12:58:30.920Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"09cda8bc28b125470090c0877c45d86a","timestamp":"2024-05-27T12:58:32.658Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"625a70e7104971905f8abc70d0def5af","timestamp":"2024-05-27T12:58:32.735Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"cd8c6ee3cac54436abacaed6cda4753f","timestamp":"2024-05-27T12:58:32.771Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"763b4b1ced75faae48164b68ee9e3fad","timestamp":"2024-05-27T12:58:32.842Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"1cbb91fec1859f4861ff386b1b19a57b","timestamp":"2024-05-27T12:58:32.911Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"17eb2312c23140509c1603459d6d2675","timestamp":"2024-05-27T12:58:32.976Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"54304e0192b24799853daab8ebefed73","timestamp":"2024-05-27T12:58:33.040Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"09cda8bc28b125470090c0877c45d86a","timestamp":"2024-05-27T12:58:33.107Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"625a70e7104971905f8abc70d0def5af","timestamp":"2024-05-27T12:58:33.171Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"cd8c6ee3cac54436abacaed6cda4753f","timestamp":"2024-05-27T12:58:33.242Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"17eb2312c23140509c1603459d6d2675","timestamp":"2024-05-27T12:58:33.307Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"1cbb91fec1859f4861ff386b1b19a57b","timestamp":"2024-05-27T12:58:33.390Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"54304e0192b24799853daab8ebefed73","timestamp":"2024-05-27T12:58:33.437Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"763b4b1ced75faae48164b68ee9e3fad","timestamp":"2024-05-27T12:58:33.504Z"}
+{"endpoint":"getFavouriteRecipeList","level":"info","message":"Favorite recipe list retrieved","timestamp":"2024-05-27T12:58:38.311Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"removeFromFavorite","level":"info","message":"Recipe removed from favorites","recipeId":"54304e0192b24799853daab8ebefed73","timestamp":"2024-05-27T12:58:38.318Z","userId":"664c8c6d34b09ebe67101303"}
+{"level":"info","message":"User rating retrieved","recipeId":"54304e0192b24799853daab8ebefed73","timestamp":"2024-05-27T12:58:38.346Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"54304e0192b24799853daab8ebefed73","timestamp":"2024-05-27T12:58:38.395Z"}
+{"level":"info","message":"User rating retrieved","recipeId":"54304e0192b24799853daab8ebefed73","timestamp":"2024-05-27T12:58:38.409Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"54304e0192b24799853daab8ebefed73","timestamp":"2024-05-27T12:58:38.617Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"54304e0192b24799853daab8ebefed73","timestamp":"2024-05-27T12:58:38.784Z"}
+{"endpoint":"getFavouriteRecipeList","level":"info","message":"Favorite recipe list retrieved","timestamp":"2024-05-27T12:58:38.928Z","userId":"664c8c6d34b09ebe67101303"}
+{"level":"info","message":"User rating retrieved","recipeId":"54304e0192b24799853daab8ebefed73","timestamp":"2024-05-27T12:58:38.971Z","userId":"664c8c6d34b09ebe67101303"}
+{"level":"info","message":"User rating retrieved","recipeId":"54304e0192b24799853daab8ebefed73","timestamp":"2024-05-27T12:58:38.980Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"54304e0192b24799853daab8ebefed73","timestamp":"2024-05-27T12:58:39.016Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"54304e0192b24799853daab8ebefed73","timestamp":"2024-05-27T12:58:39.218Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"54304e0192b24799853daab8ebefed73","timestamp":"2024-05-27T12:58:39.414Z"}
+{"endpoint":"addToFavorite","level":"info","message":"Recipe added to favorites","recipeId":"54304e0192b24799853daab8ebefed73","timestamp":"2024-05-27T12:58:42.329Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"getFavouriteRecipeList","level":"info","message":"Favorite recipe list retrieved","timestamp":"2024-05-27T13:02:36.775Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"getFavouriteRecipeList","level":"info","message":"Favorite recipe list retrieved","timestamp":"2024-05-27T13:02:36.776Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"763b4b1ced75faae48164b68ee9e3fad","timestamp":"2024-05-27T13:02:37.213Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"17eb2312c23140509c1603459d6d2675","timestamp":"2024-05-27T13:02:37.293Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"cd8c6ee3cac54436abacaed6cda4753f","timestamp":"2024-05-27T13:02:37.382Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"1cbb91fec1859f4861ff386b1b19a57b","timestamp":"2024-05-27T13:02:37.392Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"09cda8bc28b125470090c0877c45d86a","timestamp":"2024-05-27T13:02:37.414Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"625a70e7104971905f8abc70d0def5af","timestamp":"2024-05-27T13:02:37.482Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"54304e0192b24799853daab8ebefed73","timestamp":"2024-05-27T13:02:37.550Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"09cda8bc28b125470090c0877c45d86a","timestamp":"2024-05-27T13:02:37.618Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"cd8c6ee3cac54436abacaed6cda4753f","timestamp":"2024-05-27T13:02:37.687Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"625a70e7104971905f8abc70d0def5af","timestamp":"2024-05-27T13:02:37.758Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"17eb2312c23140509c1603459d6d2675","timestamp":"2024-05-27T13:02:37.820Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"763b4b1ced75faae48164b68ee9e3fad","timestamp":"2024-05-27T13:02:37.893Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"1cbb91fec1859f4861ff386b1b19a57b","timestamp":"2024-05-27T13:02:37.952Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"54304e0192b24799853daab8ebefed73","timestamp":"2024-05-27T13:02:38.031Z"}
+{"endpoint":"removeFromFavorite","level":"info","message":"Recipe removed from favorites","recipeId":"54304e0192b24799853daab8ebefed73","timestamp":"2024-05-27T13:02:41.051Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"getFavouriteRecipeList","level":"info","message":"Favorite recipe list retrieved","timestamp":"2024-05-27T13:02:42.035Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"getFavouriteRecipeList","level":"info","message":"Favorite recipe list retrieved","timestamp":"2024-05-27T13:02:42.104Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"cd8c6ee3cac54436abacaed6cda4753f","timestamp":"2024-05-27T13:02:42.190Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"09cda8bc28b125470090c0877c45d86a","timestamp":"2024-05-27T13:02:42.258Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"17eb2312c23140509c1603459d6d2675","timestamp":"2024-05-27T13:02:42.326Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"625a70e7104971905f8abc70d0def5af","timestamp":"2024-05-27T13:02:42.392Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"763b4b1ced75faae48164b68ee9e3fad","timestamp":"2024-05-27T13:02:42.458Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"1cbb91fec1859f4861ff386b1b19a57b","timestamp":"2024-05-27T13:02:42.527Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"cd8c6ee3cac54436abacaed6cda4753f","timestamp":"2024-05-27T13:02:42.644Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"09cda8bc28b125470090c0877c45d86a","timestamp":"2024-05-27T13:02:42.675Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"763b4b1ced75faae48164b68ee9e3fad","timestamp":"2024-05-27T13:02:42.767Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"625a70e7104971905f8abc70d0def5af","timestamp":"2024-05-27T13:02:42.793Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"1cbb91fec1859f4861ff386b1b19a57b","timestamp":"2024-05-27T13:02:42.856Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"17eb2312c23140509c1603459d6d2675","timestamp":"2024-05-27T13:02:42.930Z"}
+{"endpoint":"getFavouriteRecipeList","level":"info","message":"Favorite recipe list retrieved","timestamp":"2024-05-27T13:05:44.557Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"getFavouriteRecipeList","level":"info","message":"Favorite recipe list retrieved","timestamp":"2024-05-27T13:05:44.574Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"09cda8bc28b125470090c0877c45d86a","timestamp":"2024-05-27T13:05:44.970Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"1cbb91fec1859f4861ff386b1b19a57b","timestamp":"2024-05-27T13:05:45.039Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"cd8c6ee3cac54436abacaed6cda4753f","timestamp":"2024-05-27T13:05:45.092Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"17eb2312c23140509c1603459d6d2675","timestamp":"2024-05-27T13:05:45.163Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"625a70e7104971905f8abc70d0def5af","timestamp":"2024-05-27T13:05:45.232Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"763b4b1ced75faae48164b68ee9e3fad","timestamp":"2024-05-27T13:05:45.319Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"cd8c6ee3cac54436abacaed6cda4753f","timestamp":"2024-05-27T13:05:45.360Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"09cda8bc28b125470090c0877c45d86a","timestamp":"2024-05-27T13:05:45.423Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"625a70e7104971905f8abc70d0def5af","timestamp":"2024-05-27T13:05:45.493Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"763b4b1ced75faae48164b68ee9e3fad","timestamp":"2024-05-27T13:05:45.635Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"1cbb91fec1859f4861ff386b1b19a57b","timestamp":"2024-05-27T13:05:45.689Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"17eb2312c23140509c1603459d6d2675","timestamp":"2024-05-27T13:05:46.134Z"}
+{"endpoint":"removeFromFavorite","level":"info","message":"Recipe removed from favorites","recipeId":"763b4b1ced75faae48164b68ee9e3fad","timestamp":"2024-05-27T13:05:48.385Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"removeFromFavorite","level":"info","message":"Recipe removed from favorites","recipeId":"17eb2312c23140509c1603459d6d2675","timestamp":"2024-05-27T13:05:56.900Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"getFavouriteRecipeList","level":"info","message":"Favorite recipe list retrieved","timestamp":"2024-05-27T13:05:58.601Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"getFavouriteRecipeList","level":"info","message":"Favorite recipe list retrieved","timestamp":"2024-05-27T13:05:58.603Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"625a70e7104971905f8abc70d0def5af","timestamp":"2024-05-27T13:05:58.972Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"cd8c6ee3cac54436abacaed6cda4753f","timestamp":"2024-05-27T13:05:59.040Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"09cda8bc28b125470090c0877c45d86a","timestamp":"2024-05-27T13:05:59.168Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"625a70e7104971905f8abc70d0def5af","timestamp":"2024-05-27T13:05:59.207Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"cd8c6ee3cac54436abacaed6cda4753f","timestamp":"2024-05-27T13:05:59.237Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"1cbb91fec1859f4861ff386b1b19a57b","timestamp":"2024-05-27T13:05:59.304Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"09cda8bc28b125470090c0877c45d86a","timestamp":"2024-05-27T13:05:59.371Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"1cbb91fec1859f4861ff386b1b19a57b","timestamp":"2024-05-27T13:05:59.439Z"}
+{"endpoint":"search","error":"getaddrinfo ENOTFOUND api.edamam.com","level":"error","message":"Error fetching recipes","timestamp":"2024-05-27T13:08:08.295Z"}
+{"endpoint":"search","error":"getaddrinfo ENOTFOUND api.edamam.com","level":"error","message":"Error fetching recipes","timestamp":"2024-05-27T13:08:08.298Z"}
+{"endpoint":"search","level":"info","message":"Recipes fetched successfully","query":{"cuisineType":"American","q":""},"timestamp":"2024-05-27T13:09:24.760Z"}
+{"endpoint":"search","level":"info","message":"Recipes fetched successfully","query":{"cuisineType":"American","q":""},"timestamp":"2024-05-27T13:09:25.722Z"}
+{"endpoint":"search","level":"info","message":"Recipes fetched successfully","query":{"cuisineType":"American","dishType":"Biscuits and cookies","mealType":"Breakfast","q":""},"timestamp":"2024-05-27T13:10:03.520Z"}
+{"endpoint":"search","level":"info","message":"Recipes fetched successfully","query":{"cuisineType":"American","dishType":"Biscuits and cookies","mealType":"Breakfast","q":""},"timestamp":"2024-05-27T13:10:04.623Z"}
+{"endpoint":"search","level":"info","message":"Recipes fetched successfully","query":{"mealType":"Teatime","q":""},"timestamp":"2024-05-27T13:10:13.888Z"}
+{"endpoint":"search","level":"info","message":"Recipes fetched successfully","query":{"mealType":"Teatime","q":""},"timestamp":"2024-05-27T13:10:14.126Z"}
+{"endpoint":"search","level":"info","message":"Recipes fetched successfully","query":{"calories":"300-400","dishType":"Biscuits and cookies","mealType":"Breakfast","q":""},"timestamp":"2024-05-27T13:10:22.335Z"}
+{"endpoint":"search","level":"info","message":"Recipes fetched successfully","query":{"calories":"300-400","dishType":"Biscuits and cookies","mealType":"Breakfast","q":""},"timestamp":"2024-05-27T13:10:23.009Z"}
+{"endpoint":"search","level":"info","message":"Recipes fetched successfully","query":{"q":"asdflökjasdöflkjölkj"},"timestamp":"2024-05-27T13:17:55.371Z"}
+{"endpoint":"search","level":"info","message":"Recipes fetched successfully","query":{"q":"asdflökjasdöflkjölkj"},"timestamp":"2024-05-27T13:17:55.757Z"}
+{"endpoint":"search","level":"info","message":"Recipes fetched successfully","query":{"q":"asdfölkajwefölkj"},"timestamp":"2024-05-27T13:19:33.929Z"}
+{"endpoint":"search","level":"info","message":"Recipes fetched successfully","query":{"q":"asdfölkajwefölkj"},"timestamp":"2024-05-27T13:19:34.079Z"}
+{"endpoint":"search","level":"info","message":"Recipes fetched successfully","query":{"q":"asdfölkajwefölkj"},"timestamp":"2024-05-27T13:19:49.640Z"}
+{"endpoint":"search","level":"info","message":"Recipes fetched successfully","query":{"q":"asdfölkajwefölkj"},"timestamp":"2024-05-27T13:19:49.842Z"}
+{"endpoint":"search","level":"info","message":"Recipes fetched successfully","query":{"q":"asdfölkajwefölkj"},"timestamp":"2024-05-27T13:20:34.816Z"}
+{"endpoint":"search","level":"info","message":"Recipes fetched successfully","query":{"q":"asdfölkajwefölkj"},"timestamp":"2024-05-27T13:20:34.982Z"}
+{"endpoint":"search","level":"info","message":"Recipes fetched successfully","query":{"q":"asdfölkajwefölkj"},"timestamp":"2024-05-27T13:22:11.165Z"}
+{"endpoint":"search","level":"info","message":"Recipes fetched successfully","query":{"q":"asdfölkajwefölkj"},"timestamp":"2024-05-27T13:22:11.300Z"}
+{"endpoint":"search","level":"info","message":"Recipes fetched successfully","query":{"q":"asdfölkajwefölkj"},"timestamp":"2024-05-27T13:23:31.849Z"}
+{"endpoint":"search","level":"info","message":"Recipes fetched successfully","query":{"q":"asdfölkajwefölkj"},"timestamp":"2024-05-27T13:23:32.138Z"}
+{"endpoint":"search","level":"info","message":"Recipes fetched successfully","query":{"health":"alcohol-cocktail","q":""},"timestamp":"2024-05-27T13:25:24.288Z"}
+{"endpoint":"search","level":"info","message":"Recipes fetched successfully","query":{"health":"alcohol-cocktail","q":""},"timestamp":"2024-05-27T13:25:24.489Z"}
+{"day":"wed","endpoint":"addToWeekMenu","level":"info","message":"Recipe added to week menu","recipeId":"26bd15da5af05266e804de66e7df4b0a","timestamp":"2024-05-27T13:25:32.765Z","userId":"664c8c6d34b09ebe67101303"}
+{"day":"thu","endpoint":"addToWeekMenu","level":"info","message":"Recipe added to week menu","recipeId":"3a5b513c747685ef037f332813342c15","timestamp":"2024-05-27T13:25:38.782Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"search","level":"info","message":"Recipes fetched successfully","query":{"health":"alcohol-cocktail","q":""},"timestamp":"2024-05-27T13:35:36.268Z"}
+{"endpoint":"search","level":"info","message":"Recipes fetched successfully","query":{"health":"alcohol-cocktail","q":""},"timestamp":"2024-05-27T13:35:36.523Z"}
+{"day":"thu","endpoint":"addToWeekMenu","level":"info","message":"Recipe added to week menu","recipeId":"98f74925ec2b9397bfd432655ddff48e","timestamp":"2024-05-27T13:35:44.522Z","userId":"664c8c6d34b09ebe67101303"}
+{"day":"fri","endpoint":"addToWeekMenu","level":"info","message":"Recipe added to week menu","recipeId":"26bd15da5af05266e804de66e7df4b0a","timestamp":"2024-05-27T13:36:24.108Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"getWeekMenu","level":"info","message":"Week menu retrieved","timestamp":"2024-05-27T13:37:06.589Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"getWeekMenu","level":"info","message":"Week menu retrieved","timestamp":"2024-05-27T13:37:06.966Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"54304e0192b24799853daab8ebefed73","timestamp":"2024-05-27T13:37:07.008Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"1cbb91fec1859f4861ff386b1b19a57b","timestamp":"2024-05-27T13:37:07.032Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"cd8c6ee3cac54436abacaed6cda4753f","timestamp":"2024-05-27T13:37:07.094Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"09cda8bc28b125470090c0877c45d86a","timestamp":"2024-05-27T13:37:07.246Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"2dbc6a713fbbc572b52054d5e6571f7a","timestamp":"2024-05-27T13:37:07.325Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"cd8c6ee3cac54436abacaed6cda4753f","timestamp":"2024-05-27T13:37:07.376Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"1cbb91fec1859f4861ff386b1b19a57b","timestamp":"2024-05-27T13:37:07.455Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"54304e0192b24799853daab8ebefed73","timestamp":"2024-05-27T13:37:07.507Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"26bd15da5af05266e804de66e7df4b0a","timestamp":"2024-05-27T13:37:07.577Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"2dbc6a713fbbc572b52054d5e6571f7a","timestamp":"2024-05-27T13:37:07.639Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"09cda8bc28b125470090c0877c45d86a","timestamp":"2024-05-27T13:37:07.709Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"54304e0192b24799853daab8ebefed73","timestamp":"2024-05-27T13:37:07.778Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"1cbb91fec1859f4861ff386b1b19a57b","timestamp":"2024-05-27T13:37:07.844Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"3a5b513c747685ef037f332813342c15","timestamp":"2024-05-27T13:37:07.912Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"98f74925ec2b9397bfd432655ddff48e","timestamp":"2024-05-27T13:37:07.984Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"26bd15da5af05266e804de66e7df4b0a","timestamp":"2024-05-27T13:37:08.044Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"26bd15da5af05266e804de66e7df4b0a","timestamp":"2024-05-27T13:37:08.139Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"3a5b513c747685ef037f332813342c15","timestamp":"2024-05-27T13:37:08.187Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"98f74925ec2b9397bfd432655ddff48e","timestamp":"2024-05-27T13:37:08.275Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"54304e0192b24799853daab8ebefed73","timestamp":"2024-05-27T13:37:08.351Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"1cbb91fec1859f4861ff386b1b19a57b","timestamp":"2024-05-27T13:37:08.409Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"26bd15da5af05266e804de66e7df4b0a","timestamp":"2024-05-27T13:37:08.587Z"}
+{"endpoint":"getFavouriteRecipeList","level":"info","message":"Favorite recipe list retrieved","timestamp":"2024-05-27T13:37:43.553Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"getFavouriteRecipeList","level":"info","message":"Favorite recipe list retrieved","timestamp":"2024-05-27T13:37:44.454Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"1cbb91fec1859f4861ff386b1b19a57b","timestamp":"2024-05-27T13:37:45.659Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"625a70e7104971905f8abc70d0def5af","timestamp":"2024-05-27T13:37:45.729Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"cd8c6ee3cac54436abacaed6cda4753f","timestamp":"2024-05-27T13:37:45.790Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"09cda8bc28b125470090c0877c45d86a","timestamp":"2024-05-27T13:37:45.855Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"625a70e7104971905f8abc70d0def5af","timestamp":"2024-05-27T13:37:46.004Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"1cbb91fec1859f4861ff386b1b19a57b","timestamp":"2024-05-27T13:37:46.084Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"cd8c6ee3cac54436abacaed6cda4753f","timestamp":"2024-05-27T13:37:46.560Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"09cda8bc28b125470090c0877c45d86a","timestamp":"2024-05-27T13:37:46.613Z"}
+{"endpoint":"getWeekMenu","level":"info","message":"Week menu retrieved","timestamp":"2024-05-27T13:37:49.244Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"getWeekMenu","level":"info","message":"Week menu retrieved","timestamp":"2024-05-27T13:37:49.247Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"cd8c6ee3cac54436abacaed6cda4753f","timestamp":"2024-05-27T13:37:49.386Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"1cbb91fec1859f4861ff386b1b19a57b","timestamp":"2024-05-27T13:37:49.448Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"54304e0192b24799853daab8ebefed73","timestamp":"2024-05-27T13:37:49.527Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"1cbb91fec1859f4861ff386b1b19a57b","timestamp":"2024-05-27T13:37:49.585Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"cd8c6ee3cac54436abacaed6cda4753f","timestamp":"2024-05-27T13:37:49.656Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"54304e0192b24799853daab8ebefed73","timestamp":"2024-05-27T13:37:49.730Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"2dbc6a713fbbc572b52054d5e6571f7a","timestamp":"2024-05-27T13:37:49.806Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"09cda8bc28b125470090c0877c45d86a","timestamp":"2024-05-27T13:37:49.869Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"2dbc6a713fbbc572b52054d5e6571f7a","timestamp":"2024-05-27T13:37:49.999Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"09cda8bc28b125470090c0877c45d86a","timestamp":"2024-05-27T13:37:50.038Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"26bd15da5af05266e804de66e7df4b0a","timestamp":"2024-05-27T13:37:50.073Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"26bd15da5af05266e804de66e7df4b0a","timestamp":"2024-05-27T13:37:50.216Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"1cbb91fec1859f4861ff386b1b19a57b","timestamp":"2024-05-27T13:37:50.253Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"3a5b513c747685ef037f332813342c15","timestamp":"2024-05-27T13:37:50.323Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"98f74925ec2b9397bfd432655ddff48e","timestamp":"2024-05-27T13:37:50.385Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"54304e0192b24799853daab8ebefed73","timestamp":"2024-05-27T13:37:50.461Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"1cbb91fec1859f4861ff386b1b19a57b","timestamp":"2024-05-27T13:37:50.532Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"54304e0192b24799853daab8ebefed73","timestamp":"2024-05-27T13:37:50.591Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"98f74925ec2b9397bfd432655ddff48e","timestamp":"2024-05-27T13:37:50.662Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"3a5b513c747685ef037f332813342c15","timestamp":"2024-05-27T13:37:50.723Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"26bd15da5af05266e804de66e7df4b0a","timestamp":"2024-05-27T13:37:51.400Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"26bd15da5af05266e804de66e7df4b0a","timestamp":"2024-05-27T13:37:53.117Z"}
+{"day":"wednesday","endpoint":"delFromWeekMenu","level":"info","message":"Recipe removed from week menu","recipeId":"26bd15da5af05266e804de66e7df4b0a","timestamp":"2024-05-27T13:38:05.193Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"getWeekMenu","level":"info","message":"Week menu retrieved","timestamp":"2024-05-27T13:38:06.462Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"getWeekMenu","level":"info","message":"Week menu retrieved","timestamp":"2024-05-27T13:38:06.464Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"54304e0192b24799853daab8ebefed73","timestamp":"2024-05-27T13:38:06.832Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"cd8c6ee3cac54436abacaed6cda4753f","timestamp":"2024-05-27T13:38:06.899Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"1cbb91fec1859f4861ff386b1b19a57b","timestamp":"2024-05-27T13:38:07.040Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"54304e0192b24799853daab8ebefed73","timestamp":"2024-05-27T13:38:07.083Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"cd8c6ee3cac54436abacaed6cda4753f","timestamp":"2024-05-27T13:38:07.105Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"1cbb91fec1859f4861ff386b1b19a57b","timestamp":"2024-05-27T13:38:07.165Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"09cda8bc28b125470090c0877c45d86a","timestamp":"2024-05-27T13:38:07.242Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"2dbc6a713fbbc572b52054d5e6571f7a","timestamp":"2024-05-27T13:38:07.319Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"2dbc6a713fbbc572b52054d5e6571f7a","timestamp":"2024-05-27T13:38:07.451Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"09cda8bc28b125470090c0877c45d86a","timestamp":"2024-05-27T13:38:07.453Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"54304e0192b24799853daab8ebefed73","timestamp":"2024-05-27T13:38:07.508Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"1cbb91fec1859f4861ff386b1b19a57b","timestamp":"2024-05-27T13:38:07.580Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"98f74925ec2b9397bfd432655ddff48e","timestamp":"2024-05-27T13:38:07.647Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"3a5b513c747685ef037f332813342c15","timestamp":"2024-05-27T13:38:07.711Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"1cbb91fec1859f4861ff386b1b19a57b","timestamp":"2024-05-27T13:38:07.777Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"54304e0192b24799853daab8ebefed73","timestamp":"2024-05-27T13:38:07.845Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"3a5b513c747685ef037f332813342c15","timestamp":"2024-05-27T13:38:07.928Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"98f74925ec2b9397bfd432655ddff48e","timestamp":"2024-05-27T13:38:07.978Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"26bd15da5af05266e804de66e7df4b0a","timestamp":"2024-05-27T13:38:08.044Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"26bd15da5af05266e804de66e7df4b0a","timestamp":"2024-05-27T13:38:08.113Z"}
+{"day":"friday","endpoint":"delFromWeekMenu","level":"info","message":"Recipe removed from week menu","recipeId":"26bd15da5af05266e804de66e7df4b0a","timestamp":"2024-05-27T13:40:32.155Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"getWeekMenu","level":"info","message":"Week menu retrieved","timestamp":"2024-05-27T13:40:35.961Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"54304e0192b24799853daab8ebefed73","timestamp":"2024-05-27T13:40:36.921Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"1cbb91fec1859f4861ff386b1b19a57b","timestamp":"2024-05-27T13:40:36.922Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"cd8c6ee3cac54436abacaed6cda4753f","timestamp":"2024-05-27T13:40:36.950Z"}
+{"endpoint":"getWeekMenu","level":"info","message":"Week menu retrieved","timestamp":"2024-05-27T13:40:37.108Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"2dbc6a713fbbc572b52054d5e6571f7a","timestamp":"2024-05-27T13:40:37.237Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"09cda8bc28b125470090c0877c45d86a","timestamp":"2024-05-27T13:40:37.298Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"cd8c6ee3cac54436abacaed6cda4753f","timestamp":"2024-05-27T13:40:37.364Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"1cbb91fec1859f4861ff386b1b19a57b","timestamp":"2024-05-27T13:40:37.437Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"54304e0192b24799853daab8ebefed73","timestamp":"2024-05-27T13:40:37.502Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"3a5b513c747685ef037f332813342c15","timestamp":"2024-05-27T13:40:37.575Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"1cbb91fec1859f4861ff386b1b19a57b","timestamp":"2024-05-27T13:40:37.636Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"54304e0192b24799853daab8ebefed73","timestamp":"2024-05-27T13:40:37.700Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"98f74925ec2b9397bfd432655ddff48e","timestamp":"2024-05-27T13:40:37.768Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"2dbc6a713fbbc572b52054d5e6571f7a","timestamp":"2024-05-27T13:40:37.834Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"09cda8bc28b125470090c0877c45d86a","timestamp":"2024-05-27T13:40:37.901Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"1cbb91fec1859f4861ff386b1b19a57b","timestamp":"2024-05-27T13:40:38.037Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"54304e0192b24799853daab8ebefed73","timestamp":"2024-05-27T13:40:38.105Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"98f74925ec2b9397bfd432655ddff48e","timestamp":"2024-05-27T13:40:38.171Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"3a5b513c747685ef037f332813342c15","timestamp":"2024-05-27T13:40:38.237Z"}
+{"day":"thursday","endpoint":"delFromWeekMenu","level":"info","message":"Recipe removed from week menu","recipeId":"54304e0192b24799853daab8ebefed73","timestamp":"2024-05-27T13:40:43.568Z","userId":"664c8c6d34b09ebe67101303"}
+{"day":"monday","endpoint":"delFromWeekMenu","level":"info","message":"Recipe removed from week menu","recipeId":"54304e0192b24799853daab8ebefed73","timestamp":"2024-05-27T13:40:48.831Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"getWeekMenu","level":"info","message":"Week menu retrieved","timestamp":"2024-05-27T13:40:51.890Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"getWeekMenu","level":"info","message":"Week menu retrieved","timestamp":"2024-05-27T13:40:52.028Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"cd8c6ee3cac54436abacaed6cda4753f","timestamp":"2024-05-27T13:40:52.307Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"1cbb91fec1859f4861ff386b1b19a57b","timestamp":"2024-05-27T13:40:52.358Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"cd8c6ee3cac54436abacaed6cda4753f","timestamp":"2024-05-27T13:40:52.493Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"09cda8bc28b125470090c0877c45d86a","timestamp":"2024-05-27T13:40:52.834Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"2dbc6a713fbbc572b52054d5e6571f7a","timestamp":"2024-05-27T13:40:52.909Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"1cbb91fec1859f4861ff386b1b19a57b","timestamp":"2024-05-27T13:40:53.817Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"3a5b513c747685ef037f332813342c15","timestamp":"2024-05-27T13:40:53.857Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"1cbb91fec1859f4861ff386b1b19a57b","timestamp":"2024-05-27T13:40:54.432Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"2dbc6a713fbbc572b52054d5e6571f7a","timestamp":"2024-05-27T13:40:54.602Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"98f74925ec2b9397bfd432655ddff48e","timestamp":"2024-05-27T13:40:54.699Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"09cda8bc28b125470090c0877c45d86a","timestamp":"2024-05-27T13:40:54.733Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"1cbb91fec1859f4861ff386b1b19a57b","timestamp":"2024-05-27T13:40:54.889Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"3a5b513c747685ef037f332813342c15","timestamp":"2024-05-27T13:40:54.958Z"}
+{"endpoint":"getRecipe","level":"info","message":"Recipe fetched successfully","recipeId":"98f74925ec2b9397bfd432655ddff48e","timestamp":"2024-05-27T13:40:55.027Z"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:41:07.498Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:41:07.507Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:41:32.636Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:41:32.639Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:41:41.927Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:41:41.930Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:41:45.827Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:41:45.831Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:41:58.642Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:41:58.646Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:42:56.901Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:42:56.904Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:44:56.091Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:44:56.093Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:45:10.092Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:45:10.102Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:45:32.889Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:45:32.893Z","userId":"664c8c6d34b09ebe67101303"}
+{"count":12,"level":"info","message":"Latest posts retrieved","timestamp":"2024-05-27T13:45:39.990Z"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:45:40.033Z","userId":"664c8c6d34b09ebe67101303"}
+{"count":12,"level":"info","message":"Most commented posts retrieved","timestamp":"2024-05-27T13:45:40.039Z"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:45:40.069Z","userId":"664c8c6d34b09ebe67101303"}
+{"count":12,"level":"info","message":"Latest posts retrieved","timestamp":"2024-05-27T13:45:40.849Z"}
+{"count":12,"level":"info","message":"Most commented posts retrieved","timestamp":"2024-05-27T13:45:40.888Z"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:45:41.802Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:45:41.803Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:45:45.909Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:45:45.910Z","userId":"664c8c6d34b09ebe67101303"}
+{"count":12,"level":"info","message":"Latest posts retrieved","timestamp":"2024-05-27T13:46:34.664Z"}
+{"count":12,"level":"info","message":"Latest posts retrieved","timestamp":"2024-05-27T13:46:34.667Z"}
+{"count":12,"level":"info","message":"Most commented posts retrieved","timestamp":"2024-05-27T13:46:34.731Z"}
+{"count":12,"level":"info","message":"Most commented posts retrieved","timestamp":"2024-05-27T13:46:34.737Z"}
+{"count":12,"level":"info","message":"Latest posts retrieved","timestamp":"2024-05-27T13:46:37.298Z"}
+{"count":12,"level":"info","message":"Most commented posts retrieved","timestamp":"2024-05-27T13:46:37.300Z"}
+{"count":12,"level":"info","message":"Most commented posts retrieved","timestamp":"2024-05-27T13:46:37.352Z"}
+{"count":12,"level":"info","message":"Latest posts retrieved","timestamp":"2024-05-27T13:46:37.359Z"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:46:39.492Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:46:39.495Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:46:42.023Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:46:42.030Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:46:43.472Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:46:43.489Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"updateUserDetails","id":"664c8c6d34b09ebe67101303","level":"info","message":"User details updated successfully","newEmail":"dk@schlingensiepen.net","newUsername":"Daniel Schlingensiepen1","timestamp":"2024-05-27T13:47:00.442Z"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:47:02.809Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:47:02.812Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:47:06.086Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:47:06.103Z","userId":"664c8c6d34b09ebe67101303"}
+{"count":12,"level":"info","message":"Most commented posts retrieved","timestamp":"2024-05-27T13:47:17.664Z"}
+{"count":12,"level":"info","message":"Most commented posts retrieved","timestamp":"2024-05-27T13:47:17.666Z"}
+{"count":12,"level":"info","message":"Latest posts retrieved","timestamp":"2024-05-27T13:47:17.669Z"}
+{"count":12,"level":"info","message":"Latest posts retrieved","timestamp":"2024-05-27T13:47:17.714Z"}
+{"level":"info","message":"Post retrieved successfully","postId":"15","timestamp":"2024-05-27T13:47:25.978Z"}
+{"level":"info","message":"Post retrieved successfully","postId":"15","timestamp":"2024-05-27T13:47:25.990Z"}
+{"level":"warn","message":"No comments found for this post","postId":"15","timestamp":"2024-05-27T13:47:26.077Z"}
+{"level":"warn","message":"No comments found for this post","postId":"15","timestamp":"2024-05-27T13:47:26.081Z"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:47:26.160Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:47:26.172Z","userId":"663a4ebb526c57e678632c36"}
+{"count":12,"level":"info","message":"Most commented posts retrieved","timestamp":"2024-05-27T13:47:32.404Z"}
+{"count":12,"level":"info","message":"Latest posts retrieved","timestamp":"2024-05-27T13:47:32.407Z"}
+{"count":12,"level":"info","message":"Most commented posts retrieved","timestamp":"2024-05-27T13:47:32.414Z"}
+{"count":12,"level":"info","message":"Latest posts retrieved","timestamp":"2024-05-27T13:47:32.479Z"}
+{"level":"info","message":"Post retrieved successfully","postId":"21","timestamp":"2024-05-27T13:47:35.995Z"}
+{"level":"info","message":"Post retrieved successfully","postId":"21","timestamp":"2024-05-27T13:47:35.999Z"}
+{"level":"info","message":"Comments retrieved successfully","postId":"21","resultCount":1,"timestamp":"2024-05-27T13:47:36.081Z"}
+{"level":"info","message":"Comments retrieved successfully","postId":"21","resultCount":1,"timestamp":"2024-05-27T13:47:36.083Z"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:47:36.136Z","userId":"663a9562526c57e678632d44"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:47:36.140Z","userId":"663a9562526c57e678632d44"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:47:36.190Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:47:36.194Z","userId":"664c8c6d34b09ebe67101303"}
+{"count":12,"level":"info","message":"Latest posts retrieved","timestamp":"2024-05-27T13:48:16.726Z"}
+{"count":12,"level":"info","message":"Most commented posts retrieved","timestamp":"2024-05-27T13:48:16.729Z"}
+{"count":12,"level":"info","message":"Most commented posts retrieved","timestamp":"2024-05-27T13:48:16.730Z"}
+{"count":12,"level":"info","message":"Latest posts retrieved","timestamp":"2024-05-27T13:48:16.777Z"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:48:20.465Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:48:20.467Z","userId":"664c8c6d34b09ebe67101303"}
+{"count":25,"level":"info","message":"All comments retrieved","timestamp":"2024-05-27T13:48:23.205Z"}
+{"count":4,"level":"info","message":"Categories retrieved successfully","timestamp":"2024-05-27T13:48:23.243Z"}
+{"count":12,"level":"info","message":"All posts retrieved","timestamp":"2024-05-27T13:48:23.245Z"}
+{"endpoint":"getUsers","level":"info","message":"Fetched all users successfully","resultCount":21,"timestamp":"2024-05-27T13:48:23.292Z"}
+{"count":12,"level":"info","message":"Most commented posts retrieved","timestamp":"2024-05-27T13:48:50.150Z"}
+{"count":12,"level":"info","message":"Latest posts retrieved","timestamp":"2024-05-27T13:48:50.154Z"}
+{"count":12,"level":"info","message":"Latest posts retrieved","timestamp":"2024-05-27T13:48:50.157Z"}
+{"count":12,"level":"info","message":"Most commented posts retrieved","timestamp":"2024-05-27T13:48:50.162Z"}
+{"count":12,"level":"info","message":"Most commented posts retrieved","timestamp":"2024-05-27T13:53:11.377Z"}
+{"count":12,"level":"info","message":"Most commented posts retrieved","timestamp":"2024-05-27T13:53:11.388Z"}
+{"count":12,"level":"info","message":"Latest posts retrieved","timestamp":"2024-05-27T13:53:11.391Z"}
+{"count":12,"level":"info","message":"Latest posts retrieved","timestamp":"2024-05-27T13:53:11.394Z"}
+{"level":"info","message":"Post retrieved successfully","postId":"20","timestamp":"2024-05-27T13:53:20.680Z"}
+{"level":"info","message":"Post retrieved successfully","postId":"20","timestamp":"2024-05-27T13:53:20.682Z"}
+{"level":"info","message":"Comments retrieved successfully","postId":"20","resultCount":1,"timestamp":"2024-05-27T13:53:20.725Z"}
+{"level":"info","message":"Comments retrieved successfully","postId":"20","resultCount":1,"timestamp":"2024-05-27T13:53:20.729Z"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:53:20.778Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:53:20.782Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:53:20.830Z","userId":"663a9562526c57e678632d44"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:53:20.833Z","userId":"663a9562526c57e678632d44"}
+{"level":"info","message":"Post retrieved successfully","postId":"20","timestamp":"2024-05-27T13:53:24.395Z"}
+{"level":"info","message":"Post retrieved successfully","postId":"20","timestamp":"2024-05-27T13:53:24.397Z"}
+{"level":"info","message":"Comments retrieved successfully","postId":"20","resultCount":1,"timestamp":"2024-05-27T13:53:24.439Z"}
+{"level":"info","message":"Comments retrieved successfully","postId":"20","resultCount":1,"timestamp":"2024-05-27T13:53:24.441Z"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:53:24.485Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:53:24.488Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:53:24.532Z","userId":"663a9562526c57e678632d44"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:53:24.536Z","userId":"663a9562526c57e678632d44"}
+{"level":"info","message":"Post retrieved successfully","postId":"20","timestamp":"2024-05-27T13:53:28.904Z"}
+{"level":"info","message":"Post retrieved successfully","postId":"20","timestamp":"2024-05-27T13:53:28.905Z"}
+{"level":"info","message":"Comments retrieved successfully","postId":"20","resultCount":1,"timestamp":"2024-05-27T13:53:28.947Z"}
+{"level":"info","message":"Comments retrieved successfully","postId":"20","resultCount":1,"timestamp":"2024-05-27T13:53:28.949Z"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:53:28.992Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:53:28.995Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:53:29.041Z","userId":"663a9562526c57e678632d44"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:53:29.043Z","userId":"663a9562526c57e678632d44"}
+{"categoryId":"3","level":"info","message":"Posts retrieved successfully","resultCount":6,"timestamp":"2024-05-27T13:53:33.867Z"}
+{"categoryId":"3","level":"info","message":"Posts retrieved successfully","resultCount":6,"timestamp":"2024-05-27T13:53:33.868Z"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:53:33.923Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:53:33.923Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:53:33.926Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:53:33.926Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:53:33.927Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:53:33.966Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:53:33.968Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:53:33.970Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:53:33.971Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:53:33.971Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:53:34.011Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:53:34.269Z","userId":"663a4ebb526c57e678632c36"}
+{"categoryId":"4","level":"info","message":"Posts retrieved successfully","resultCount":1,"timestamp":"2024-05-27T13:53:38.110Z"}
+{"categoryId":"4","level":"info","message":"Posts retrieved successfully","resultCount":1,"timestamp":"2024-05-27T13:53:38.111Z"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:53:38.152Z","userId":"663a9562526c57e678632d44"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:53:38.153Z","userId":"663a9562526c57e678632d44"}
+{"categoryId":"3","level":"info","message":"Posts retrieved successfully","resultCount":6,"timestamp":"2024-05-27T13:53:43.455Z"}
+{"categoryId":"3","level":"info","message":"Posts retrieved successfully","resultCount":6,"timestamp":"2024-05-27T13:53:43.457Z"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:53:43.504Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:53:43.512Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:53:43.514Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:53:43.515Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:53:43.516Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:53:43.518Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:53:43.548Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:53:43.557Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:53:43.560Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:53:43.561Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:53:43.563Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:53:43.565Z","userId":"663a4ebb526c57e678632c36"}
+{"level":"info","message":"Post retrieved successfully","postId":"14","timestamp":"2024-05-27T13:53:50.446Z"}
+{"level":"info","message":"Post retrieved successfully","postId":"14","timestamp":"2024-05-27T13:53:50.447Z"}
+{"level":"warn","message":"No comments found for this post","postId":"14","timestamp":"2024-05-27T13:53:50.490Z"}
+{"level":"warn","message":"No comments found for this post","postId":"14","timestamp":"2024-05-27T13:53:50.491Z"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:53:50.538Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:53:50.540Z","userId":"663a4ebb526c57e678632c36"}
+{"categoryId":"2","level":"info","message":"Posts retrieved successfully","resultCount":1,"timestamp":"2024-05-27T13:53:55.388Z"}
+{"categoryId":"2","level":"info","message":"Posts retrieved successfully","resultCount":1,"timestamp":"2024-05-27T13:53:55.390Z"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:53:55.439Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:53:55.441Z","userId":"664c8c6d34b09ebe67101303"}
+{"categoryId":"1","level":"info","message":"Posts retrieved successfully","resultCount":4,"timestamp":"2024-05-27T13:53:57.884Z"}
+{"categoryId":"1","level":"info","message":"Posts retrieved successfully","resultCount":4,"timestamp":"2024-05-27T13:53:57.886Z"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:53:57.930Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:53:57.932Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:53:57.938Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:53:57.939Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:53:57.940Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:53:57.941Z","userId":"664c8c6d34b09ebe67101303"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:53:57.971Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:53:57.972Z","userId":"663a4ebb526c57e678632c36"}
+{"level":"info","message":"Post retrieved successfully","postId":"10","timestamp":"2024-05-27T13:53:59.972Z"}
+{"level":"info","message":"Post retrieved successfully","postId":"10","timestamp":"2024-05-27T13:53:59.974Z"}
+{"level":"warn","message":"No comments found for this post","postId":"10","timestamp":"2024-05-27T13:54:00.011Z"}
+{"level":"warn","message":"No comments found for this post","postId":"10","timestamp":"2024-05-27T13:54:00.011Z"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:54:00.053Z","userId":"663a4ebb526c57e678632c36"}
+{"endpoint":"findUserById","level":"info","message":"User found by ID successfully","timestamp":"2024-05-27T13:54:00.054Z","userId":"663a4ebb526c57e678632c36"}
+{"count":12,"level":"info","message":"Most commented posts retrieved","timestamp":"2024-05-27T13:54:06.610Z"}
+{"count":12,"level":"info","message":"Most commented posts retrieved","timestamp":"2024-05-27T13:54:06.628Z"}
+{"count":12,"level":"info","message":"Latest posts retrieved","timestamp":"2024-05-27T13:54:06.630Z"}
+{"count":12,"level":"info","message":"Latest posts retrieved","timestamp":"2024-05-27T13:54:06.632Z"}
+{"count":12,"level":"info","message":"Latest posts retrieved","timestamp":"2024-05-27T13:54:12.786Z"}
+{"count":12,"level":"info","message":"Most commented posts retrieved","timestamp":"2024-05-27T13:54:12.789Z"}
+{"count":12,"level":"info","message":"Latest posts retrieved","timestamp":"2024-05-27T13:54:12.794Z"}
+{"count":12,"level":"info","message":"Most commented posts retrieved","timestamp":"2024-05-27T13:54:12.798Z"}

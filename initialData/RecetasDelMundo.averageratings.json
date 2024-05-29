@@ -1,0 +1,162 @@
+[{
+  "_id": {
+    "$oid": "664def00330ed48981976c4c"
+  },
+  "recipeId": "dce07b3df7335a8adf5fc8b8f86530ea",
+  "averageRating": 3.75,
+  "numberOfRatings": 2,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "664def20330ed48981976c57"
+  },
+  "recipeId": "cd8c6ee3cac54436abacaed6cda4753f",
+  "averageRating": 5,
+  "numberOfRatings": 3,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "664defc8330ed48981976c66"
+  },
+  "recipeId": "727d5dca2124a48fe172f59b729679a0",
+  "averageRating": 4.166666666666667,
+  "numberOfRatings": 3,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "664defca330ed48981976c6d"
+  },
+  "recipeId": "17eb2312c23140509c1603459d6d2675",
+  "averageRating": 4.125,
+  "numberOfRatings": 4,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "664defcf330ed48981976c79"
+  },
+  "recipeId": "625a70e7104971905f8abc70d0def5af",
+  "averageRating": 3.6666666666666665,
+  "numberOfRatings": 3,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "664defd0330ed48981976c80"
+  },
+  "recipeId": "53b8ce68216ac2537b260ea06c8f585f",
+  "averageRating": 3.25,
+  "numberOfRatings": 2,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "664f5be2cbec4f7d71b3259f"
+  },
+  "recipeId": "37e7b2a4c4f54b869bb66111949d6ee2",
+  "averageRating": 3,
+  "numberOfRatings": 1,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6651aff36cf018eda57e39a7"
+  },
+  "recipeId": "54304e0192b24799853daab8ebefed73",
+  "averageRating": 2.5,
+  "numberOfRatings": 2,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6651b0346cf018eda57e39d2"
+  },
+  "recipeId": "104f271489af744e5e4ae668f8b7b03a",
+  "averageRating": 3.25,
+  "numberOfRatings": 2,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "665344326a625b7796cfafc5"
+  },
+  "recipeId": "763b4b1ced75faae48164b68ee9e3fad",
+  "averageRating": 4,
+  "numberOfRatings": 1,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "665344986a625b7796cfb004"
+  },
+  "recipeId": "1cbb91fec1859f4861ff386b1b19a57b",
+  "averageRating": 4,
+  "numberOfRatings": 2,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "665472ca77cbe48175c40daa"
+  },
+  "recipeId": "51625cccfb3344a4ced69779116c94be",
+  "averageRating": 0.5,
+  "numberOfRatings": 1,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6655c459a3208a0b645a8862"
+  },
+  "recipeId": "6bbf16d26b9496968f63cfb7b56fd9a2",
+  "averageRating": 3.5,
+  "numberOfRatings": 1,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6656331c5dbf9e6ca34812f4"
+  },
+  "recipeId": "843a4e39ee35acba0f83025882b7d977",
+  "averageRating": 0.5,
+  "numberOfRatings": 1,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "665724b8c37df967e245f64b"
+  },
+  "recipeId": "3386e87f78cd40429cf409a8b864909d",
+  "averageRating": 4.5,
+  "numberOfRatings": 1,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "665724bac37df967e245f653"
+  },
+  "recipeId": "3818882c48107dd8ac72fc99b8e2d834",
+  "averageRating": 4.5,
+  "numberOfRatings": 1,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "665724bdc37df967e245f65b"
+  },
+  "recipeId": "124e237caadb4ee28788de1170ff8546",
+  "averageRating": 4,
+  "numberOfRatings": 1,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "665724c0c37df967e245f663"
+  },
+  "recipeId": "6d4e279e13860959642dd4d3ee4e6e17",
+  "averageRating": 5,
+  "numberOfRatings": 1,
+  "__v": 0
+}]

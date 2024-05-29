@@ -32,10 +32,6 @@ exports.requireRole = (allowedRoles) => {
         try {
             const token = getTokenFromHeader(req);
             const decoded = jwt.verify(token, jwtSecret);
-
-            console.log(`Decoded token: ${JSON.stringify(decoded)}`); // Debugging: log the decoded token
-            console.log(`Allowed roles: ${allowedRoles}`); // Debugging: log the allowed roles
-
             if (!allowedRoles.includes(decoded.role)) {
                 console.log(`Role ${decoded.role} not allowed`); // Debugging: log the denied role
                 return res.status(403).json({ error: "Forbidden: Insufficient permissions" });

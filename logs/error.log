@@ -1,0 +1,127 @@
+{"endpoint":"search","error":"getaddrinfo ENOTFOUND api.edamam.com","level":"error","message":"Error fetching recipes","timestamp":"2024-05-27T13:08:08.295Z"}
+{"endpoint":"search","error":"getaddrinfo ENOTFOUND api.edamam.com","level":"error","message":"Error fetching recipes","timestamp":"2024-05-27T13:08:08.298Z"}
+{"endpoint":"searchRandomRecipes","error":"Request failed with status code 429","level":"error","message":"Error fetching random recipes","timestamp":"2024-05-28T12:09:49.897Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID dce07b3df7335a8adf5fc8b8f86530ea","timestamp":"2024-05-28T12:09:49.917Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID cd8c6ee3cac54436abacaed6cda4753f","timestamp":"2024-05-28T12:09:50.025Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID 727d5dca2124a48fe172f59b729679a0","timestamp":"2024-05-28T12:09:50.091Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID 17eb2312c23140509c1603459d6d2675","timestamp":"2024-05-28T12:09:50.159Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID 37e7b2a4c4f54b869bb66111949d6ee2","timestamp":"2024-05-28T12:09:50.225Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID 625a70e7104971905f8abc70d0def5af","timestamp":"2024-05-28T12:09:50.252Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID 51625cccfb3344a4ced69779116c94be","timestamp":"2024-05-28T12:09:50.316Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID 1cbb91fec1859f4861ff386b1b19a57b","timestamp":"2024-05-28T12:09:50.384Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID 53b8ce68216ac2537b260ea06c8f585f","timestamp":"2024-05-28T12:09:50.492Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID 104f271489af744e5e4ae668f8b7b03a","timestamp":"2024-05-28T12:09:50.557Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID 54304e0192b24799853daab8ebefed73","timestamp":"2024-05-28T12:09:50.625Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID 6bbf16d26b9496968f63cfb7b56fd9a2","timestamp":"2024-05-28T12:09:50.658Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID 763b4b1ced75faae48164b68ee9e3fad","timestamp":"2024-05-28T12:09:50.759Z"}
+{"endpoint":"searchRandomRecipes","error":"Request failed with status code 429","level":"error","message":"Error fetching random recipes","timestamp":"2024-05-28T12:09:50.786Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID 104f271489af744e5e4ae668f8b7b03a","timestamp":"2024-05-28T12:09:50.930Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID 625a70e7104971905f8abc70d0def5af","timestamp":"2024-05-28T12:09:51.053Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID 37e7b2a4c4f54b869bb66111949d6ee2","timestamp":"2024-05-28T12:09:51.060Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID 51625cccfb3344a4ced69779116c94be","timestamp":"2024-05-28T12:09:51.285Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID 54304e0192b24799853daab8ebefed73","timestamp":"2024-05-28T12:09:51.286Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID cd8c6ee3cac54436abacaed6cda4753f","timestamp":"2024-05-28T12:09:51.288Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID 53b8ce68216ac2537b260ea06c8f585f","timestamp":"2024-05-28T12:09:51.365Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID 6bbf16d26b9496968f63cfb7b56fd9a2","timestamp":"2024-05-28T12:09:51.435Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID 17eb2312c23140509c1603459d6d2675","timestamp":"2024-05-28T12:09:51.503Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID 763b4b1ced75faae48164b68ee9e3fad","timestamp":"2024-05-28T12:09:51.564Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID 727d5dca2124a48fe172f59b729679a0","timestamp":"2024-05-28T12:09:51.636Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID dce07b3df7335a8adf5fc8b8f86530ea","timestamp":"2024-05-28T12:09:51.699Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID 1cbb91fec1859f4861ff386b1b19a57b","timestamp":"2024-05-28T12:09:51.765Z"}
+{"endpoint":"searchRandomRecipes","error":"Request failed with status code 429","level":"error","message":"Error fetching random recipes","timestamp":"2024-05-28T16:10:53.154Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID 625a70e7104971905f8abc70d0def5af","timestamp":"2024-05-28T16:10:53.256Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID 37e7b2a4c4f54b869bb66111949d6ee2","timestamp":"2024-05-28T16:10:53.324Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID 727d5dca2124a48fe172f59b729679a0","timestamp":"2024-05-28T16:10:53.389Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID 6bbf16d26b9496968f63cfb7b56fd9a2","timestamp":"2024-05-28T16:10:53.411Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID 763b4b1ced75faae48164b68ee9e3fad","timestamp":"2024-05-28T16:10:53.479Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID 53b8ce68216ac2537b260ea06c8f585f","timestamp":"2024-05-28T16:10:53.592Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID 104f271489af744e5e4ae668f8b7b03a","timestamp":"2024-05-28T16:10:53.615Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID 17eb2312c23140509c1603459d6d2675","timestamp":"2024-05-28T16:10:53.727Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID dce07b3df7335a8adf5fc8b8f86530ea","timestamp":"2024-05-28T16:10:53.760Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID 54304e0192b24799853daab8ebefed73","timestamp":"2024-05-28T16:10:53.814Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID 1cbb91fec1859f4861ff386b1b19a57b","timestamp":"2024-05-28T16:10:53.903Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID cd8c6ee3cac54436abacaed6cda4753f","timestamp":"2024-05-28T16:10:53.996Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID 51625cccfb3344a4ced69779116c94be","timestamp":"2024-05-28T16:10:54.017Z"}
+{"endpoint":"searchRandomRecipes","error":"Request failed with status code 429","level":"error","message":"Error fetching random recipes","timestamp":"2024-05-28T16:10:54.125Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID 51625cccfb3344a4ced69779116c94be","timestamp":"2024-05-28T16:10:54.221Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID 53b8ce68216ac2537b260ea06c8f585f","timestamp":"2024-05-28T16:10:54.291Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID dce07b3df7335a8adf5fc8b8f86530ea","timestamp":"2024-05-28T16:10:54.312Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID 727d5dca2124a48fe172f59b729679a0","timestamp":"2024-05-28T16:10:54.427Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID 6bbf16d26b9496968f63cfb7b56fd9a2","timestamp":"2024-05-28T16:10:54.499Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID 17eb2312c23140509c1603459d6d2675","timestamp":"2024-05-28T16:10:54.557Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID 54304e0192b24799853daab8ebefed73","timestamp":"2024-05-28T16:10:54.586Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID 37e7b2a4c4f54b869bb66111949d6ee2","timestamp":"2024-05-28T16:10:54.647Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID 625a70e7104971905f8abc70d0def5af","timestamp":"2024-05-28T16:10:54.712Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID 104f271489af744e5e4ae668f8b7b03a","timestamp":"2024-05-28T16:10:54.779Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID 1cbb91fec1859f4861ff386b1b19a57b","timestamp":"2024-05-28T16:10:54.856Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID 763b4b1ced75faae48164b68ee9e3fad","timestamp":"2024-05-28T16:10:54.954Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID cd8c6ee3cac54436abacaed6cda4753f","timestamp":"2024-05-28T16:10:54.982Z"}
+{"endpoint":"searchRandomRecipes","error":"Request failed with status code 429","level":"error","message":"Error fetching random recipes","timestamp":"2024-05-28T16:10:58.609Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID 54304e0192b24799853daab8ebefed73","timestamp":"2024-05-28T16:10:58.638Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID 37e7b2a4c4f54b869bb66111949d6ee2","timestamp":"2024-05-28T16:10:58.748Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID 763b4b1ced75faae48164b68ee9e3fad","timestamp":"2024-05-28T16:10:58.779Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID 727d5dca2124a48fe172f59b729679a0","timestamp":"2024-05-28T16:10:58.874Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID dce07b3df7335a8adf5fc8b8f86530ea","timestamp":"2024-05-28T16:10:58.945Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID 17eb2312c23140509c1603459d6d2675","timestamp":"2024-05-28T16:10:58.977Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID 6bbf16d26b9496968f63cfb7b56fd9a2","timestamp":"2024-05-28T16:10:59.076Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID 53b8ce68216ac2537b260ea06c8f585f","timestamp":"2024-05-28T16:10:59.107Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID 625a70e7104971905f8abc70d0def5af","timestamp":"2024-05-28T16:10:59.211Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID 104f271489af744e5e4ae668f8b7b03a","timestamp":"2024-05-28T16:10:59.238Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID 51625cccfb3344a4ced69779116c94be","timestamp":"2024-05-28T16:10:59.307Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID 1cbb91fec1859f4861ff386b1b19a57b","timestamp":"2024-05-28T16:10:59.371Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID cd8c6ee3cac54436abacaed6cda4753f","timestamp":"2024-05-28T16:10:59.482Z"}
+{"endpoint":"searchRandomRecipes","error":"Request failed with status code 429","level":"error","message":"Error fetching random recipes","timestamp":"2024-05-28T16:10:59.507Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID 51625cccfb3344a4ced69779116c94be","timestamp":"2024-05-28T16:10:59.653Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID 17eb2312c23140509c1603459d6d2675","timestamp":"2024-05-28T16:10:59.719Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID dce07b3df7335a8adf5fc8b8f86530ea","timestamp":"2024-05-28T16:10:59.828Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID 6bbf16d26b9496968f63cfb7b56fd9a2","timestamp":"2024-05-28T16:10:59.855Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID 763b4b1ced75faae48164b68ee9e3fad","timestamp":"2024-05-28T16:10:59.963Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID 104f271489af744e5e4ae668f8b7b03a","timestamp":"2024-05-28T16:10:59.983Z"}
+{"endpoint":"searchRandomRecipes","error":"getaddrinfo ENOTFOUND api.edamam.com","level":"error","message":"Error fetching random recipes","timestamp":"2024-05-28T19:01:38.695Z"}
+{"endpoint":"searchRandomRecipes","error":"getaddrinfo ENOTFOUND api.edamam.com","level":"error","message":"Error fetching random recipes","timestamp":"2024-05-28T19:01:38.704Z"}
+{"endpoint":"getRecipe","error":"Request failed with status code 429","level":"error","message":"Error fetching recipe","recipeId":"1cbb91fec1859f4861ff386b1b19a57b","timestamp":"2024-05-28T19:22:50.968Z"}
+{"endpoint":"getRecipe","error":"Request failed with status code 429","level":"error","message":"Error fetching recipe","recipeId":"1cbb91fec1859f4861ff386b1b19a57b","timestamp":"2024-05-28T19:22:51.169Z"}
+{"endpoint":"getRecipe","error":"Request failed with status code 429","level":"error","message":"Error fetching recipe","recipeId":"1cbb91fec1859f4861ff386b1b19a57b","timestamp":"2024-05-28T19:22:51.376Z"}
+{"endpoint":"searchRandomRecipes","error":"Request failed with status code 429","level":"error","message":"Error fetching random recipes","timestamp":"2024-05-28T19:58:43.153Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID cd8c6ee3cac54436abacaed6cda4753f","timestamp":"2024-05-28T19:58:43.280Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID dce07b3df7335a8adf5fc8b8f86530ea","timestamp":"2024-05-28T19:58:43.300Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID 104f271489af744e5e4ae668f8b7b03a","timestamp":"2024-05-28T19:58:43.409Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID 763b4b1ced75faae48164b68ee9e3fad","timestamp":"2024-05-28T19:58:43.475Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID 727d5dca2124a48fe172f59b729679a0","timestamp":"2024-05-28T19:58:43.541Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID 51625cccfb3344a4ced69779116c94be","timestamp":"2024-05-28T19:58:43.624Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID 843a4e39ee35acba0f83025882b7d977","timestamp":"2024-05-28T19:58:43.680Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID 6bbf16d26b9496968f63cfb7b56fd9a2","timestamp":"2024-05-28T19:58:43.701Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID 1cbb91fec1859f4861ff386b1b19a57b","timestamp":"2024-05-28T19:58:43.809Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID 37e7b2a4c4f54b869bb66111949d6ee2","timestamp":"2024-05-28T19:58:43.844Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID 53b8ce68216ac2537b260ea06c8f585f","timestamp":"2024-05-28T19:58:43.941Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID 17eb2312c23140509c1603459d6d2675","timestamp":"2024-05-28T19:58:43.969Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID 625a70e7104971905f8abc70d0def5af","timestamp":"2024-05-28T19:58:44.076Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID 54304e0192b24799853daab8ebefed73","timestamp":"2024-05-28T19:58:44.100Z"}
+{"endpoint":"searchRandomRecipes","error":"Request failed with status code 429","level":"error","message":"Error fetching random recipes","timestamp":"2024-05-28T19:58:44.170Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID 53b8ce68216ac2537b260ea06c8f585f","timestamp":"2024-05-28T19:58:44.287Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID 625a70e7104971905f8abc70d0def5af","timestamp":"2024-05-28T19:58:44.351Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID 6bbf16d26b9496968f63cfb7b56fd9a2","timestamp":"2024-05-28T19:58:44.421Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID 37e7b2a4c4f54b869bb66111949d6ee2","timestamp":"2024-05-28T19:58:44.485Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID 104f271489af744e5e4ae668f8b7b03a","timestamp":"2024-05-28T19:58:44.550Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID 54304e0192b24799853daab8ebefed73","timestamp":"2024-05-28T19:58:44.619Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID 763b4b1ced75faae48164b68ee9e3fad","timestamp":"2024-05-28T19:58:44.687Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID 1cbb91fec1859f4861ff386b1b19a57b","timestamp":"2024-05-28T19:58:44.749Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID 727d5dca2124a48fe172f59b729679a0","timestamp":"2024-05-28T19:58:44.861Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID 17eb2312c23140509c1603459d6d2675","timestamp":"2024-05-28T19:58:44.941Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID 843a4e39ee35acba0f83025882b7d977","timestamp":"2024-05-28T19:58:44.949Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID dce07b3df7335a8adf5fc8b8f86530ea","timestamp":"2024-05-28T19:58:45.082Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID cd8c6ee3cac54436abacaed6cda4753f","timestamp":"2024-05-28T19:58:45.087Z"}
+{"error":"Request failed with status code 429","level":"error","message":"Error fetching recipe with ID 51625cccfb3344a4ced69779116c94be","timestamp":"2024-05-28T19:58:45.197Z"}
+{"endpoint":"getRecipe","error":"Request failed with status code 429","level":"error","message":"Error fetching recipe","recipeId":"71f461b78850e13b66e5c0c30de6e502","timestamp":"2024-05-29T09:43:34.766Z"}
+{"endpoint":"getRecipe","error":"Request failed with status code 429","level":"error","message":"Error fetching recipe","recipeId":"71f461b78850e13b66e5c0c30de6e502","timestamp":"2024-05-29T09:43:34.962Z"}
+{"endpoint":"getRecipe","error":"Request failed with status code 429","level":"error","message":"Error fetching recipe","recipeId":"71f461b78850e13b66e5c0c30de6e502","timestamp":"2024-05-29T09:43:35.160Z"}
+{"endpoint":"getRecipe","error":"Request failed with status code 429","level":"error","message":"Error fetching recipe","recipeId":"71f461b78850e13b66e5c0c30de6e502","timestamp":"2024-05-29T09:43:42.560Z"}
+{"endpoint":"getRecipe","error":"Request failed with status code 429","level":"error","message":"Error fetching recipe","recipeId":"71f461b78850e13b66e5c0c30de6e502","timestamp":"2024-05-29T09:43:42.800Z"}
+{"endpoint":"getRecipe","error":"Request failed with status code 429","level":"error","message":"Error fetching recipe","recipeId":"71f461b78850e13b66e5c0c30de6e502","timestamp":"2024-05-29T09:43:42.959Z"}
+{"endpoint":"search","error":"Request failed with status code 429","level":"error","message":"Error fetching recipes","timestamp":"2024-05-29T09:43:47.039Z"}
+{"endpoint":"search","error":"Request failed with status code 429","level":"error","message":"Error fetching recipes","timestamp":"2024-05-29T09:43:47.237Z"}
+{"error":"Invalid character in name","level":"error","message":"Error exporting user data","timestamp":"2024-05-29T10:37:06.156Z","userId":"6656f688fc0043aa06aea9bb"}
+{"error":"Posts is not defined","format":"json","level":"error","message":"Error exporting user data","timestamp":"2024-05-29T10:46:35.716Z","userId":"6656f688fc0043aa06aea9bb"}
+{"error":"Posts is not defined","format":"json","level":"error","message":"Error exporting user data","timestamp":"2024-05-29T10:46:58.611Z","userId":"6656f688fc0043aa06aea9bb"}
+{"error":"Posts is not defined","format":"csv","level":"error","message":"Error exporting user data","timestamp":"2024-05-29T10:47:07.391Z","userId":"6656f688fc0043aa06aea9bb"}
+{"error":"Cannot read properties of undefined (reading 'length')","format":"pdf","level":"error","message":"Error exporting user data","timestamp":"2024-05-29T12:17:42.991Z","userId":"6656f688fc0043aa06aea9bb"}

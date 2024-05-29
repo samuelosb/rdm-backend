@@ -32,13 +32,13 @@ exports.createCategory = async (req, res, _next) => {
             categoryTitle: categoryTitle,
             categorySubtitle: categorySubtitle
         });
-        logger.info('Category successfully created');
+        logger.info('Category successfully created', {categoryId: newCategory.categoryId});
         return res.status(201).json({
             message: "Category successfully created",
             category: newCategory.categoryId,
         });
     } catch (error) {
-        logger.error(`Category not successfully created: ${error.message}`);
+        logger.error('Category creation failed', {error: error.message});
         return res.status(400).json({message: "Error", error: error.message});
     }
 };
@@ -54,21 +54,21 @@ exports.deleteCategory = async (req, res, _next) => {
     try {
         const deletedCategory = await Categories.findOneAndDelete({categoryId: categoryId});
         if (!deletedCategory) {
-            logger.error('Category not exist.');
-            return res.status(404).json({message: "Category not exist."});
+            logger.warn('Category does not exist', {categoryId});
+            return res.status(404).json({message: "Category does not exist."});
         }
         const posts = await Posts.find({categoryId: categoryId});
         for (const post of posts) {
             await PostsController.deletePost_(post.postId);
         }
-        logger.info('Category successfully deleted');
+        logger.info('Category successfully deleted', {categoryId, deletedPosts: posts.length});
         return res.status(200).json({
             message: "Category successfully deleted",
             category: deletedCategory._id,
             deletedPosts: posts
         });
     } catch (error) {
-        logger.error(`Category not successfully deleted: ${error.message}`);
+        logger.error('Category deletion failed', {categoryId, error: error.message});
         return res.status(500).json({message: "Error", error: error.message});
     }
 };
@@ -81,11 +81,23 @@ exports.deleteCategory = async (req, res, _next) => {
  */
 exports.getAllCategories = async (_req, res, _next) => {
     try {
-        const categ = await Categories.find({});
-        logger.info('Categories found successfully.');
-        return res.status(200).json({categ});
+        const categories = await Categories.find({});
+        logger.info('Categories retrieved successfully', {count: categories.length});
+        return res.status(200).json({categories});
     } catch (error) {
-        logger.error(`Error finding categories: ${error.message}`);
+        logger.error('Error retrieving categories', {error: error.message});
         return res.status(400).json({message: "Error", error: error.message});
+    }
+};
+
+
+exports.getCategories = async (req, res) => {
+    try {
+        const categories = await Categories.find();
+        res.status(200).json(categories);
+        logger.info("Fetched all categories successfully", { endpoint: 'getCategories', resultCount: categories.length });
+    } catch (error) {
+        logger.error("Failed to fetch categories", { endpoint: 'getCategories', error: error.message });
+        res.status(500).json({ message: "Failed to fetch categories. Please try again later." });
     }
 };

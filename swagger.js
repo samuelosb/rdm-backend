@@ -15,9 +15,9 @@ const options = {
     swaggerDefinition: {
         openapi: "3.0.0", // Specify the OpenAPI version
         info: {
-            title: "Express API with Swagger", // API title
+            title: "Recetas del mundo API", // API title
             version: "1.0.0", // API version
-            description: "This is a simple CRUD API application made with Express and documented with Swagger", // API description
+            description: "This is the API documentation for the Recetas del mundo API. This API allows users to search for recipes, create posts, comments, and categories, and manage users. The API is secured using JWT tokens and refresh tokens.The API also allows users to search for recipes using the Edamam API. The API is built using Node.js, Express, and MongoDB. The API is documented using Swagger.openapi: 3.0.0", // API description
             license: {
                 name: "MIT", // License name
                 url: "https://opensource.org/licenses/MIT", // License URL
@@ -25,7 +25,7 @@ const options = {
         },
         servers: [
             {
-                url: "https://rdm-backend.onrender.com/api/", // Server URL
+                url: "http://localhost:3001/api/", // Server URL
                 description: "Development server", // Server description
             },
         ],
@@ -43,5 +43,5 @@ const specs = swaggerJsdoc(options);
 // Export a function to setup the Swagger middleware
 module.exports = (app) => {
     // Serve the Swagger UI at the /api-docs endpoint
-    app.use('/api-docs/', swaggerUi.serve, swaggerUi.setup(specs));
+    app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(specs));
 };

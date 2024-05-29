@@ -8,6 +8,8 @@
 
 const axios = require("axios");
 const User = require("../models/users");
+const AverageRating = require("../models/averageRating");
+const logger = require("../../logs/winston");
 
 /**
  * Search for recipes based on various query parameters
@@ -15,7 +17,7 @@ const User = require("../models/users");
  * @param {Object} res - Express response object
  * This function builds the API URL based on the query parameters and fetches the recipes from the Edamam API.
  */
-exports.search = async (req, res, next) => {
+exports.search = async (req, res) => {
     let q = req.query.q;
     let cuisineType = req.query.cuisineType;
     let dishType = req.query.dishType;
@@ -40,8 +42,10 @@ exports.search = async (req, res, next) => {
 
         const response = await axios.get(apiUrl);
         res.status(200).json(response.data);
+        logger.info("Recipes fetched successfully", {endpoint: 'search', query: req.query});
     } catch (error) {
-        return res.status(400).json({message: "Error", error: error.message});
+        logger.error("Error fetching recipes", {endpoint: 'search', error: error.message});
+        res.status(400).json({message: "Error fetching recipes. Please try again later.", error: error.message});
     }
 };
 
@@ -56,18 +60,12 @@ exports.searchRandomRecipes = async (req, res) => {
         const randomQuery = 'random'; // Define the query term for random recipes
         const apiUrl = `https://api.edamam.com/api/recipes/v2?type=public&q=${randomQuery}&app_key=${process.env.APP_KEY}&app_id=${process.env.APP_ID}`;
 
-        // Perform the HTTP GET request to the Edamam API
         const response = await axios.get(apiUrl);
-        console.log(await response.data); // Log the response data for debugging purposes
-
-        // Send the response data back to the client as JSON
         res.status(200).json(response.data);
+        logger.info("Random recipes fetched successfully", {endpoint: 'searchRandomRecipes'});
     } catch (error) {
-        // Log any errors encountered during the request
-        console.error('Error fetching random recipes:', error);
-
-        // Send an error response back to the client
-        res.status(500).json({message: "Error fetching random recipes", error: error.message});
+        logger.error("Error fetching random recipes", {endpoint: 'searchRandomRecipes', error: error.message});
+        res.status(500).json({message: "Error fetching random recipes. Please try again later.", error: error.message});
     }
 };
 
@@ -77,22 +75,22 @@ exports.searchRandomRecipes = async (req, res) => {
  * @param {Object} res - Express response object
  * This function retrieves a recipe by its ID.
  */
-exports.getRecipe = async (req, res, next) => {
+exports.getRecipe = async (req, res) => {
     const recipeId = req.query.id;
 
-    // Make a GET request to retrieve recipes with a specific query
-    axios.get(
-        `https://api.edamam.com/api/recipes/v2/` + recipeId +
-        `?type=public&app_key=${process.env.APP_KEY}&app_id=${process.env.APP_ID}`
-    )
-        .then((response) => {
-            res.status(200).json(response.data);
-        })
-        .catch(function (error) {
-            return res.status(404).json({
-                message: "ERROR: the Edamam API couldn't get the recipe with id: ", recipeId
-            });
-        })
+    try {
+        const response = await axios.get(
+            `https://api.edamam.com/api/recipes/v2/${recipeId}?type=public&app_key=${process.env.APP_KEY}&app_id=${process.env.APP_ID}`
+        );
+        res.status(200).json(response.data);
+        logger.info("Recipe fetched successfully", {endpoint: 'getRecipe', recipeId});
+    } catch (error) {
+        logger.error("Error fetching recipe", {endpoint: 'getRecipe', recipeId, error: error.message});
+        res.status(404).json({
+            message: `Error: the Edamam API couldn't get the recipe with id: ${recipeId}`,
+            error: error.message
+        });
+    }
 };
 
 /**
@@ -101,20 +99,32 @@ exports.getRecipe = async (req, res, next) => {
  * @param {Object} res - Express response object
  * This function adds a recipe to the user's favorite list.
  */
-exports.addToFavorite = async (req, res, next) => {
+exports.addToFavorite = async (req, res) => {
     const {userId, recipeId} = req.body;
     try {
         const user = await User.findById(userId);
 
+        if (!user) {
+            return res.status(404).json({message: "User not found. Please check the ID and try again."});
+        }
+
         user.favList.push({recipeId: recipeId, addedDate: Date.now()});
         await user.save();
-        res.status(200).json("Recipe added to favorite. ID " + recipeId);
+        res.status(200).json({message: "Recipe added to favorites successfully", recipeId});
+        logger.info("Recipe added to favorites", {endpoint: 'addToFavorite', userId, recipeId});
     } catch (error) {
-        return res.status(404).json({
-            message: "error ", error
+        logger.error("Error adding recipe to favorites", {
+            endpoint: 'addToFavorite',
+            userId,
+            recipeId,
+            error: error.message
+        });
+        res.status(500).json({
+            message: "Error adding recipe to favorites. Please try again later.",
+            error: error.message
         });
     }
-}
+};
 
 /**
  * Remove a recipe from the user's favorite list
@@ -122,21 +132,32 @@ exports.addToFavorite = async (req, res, next) => {
  * @param {Object} res - Express response object
  * This function removes a recipe from the user's favorite list.
  */
-exports.removeFromFavorite = async (req, res, next) => {
+exports.removeFromFavorite = async (req, res) => {
     const {userId, recipeId} = req.body;
     try {
         const user = await User.findById(userId);
 
-        user.favList.pull({recipeId: recipeId});
+        if (!user) {
+            return res.status(404).json({message: "User not found. Please check the ID and try again."});
+        }
 
+        user.favList.pull({recipeId: recipeId});
         await user.save();
-        res.status(204).json("Recipe deleted from favorites. ID " + recipeId);
+        res.status(204).json({message: "Recipe removed from favorites successfully", recipeId});
+        logger.info("Recipe removed from favorites", {endpoint: 'removeFromFavorite', userId, recipeId});
     } catch (error) {
-        return res.status(404).json({
-            message: "Recipe or User not found."
+        logger.error("Error removing recipe from favorites", {
+            endpoint: 'removeFromFavorite',
+            userId,
+            recipeId,
+            error: error.message
+        });
+        res.status(500).json({
+            message: "Error removing recipe from favorites. Please try again later.",
+            error: error.message
         });
     }
-}
+};
 
 /**
  * Get the user's favorite recipe list
@@ -144,10 +165,9 @@ exports.removeFromFavorite = async (req, res, next) => {
  * @param {Object} res - Express response object
  * This function retrieves the user's favorite recipe list.
  */
-exports.getFavouriteRecipeList = async (req, res, next) => {
+exports.getFavouriteRecipeList = async (req, res) => {
     const uId = req.query.id;
 
-    // Check if the user ID is provided
     if (!uId) {
         return res.status(400).json({message: "User ID is required"});
     }
@@ -155,22 +175,55 @@ exports.getFavouriteRecipeList = async (req, res, next) => {
     try {
         const user = await User.findById(uId);
 
-        // Check if the user exists
         if (!user) {
             return res.status(404).json({message: "User not found"});
         }
 
-        // Return the user's favorite list
-        res.status(200).json(user.favList);
+        const favList = user.favList;
+
+        // Fetch average ratings for the favorite recipes
+        const recipeIds = favList.map(fav => fav.recipeId);
+        const averageRatings = await AverageRating.find({recipeId: {$in: recipeIds}});
+
+        // Create a map for easy lookup of average ratings
+        const averageRatingMap = {};
+        averageRatings.forEach(rating => {
+            averageRatingMap[rating.recipeId] = rating;
+        });
+
+        // Sort the favorite recipes based on average rating and number of ratings
+        favList.sort((a, b) => {
+            const ratingA = averageRatingMap[a.recipeId];
+            const ratingB = averageRatingMap[b.recipeId];
+
+            if (ratingA && ratingB) {
+                // Compare average ratings first
+                if (ratingA.averageRating !== ratingB.averageRating) {
+                    return ratingB.averageRating - ratingA.averageRating;
+                }
+                // If average ratings are the same, compare the number of ratings
+                return ratingB.numberOfRatings - ratingA.numberOfRatings;
+            }
+            // If one of the ratings is missing, prioritize the one with a rating
+            if (ratingA) return -1;
+            if (ratingB) return 1;
+            return 0;
+        });
+
+        res.status(200).json(favList);
+        logger.info("Favorite recipe list retrieved", {endpoint: 'getFavouriteRecipeList', userId: uId});
     } catch (error) {
-        // Log the error and return a more descriptive error message
-        console.error('Error fetching favorite recipe list:', error);
-        return res.status(500).json({
+        logger.error("Error fetching favorite recipe list", {
+            endpoint: 'getFavouriteRecipeList',
+            userId: uId,
+            error: error.message
+        });
+        res.status(500).json({
             message: "An error occurred while fetching the favorite recipe list",
             error: error.message
         });
     }
-}
+};
 
 /**
  * Add a recipe to the user's week menu
@@ -178,10 +231,14 @@ exports.getFavouriteRecipeList = async (req, res, next) => {
  * @param {Object} res - Express response object
  * This function adds a recipe to the user's week menu on a specified day.
  */
-exports.addToWeekMenu = async (req, res, next) => {
+exports.addToWeekMenu = async (req, res) => {
     const {userId, recipeId, day} = req.body;
     try {
         const user = await User.findById(userId);
+
+        if (!user) {
+            return res.status(404).json({message: "User not found. Please check the ID and try again."});
+        }
 
         if (day === "mon" && !user.weekPlan.monday.includes(recipeId)) {
             user.weekPlan.monday.push(recipeId);
@@ -200,13 +257,21 @@ exports.addToWeekMenu = async (req, res, next) => {
         }
 
         await user.save();
-        res.status(200).json("Recipe added to the week menu. ID " + recipeId);
+        res.status(200).json({message: "Recipe added to the week menu successfully", recipeId, day});
+        logger.info("Recipe added to week menu", {endpoint: 'addToWeekMenu', userId, recipeId, day});
     } catch (error) {
-        return res.status(404).json({
-            message: "error ", error
+        logger.error("Error adding recipe to week menu", {
+            endpoint: 'addToWeekMenu',
+            userId,
+            recipeId,
+            error: error.message
+        });
+        res.status(500).json({
+            message: "Error adding recipe to week menu. Please try again later.",
+            error: error.message
         });
     }
-}
+};
 
 /**
  * Remove a recipe from the user's week menu
@@ -214,26 +279,36 @@ exports.addToWeekMenu = async (req, res, next) => {
  * @param {Object} res - Express response object
  * This function removes a recipe from the user's week menu on a specified day.
  */
-exports.delFromWeekMenu = async (req, res, next) => {
+exports.delFromWeekMenu = async (req, res) => {
     const {userId, recipeId, day} = req.body;
     try {
         const user = await User.findById(userId);
+
+        if (!user) {
+            return res.status(404).json({message: "User not found. Please check the ID and try again."});
+        }
+
         const dayList = user.weekPlan[day];
         if (dayList.includes(recipeId)) {
-            //Create a new array with all elements except the desired recipe to delete
             user.weekPlan[day] = dayList.filter(id => id !== recipeId);
         }
 
         await user.save();
-
-        res.status(204).json("Recipe removed from to the week menu. ID " +
-            recipeId + ', day ' + day);
+        res.status(204).json({message: "Recipe removed from the week menu successfully", recipeId, day});
+        logger.info("Recipe removed from week menu", {endpoint: 'delFromWeekMenu', userId, recipeId, day});
     } catch (error) {
-        return res.status(404).json({
-            message: "error ", error
+        logger.error("Error removing recipe from week menu", {
+            endpoint: 'delFromWeekMenu',
+            userId,
+            recipeId,
+            error: error.message
+        });
+        res.status(500).json({
+            message: "Error removing recipe from week menu. Please try again later.",
+            error: error.message
         });
     }
-}
+};
 
 /**
  * Get the user's week menu
@@ -241,14 +316,19 @@ exports.delFromWeekMenu = async (req, res, next) => {
  * @param {Object} res - Express response object
  * This function retrieves the user's week menu.
  */
-exports.getWeekMenu = async (req, res, next) => {
+exports.getWeekMenu = async (req, res) => {
     const id = req.query.uId;
     try {
         const user = await User.findById(id);
+
+        if (!user) {
+            return res.status(404).json({message: "User not found. Please check the ID and try again."});
+        }
+
         res.status(200).json(user.weekPlan);
+        logger.info("Week menu retrieved", {endpoint: 'getWeekMenu', userId: id});
     } catch (error) {
-        return res.status(404).json({
-            message: "error ", error
-        });
+        logger.error("Error fetching week menu", {endpoint: 'getWeekMenu', userId: id, error: error.message});
+        res.status(500).json({message: "Error fetching week menu. Please try again later.", error: error.message});
     }
-}
+};

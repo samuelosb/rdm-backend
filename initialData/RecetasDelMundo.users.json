@@ -1,0 +1,892 @@
+[{
+  "_id": {
+    "$oid": "663a4ebb526c57e678632c36"
+  },
+  "username": "sam",
+  "email": "sam@gmail.com",
+  "password": "$2a$10$VoTCTY/Ap/MIuQdIA6o4I.3XunoAGHhJfC.ftRdENZxN77BeRWcwG",
+  "role": "Admin",
+  "numberOfPosts": 10,
+  "numberOfComments": 7,
+  "isOAuthUser": false,
+  "creationAccountDate": {
+    "$date": "2024-02-07T15:54:35.546Z"
+  },
+  "favList": [
+    {
+      "recipeId": "2eb0afbb2cdb4ceb964840db6b2b9ecb",
+      "addedDate": {
+        "$date": "2024-05-10T14:59:31.792Z"
+      },
+      "_id": {
+        "$oid": "663e3653b058048443631a86"
+      }
+    },
+    {
+      "recipeId": "0aa45544bbaf45c0bfeea94611225f78",
+      "addedDate": {
+        "$date": "2024-05-16T16:48:59.300Z"
+      },
+      "_id": {
+        "$oid": "664638fb230fd7db0415c681"
+      }
+    }
+  ],
+  "__v": 229,
+  "weekPlan": {
+    "friday": [
+      "f2b6b426ce60d48f546a8564439adff4"
+    ],
+    "monday": [
+      "db5b589f0c57492cab77bd887294f71f"
+    ],
+    "saturday": [
+      "1fdc7ee857a54faa8a1eb9fac47f1e76",
+      "7edd68849228450f9c44571a4c12c97d"
+    ],
+    "thursday": [
+      "d894c2b0b942ef9160b20150dd68c201",
+      "82e9ee867a41179e669d21839f511633"
+    ],
+    "tuesday": [
+      "07bb69e5ddda4d109437465e4c7fd1ff",
+      "32eaae1f472cdb799e25230b1568c8c5"
+    ],
+    "wednesday": [
+      "6a35904dedb44e00047807084a106271",
+      "54a11ec4b3bac5203d8fe008f164d211"
+    ],
+    "sunday": []
+  },
+  "gender": "Hombre"
+},
+{
+  "_id": {
+    "$oid": "663a9562526c57e678632d44"
+  },
+  "username": "Demo",
+  "email": "demo@unizar.es",
+  "password": "$2a$10$VoTCTY/Ap/MIuQdIA6o4I.3XunoAGHhJfC.ftRdENZxN77BeRWcwG",
+  "role": "Admin",
+  "numberOfPosts": 7,
+  "numberOfComments": 5,
+  "isOAuthUser": false,
+  "creationAccountDate": {
+    "$date": "2024-05-07T20:56:02.782Z"
+  },
+  "favList": [
+    {
+      "recipeId": "2ab8198bce0e420abab6943126489c37",
+      "addedDate": {
+        "$date": "2024-05-16T21:00:37.592Z"
+      },
+      "_id": {
+        "$oid": "664673f53840cd96299df30d"
+      }
+    },
+    {
+      "recipeId": "b825902faf80469a9cb627077e57ecd2",
+      "addedDate": {
+        "$date": "2024-05-22T12:50:04.840Z"
+      },
+      "_id": {
+        "$oid": "664de9fc7d4b613f4c6f52b3"
+      }
+    },
+    {
+      "recipeId": "86e46a603e5f4676bd1555f7d8bc1f4c",
+      "addedDate": {
+        "$date": "2024-05-22T20:40:17.183Z"
+      },
+      "_id": {
+        "$oid": "664e583186b1a11d0431c047"
+      }
+    },
+    {
+      "recipeId": "cd8c6ee3cac54436abacaed6cda4753f",
+      "addedDate": {
+        "$date": "2024-05-28T17:24:30.349Z"
+      },
+      "_id": {
+        "$oid": "6656134e689b27583fa2b0c9"
+      }
+    },
+    {
+      "recipeId": "727d5dca2124a48fe172f59b729679a0",
+      "addedDate": {
+        "$date": "2024-05-28T18:45:51.405Z"
+      },
+      "_id": {
+        "$oid": "6656265f3a9e280a4f11244c"
+      }
+    }
+  ],
+  "__v": 70,
+  "weekPlan": {
+    "friday": [
+      "2ab8198bce0e420abab6943126489c37",
+      "fac1f6c9c665026210517b63702af6ea",
+      "104f271489af744e5e4ae668f8b7b03a"
+    ],
+    "monday": [
+      "ac00ff8b3affb7111ab31bc10d3a0098",
+      "2ab8198bce0e420abab6943126489c37",
+      "b2ebad01df2a319d259c2d3f61eb40c5"
+    ],
+    "saturday": [
+      "104f271489af744e5e4ae668f8b7b03a",
+      "cd8c6ee3cac54436abacaed6cda4753f",
+      "727d5dca2124a48fe172f59b729679a0"
+    ],
+    "sunday": [
+      "104f271489af744e5e4ae668f8b7b03a",
+      "843a4e39ee35acba0f83025882b7d977"
+    ],
+    "thursday": [
+      "8cedd5ae6db65ffba5945174e5c246b7",
+      "104f271489af744e5e4ae668f8b7b03a",
+      "faf170befe20cde30656d75cef78f399"
+    ],
+    "tuesday": [
+      "ac00ff8b3affb7111ab31bc10d3a0098"
+    ],
+    "wednesday": [
+      "5a40ce5bb43bbfa6458cee7bc5e7d62d"
+    ]
+  },
+  "gender": "Hombre"
+},
+{
+  "_id": {
+    "$oid": "663a995488bd6e401254a1e7"
+  },
+  "username": "John Doe",
+  "email": "johndoe@example.com",
+  "password": "$2a$10$mxJ4o.xfWr68kA0WvIkyaOQg7zwXXwup2z.MB7kELCM7mp2ht6v5i",
+  "role": "Admin",
+  "numberOfPosts": 0,
+  "numberOfComments": 12,
+  "isOAuthUser": false,
+  "creationAccountDate": {
+    "$date": "2024-05-07T21:12:52.145Z"
+  },
+  "favList": [],
+  "__v": 1,
+  "weekPlan": {
+    "friday": [],
+    "monday": [
+      "dce07b3df7335a8adf5fc8b8f86530ea"
+    ],
+    "saturday": [],
+    "sunday": [],
+    "thursday": [],
+    "tuesday": [],
+    "wednesday": []
+  },
+  "gender": "Hombre"
+},
+{
+  "_id": {
+    "$oid": "663e043cf573d58f42012649"
+  },
+  "username": "SamuelB",
+  "email": "samuelosb@gmail.com",
+  "password": "$2a$10$tyBNqGZCVcorpM3MyBl4VO0V470MdVKsApI9zdyY45YUNC8Ir.IqS",
+  "role": "Admin",
+  "numberOfPosts": 0,
+  "numberOfComments": 0,
+  "weekPlan": {
+    "friday": [],
+    "monday": [],
+    "saturday": [],
+    "sunday": [],
+    "thursday": [],
+    "tuesday": [],
+    "wednesday": []
+  },
+  "isOAuthUser": false,
+  "creationAccountDate": {
+    "$date": "2024-05-10T11:25:48.076Z"
+  },
+  "favList": [],
+  "__v": 0,
+  "gender": "Hombre"
+},
+{
+  "_id": {
+    "$oid": "664781a01e433585b6197f56"
+  },
+  "username": "Nasser",
+  "email": "nass@gmail.com",
+  "password": "$2a$10$Mbt7yiMZol33zv2ns55KLeNwGixog4bAmVdBZBVi.NXmQv6ETc6sC",
+  "role": "Basic",
+  "numberOfPosts": 0,
+  "numberOfComments": 0,
+  "weekPlan": {
+    "monday": [],
+    "tuesday": [],
+    "wednesday": [],
+    "thursday": [],
+    "friday": [],
+    "saturday": [],
+    "sunday": []
+  },
+  "isOAuthUser": false,
+  "creationAccountDate": {
+    "$date": "2024-05-17T16:11:12.848Z"
+  },
+  "favList": [],
+  "__v": 0,
+  "gender": "Hombre"
+},
+{
+  "_id": {
+    "$oid": "6647877fbd94d5d71227c69e"
+  },
+  "username": "Nassertest",
+  "email": "nasstest@example.com",
+  "password": "$2a$10$FtMFCA5PHeiFyH012AtxdeFS7Pxznb2IPmLRP4QgQ8f8Po5vioB.i",
+  "role": "Admin",
+  "gender": "Hombre",
+  "numberOfPosts": 0,
+  "numberOfComments": 0,
+  "weekPlan": {
+    "monday": [],
+    "tuesday": [],
+    "wednesday": [],
+    "thursday": [],
+    "friday": [],
+    "saturday": [],
+    "sunday": []
+  },
+  "isOAuthUser": false,
+  "creationAccountDate": {
+    "$date": "2024-05-17T16:36:15.564Z"
+  },
+  "favList": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66478e46bd94d5d71227c6b2"
+  },
+  "username": "Nasserzzz",
+  "email": "zazeze@example.com",
+  "password": "$2a$10$FyIOvlbqFvPy3uIE8Hdw/.GmyYkDFy7odC/wqoadyw5./arVz4nXK",
+  "role": "Basic",
+  "gender": "Mujer",
+  "numberOfPosts": 0,
+  "numberOfComments": 0,
+  "weekPlan": {
+    "monday": [],
+    "tuesday": [],
+    "wednesday": [],
+    "thursday": [],
+    "friday": [],
+    "saturday": [],
+    "sunday": []
+  },
+  "isOAuthUser": false,
+  "creationAccountDate": {
+    "$date": "2024-05-17T17:05:10.614Z"
+  },
+  "favList": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66478fd7bd94d5d71227c6b7"
+  },
+  "username": "nasserea",
+  "email": "azza@example.com",
+  "password": "$2a$10$5ZcUK0601beWtwFs34.QvuMqZPx2UOc0ykoFWhTf1VUv1koJj1E7G",
+  "role": "Basic",
+  "gender": "Hombre",
+  "numberOfPosts": 0,
+  "numberOfComments": 0,
+  "weekPlan": {
+    "monday": [],
+    "tuesday": [],
+    "wednesday": [],
+    "thursday": [],
+    "friday": [],
+    "saturday": [],
+    "sunday": []
+  },
+  "isOAuthUser": false,
+  "creationAccountDate": {
+    "$date": "2024-05-17T17:11:51.564Z"
+  },
+  "favList": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66479132bd94d5d71227c6ba"
+  },
+  "username": "rzafe",
+  "email": "zarea@example.com",
+  "password": "$2a$10$erYtGb0VHRpgRG0MwrTL5uGrnwN9e4VFPkBpen3S2NP9CXHGjqKRu",
+  "role": "Basic",
+  "gender": "Hombre",
+  "numberOfPosts": 0,
+  "numberOfComments": 0,
+  "weekPlan": {
+    "monday": [],
+    "tuesday": [],
+    "wednesday": [],
+    "thursday": [],
+    "friday": [],
+    "saturday": [],
+    "sunday": []
+  },
+  "isOAuthUser": false,
+  "creationAccountDate": {
+    "$date": "2024-05-17T17:17:38.174Z"
+  },
+  "favList": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6648ac27c7fa57e0450da7b7"
+  },
+  "username": "Nasser mon",
+  "email": "monmon@example.com",
+  "password": "$2a$10$QMIqqFw8ufzPPHL1aVZXh.m59355x5C3Z7WTB2SSL6Aq0MpYSA8wS",
+  "role": "Basic",
+  "gender": "Hombre",
+  "numberOfPosts": 0,
+  "numberOfComments": 0,
+  "weekPlan": {
+    "monday": [],
+    "tuesday": [],
+    "wednesday": [],
+    "thursday": [],
+    "friday": [],
+    "saturday": [],
+    "sunday": []
+  },
+  "isOAuthUser": false,
+  "creationAccountDate": {
+    "$date": "2024-05-18T13:24:55.394Z"
+  },
+  "favList": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6648ad43c7fa57e0450da7ba"
+  },
+  "username": "Nasser Zaaae",
+  "email": "nsser@gm.com",
+  "password": "$2a$10$OGHWI8PIjN4dK5y65NpLsuoCGUQfImWhN/lkfJajpsJzULu3lB2Sq",
+  "role": "Basic",
+  "gender": "Hombre",
+  "numberOfPosts": 0,
+  "numberOfComments": 0,
+  "weekPlan": {
+    "monday": [],
+    "tuesday": [],
+    "wednesday": [],
+    "thursday": [],
+    "friday": [],
+    "saturday": [],
+    "sunday": []
+  },
+  "isOAuthUser": false,
+  "creationAccountDate": {
+    "$date": "2024-05-18T13:29:39.562Z"
+  },
+  "favList": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6648b8c6c7fa57e0450da8b1"
+  },
+  "username": "Alex",
+  "email": "alex@example.com",
+  "password": "$2a$10$GZT3i75cOwSMDcwH4iI5eudaUbI3fqPW.jF9Bcg1vMNgZTiesFZ8C",
+  "role": "Basic",
+  "gender": "No binario",
+  "numberOfPosts": 0,
+  "numberOfComments": 0,
+  "weekPlan": {
+    "monday": [],
+    "tuesday": [],
+    "wednesday": [],
+    "thursday": [],
+    "friday": [],
+    "saturday": [],
+    "sunday": []
+  },
+  "isOAuthUser": false,
+  "creationAccountDate": {
+    "$date": "2024-05-18T14:18:46.111Z"
+  },
+  "favList": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6648fefe03ec7d6d41890532"
+  },
+  "username": "dsdsqdsq",
+  "email": "jodsdsqe@example.com",
+  "password": "$2a$10$M5FDvQwIHqE60eA10T3q1u8BfTeBsQWglBh676eOg2ePoA6B5MXzW",
+  "role": "Basic",
+  "gender": "Hombre",
+  "numberOfPosts": 0,
+  "numberOfComments": 0,
+  "weekPlan": {
+    "monday": [],
+    "tuesday": [],
+    "wednesday": [],
+    "thursday": [],
+    "friday": [],
+    "saturday": [],
+    "sunday": []
+  },
+  "isOAuthUser": false,
+  "creationAccountDate": {
+    "$date": "2024-05-18T19:18:22.620Z"
+  },
+  "favList": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6649012f92991aea66578eda"
+  },
+  "username": "Nasser CHAOUCHI",
+  "email": "nassercissique@gmail.com",
+  "role": "Basic",
+  "gender": "Prefiero no decirlo",
+  "numberOfPosts": 0,
+  "numberOfComments": 0,
+  "weekPlan": {
+    "monday": [],
+    "tuesday": [],
+    "wednesday": [],
+    "thursday": [],
+    "friday": [],
+    "saturday": [],
+    "sunday": []
+  },
+  "provider": "google",
+  "providerId": "116554105440380794774",
+  "isOAuthUser": true,
+  "creationAccountDate": {
+    "$date": "2024-05-18T19:27:43.744Z"
+  },
+  "favList": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "664c8c6d34b09ebe67101303"
+  },
+  "username": "Daniel Schlingensiepen",
+  "email": "dk@schlingensiepen.net",
+  "password": "$2a$10$x0F9h9mLLId8QgumkawvwehUeIEh95ReMHliAbtaxyP3kWH1op302",
+  "role": "Admin",
+  "gender": "Hombre",
+  "numberOfPosts": 2,
+  "numberOfComments": 1,
+  "weekPlan": {
+    "monday": [
+      "cd8c6ee3cac54436abacaed6cda4753f",
+      "1cbb91fec1859f4861ff386b1b19a57b"
+    ],
+    "tuesday": [
+      "09cda8bc28b125470090c0877c45d86a",
+      "2dbc6a713fbbc572b52054d5e6571f7a"
+    ],
+    "wednesday": [],
+    "thursday": [
+      "1cbb91fec1859f4861ff386b1b19a57b",
+      "3a5b513c747685ef037f332813342c15",
+      "98f74925ec2b9397bfd432655ddff48e"
+    ],
+    "friday": [],
+    "saturday": [],
+    "sunday": []
+  },
+  "isOAuthUser": false,
+  "creationAccountDate": {
+    "$date": "2024-05-21T11:58:37.249Z"
+  },
+  "favList": [
+    {
+      "recipeId": "09cda8bc28b125470090c0877c45d86a",
+      "addedDate": {
+        "$date": "2024-05-21T23:58:07.617Z"
+      },
+      "_id": {
+        "$oid": "664d350f1cc5e407071b1ff4"
+      }
+    },
+    {
+      "recipeId": "cd8c6ee3cac54436abacaed6cda4753f",
+      "addedDate": {
+        "$date": "2024-05-22T14:24:00.262Z"
+      },
+      "_id": {
+        "$oid": "664e00003bac68e0e1e28755"
+      }
+    },
+    {
+      "recipeId": "625a70e7104971905f8abc70d0def5af",
+      "addedDate": {
+        "$date": "2024-05-22T14:58:10.541Z"
+      },
+      "_id": {
+        "$oid": "664e0802cce5db5e8e51c132"
+      }
+    },
+    {
+      "recipeId": "1cbb91fec1859f4861ff386b1b19a57b",
+      "addedDate": {
+        "$date": "2024-05-26T14:17:59.232Z"
+      },
+      "_id": {
+        "$oid": "665344976a625b7796cfaffd"
+      }
+    },
+    {
+      "recipeId": "6bbf16d26b9496968f63cfb7b56fd9a2",
+      "addedDate": {
+        "$date": "2024-05-28T11:47:42.162Z"
+      },
+      "_id": {
+        "$oid": "6655c45ea3208a0b645a886b"
+      }
+    }
+  ],
+  "__v": 49
+},
+{
+  "_id": {
+    "$oid": "6651f9890993fbbb78b7b04e"
+  },
+  "username": "Michel",
+  "email": "michel@example.com",
+  "password": "$2a$10$xYnBg5YEOry/TdJrrGJQU.qnOBnzXRsy3n/8ttHyL9Uw7hmdKjEde",
+  "role": "Basic",
+  "gender": "Mujer",
+  "numberOfPosts": 0,
+  "numberOfComments": 0,
+  "weekPlan": {
+    "monday": [],
+    "tuesday": [],
+    "wednesday": [],
+    "thursday": [],
+    "friday": [],
+    "saturday": [],
+    "sunday": []
+  },
+  "isOAuthUser": false,
+  "creationAccountDate": {
+    "$date": "2024-05-25T14:45:29.210Z"
+  },
+  "favList": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6651fb6b0993fbbb78b7b05a"
+  },
+  "username": "example2",
+  "email": "example2@example.com",
+  "password": "$2a$10$m9c/nniRnwtwjdgHUfNMPuKkuVf.i4DQVnNLd83MlVpw/vTm3CzQO",
+  "role": "Basic",
+  "gender": "Hombre",
+  "numberOfPosts": 0,
+  "numberOfComments": 0,
+  "weekPlan": {
+    "monday": [],
+    "tuesday": [],
+    "wednesday": [],
+    "thursday": [],
+    "friday": [],
+    "saturday": [],
+    "sunday": []
+  },
+  "isOAuthUser": false,
+  "creationAccountDate": {
+    "$date": "2024-05-25T14:53:31.818Z"
+  },
+  "favList": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "665203b30993fbbb78b7b066"
+  },
+  "username": "dsq",
+  "email": "dsq@example2.com",
+  "password": "$2a$10$owEeWwM5Cw8Lj2uO2ob3/O.jcdi/Rng/13h2OYtaIEoBLxc/yO7ii",
+  "role": "Basic",
+  "gender": "Mujer",
+  "numberOfPosts": 0,
+  "numberOfComments": 0,
+  "weekPlan": {
+    "monday": [],
+    "tuesday": [],
+    "wednesday": [],
+    "thursday": [],
+    "friday": [],
+    "saturday": [],
+    "sunday": []
+  },
+  "isOAuthUser": false,
+  "creationAccountDate": {
+    "$date": "2024-05-25T15:28:51.698Z"
+  },
+  "favList": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66530f1c5c6b5b4dcd8664a2"
+  },
+  "username": "samuel",
+  "email": "725646@unizar.es",
+  "password": "$2a$10$ayQqBoU0OLcfD.IPrUoWmeL1E09qaiO.DVYq1EJUHSiquVTiah81O",
+  "role": "Basic",
+  "gender": "Hombre",
+  "numberOfPosts": 0,
+  "numberOfComments": 0,
+  "weekPlan": {
+    "monday": [],
+    "tuesday": [],
+    "wednesday": [],
+    "thursday": [],
+    "friday": [],
+    "saturday": [],
+    "sunday": []
+  },
+  "isOAuthUser": false,
+  "creationAccountDate": {
+    "$date": "2024-05-26T10:29:48.740Z"
+  },
+  "favList": [
+    {
+      "recipeId": "4fc02bd6ce4e4fb4aa6a7de0f810a5a6",
+      "addedDate": {
+        "$date": "2024-05-26T10:57:50.639Z"
+      },
+      "_id": {
+        "$oid": "665315ae5c6b5b4dcd866558"
+      }
+    },
+    {
+      "recipeId": "c994570c1781387afb9d873e050a4039",
+      "addedDate": {
+        "$date": "2024-05-26T11:00:57.928Z"
+      },
+      "_id": {
+        "$oid": "66531669e8f0eafed146cade"
+      }
+    }
+  ],
+  "__v": 3
+},
+{
+  "_id": {
+    "$oid": "665380597e41ee02a1d22eaf"
+  },
+  "username": "nassere",
+  "email": "dsqhdu@example.com",
+  "password": "$2a$10$npUDr.sWFmhqdUtH1QOJYeyAV3ysOAwkut1c6ea3BhJbTfYqK32nW",
+  "role": "Basic",
+  "gender": "Hombre",
+  "numberOfPosts": 0,
+  "numberOfComments": 0,
+  "weekPlan": {
+    "monday": [],
+    "tuesday": [],
+    "wednesday": [],
+    "thursday": [],
+    "friday": [],
+    "saturday": [],
+    "sunday": []
+  },
+  "isOAuthUser": false,
+  "creationAccountDate": {
+    "$date": "2024-05-26T18:32:57.517Z"
+  },
+  "favList": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66542acae8a822a3b4afe65e"
+  },
+  "username": "admin user",
+  "email": "recetasdelmundounizar@gmail.com",
+  "password": "$2a$10$00cXGDNKfJSZUyMpx17deuQRD12OYncUn84qc6atpsjObEW6z8HxC",
+  "role": "Admin",
+  "gender": "Hombre",
+  "numberOfPosts": 0,
+  "numberOfComments": 0,
+  "weekPlan": {
+    "monday": [],
+    "tuesday": [],
+    "wednesday": [],
+    "thursday": [],
+    "friday": [],
+    "saturday": [],
+    "sunday": []
+  },
+  "isOAuthUser": false,
+  "creationAccountDate": {
+    "$date": "2024-05-27T06:40:10.405Z"
+  },
+  "favList": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66566e6258e893e4a3ac8c2a"
+  },
+  "username": "testsupreme",
+  "email": "examplesupreme@example.com",
+  "password": "$2a$10$fps40ELIfmPg7JsXoz4SI.TEoaQPnoELPdxvCqjLLlWiSX2TEw71q",
+  "role": "Basic",
+  "gender": "Prefiero no decirlo",
+  "numberOfPosts": 0,
+  "numberOfComments": 0,
+  "weekPlan": {
+    "monday": [],
+    "tuesday": [],
+    "wednesday": [],
+    "thursday": [],
+    "friday": [],
+    "saturday": [],
+    "sunday": []
+  },
+  "isOAuthUser": false,
+  "creationAccountDate": {
+    "$date": "2024-05-28T23:53:06.688Z"
+  },
+  "favList": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6656f688fc0043aa06aea9bb"
+  },
+  "username": "Danny Schlingensiepen",
+  "email": "dk.schlingensiepen@googlemail.com",
+  "password": "$2a$10$EwFhYwGIrpF0JHd0DQ1WEOE6xLHrmBhkddwZscACvDYMbdg353gjW",
+  "role": "Admin",
+  "gender": "Prefiero no decirlo",
+  "numberOfPosts": 0,
+  "numberOfComments": 0,
+  "weekPlan": {
+    "monday": [],
+    "tuesday": [
+      "17eb2312c23140509c1603459d6d2675"
+    ],
+    "wednesday": [],
+    "thursday": [],
+    "friday": [],
+    "saturday": [],
+    "sunday": [
+      "cd8c6ee3cac54436abacaed6cda4753f"
+    ]
+  },
+  "isOAuthUser": false,
+  "creationAccountDate": {
+    "$date": "2024-05-29T09:34:00.927Z"
+  },
+  "favList": [
+    {
+      "recipeId": "cd8c6ee3cac54436abacaed6cda4753f",
+      "addedDate": {
+        "$date": "2024-05-29T09:42:45.156Z"
+      },
+      "_id": {
+        "$oid": "6656f895fc0043aa06aea9ea"
+      }
+    },
+    {
+      "recipeId": "17eb2312c23140509c1603459d6d2675",
+      "addedDate": {
+        "$date": "2024-05-29T09:43:01.381Z"
+      },
+      "_id": {
+        "$oid": "6656f8a5fc0043aa06aeaa06"
+      }
+    },
+    {
+      "recipeId": "727d5dca2124a48fe172f59b729679a0",
+      "addedDate": {
+        "$date": "2024-05-29T10:53:50.739Z"
+      },
+      "_id": {
+        "$oid": "6657093e8735afc94384cbd8"
+      }
+    },
+    {
+      "recipeId": "625a70e7104971905f8abc70d0def5af",
+      "addedDate": {
+        "$date": "2024-05-29T12:48:14.408Z"
+      },
+      "_id": {
+        "$oid": "6657240ec37df967e245f50d"
+      }
+    }
+  ],
+  "__v": 6
+},
+{
+  "_id": {
+    "$oid": "66576b5d2263ed58d7b3dc75"
+  },
+  "username": "Unizar",
+  "email": "user@unizar.es",
+  "password": "$2a$10$ED.0svdbUBdhKEJ7Toh.FeY1Wc3L44MGk5788Az3hgUBBwYmqfxRm",
+  "role": "Basic",
+  "gender": "Hombre",
+  "numberOfPosts": 0,
+  "numberOfComments": 0,
+  "weekPlan": {
+    "monday": [
+      "7f0e1b4fb2434227af7d8bf87b6e22ec"
+    ],
+    "tuesday": [],
+    "wednesday": [],
+    "thursday": [],
+    "friday": [],
+    "saturday": [],
+    "sunday": []
+  },
+  "isOAuthUser": false,
+  "creationAccountDate": {
+    "$date": "2024-05-29T17:52:29.251Z"
+  },
+  "favList": [
+    {
+      "recipeId": "0aa45544bbaf45c0bfeea94611225f78",
+      "addedDate": {
+        "$date": "2024-05-29T17:53:24.852Z"
+      },
+      "_id": {
+        "$oid": "66576b942263ed58d7b3dc90"
+      }
+    },
+    {
+      "recipeId": "ac88339575f9ac25d30c7da2259c2b5f",
+      "addedDate": {
+        "$date": "2024-05-29T17:54:26.418Z"
+      },
+      "_id": {
+        "$oid": "66576bd22263ed58d7b3dcb1"
+      }
+    }
+  ],
+  "__v": 5
+}]

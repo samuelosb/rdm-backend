@@ -1,8 +1,14 @@
 openapi: 3.0.0
 info:
-  title: Express API with Swagger
+  title: Recetas del mundo API
   version: 1.0.0
-  description: This is a simple CRUD API application made with Express and documented with Swagger
+  description: >-
+    This is the API documentation for the Recetas del mundo API. 
+    This API allows users to search for recipes, create posts, comments, and categories, and manage users. 
+    The API is secured using JWT tokens and refresh tokens. 
+    The API also allows users to search for recipes using the Edamam API. 
+    The API is built using Node.js, Express, and MongoDB. 
+    The API is documented using Swagger.openapi: 3.0.0
   license:
     name: MIT
     url: "https://opensource.org/licenses/MIT"
@@ -19,12 +25,7 @@ tags:
     description: User operations
     externalDocs:
       description: User Documentation 
-      url: "http://swagger.io"  
-  - name: recipe search
-    description: Recipe operations
-    externalDocs:
-      description: Recipe Documentation 
-      url: "http://swagger.io"      
+      url: "http://swagger.io"        
   - name : categories
     description: Categories operations
     externalDocs:
@@ -39,7 +40,32 @@ tags:
     description: Comments operations
     externalDocs:
       description: Comments Documentation 
-      url: "http://swagger.io"     
+      url: "http://swagger.io"   
+  - name: recipe
+    description: Recipe operations
+    externalDocs:
+      description: Recipe Documentation 
+      url: "http://swagger.io"
+  - name : favorites
+    description: Favorites operations
+    externalDocs:
+      description: Favorites Documentation 
+      url: "http://swagger.io"
+  - name : week menu
+    description: Week menu operations
+    externalDocs:
+      description: Week menu Documentation 
+      url: "http://swagger.io"
+  - name : ratings
+    description: Ratings operations
+    externalDocs:
+      description: Ratings Documentation 
+      url: "http://swagger.io" 
+  - name : exports
+    description: Exports operations
+    externalDocs:
+      description: Exports Documentation 
+      url: "http://swagger.io"                     
 paths:
   /auth/register:
     post:
@@ -130,45 +156,13 @@ paths:
           description: Internal server error
       security:
         - JWTAuth: []
-  /auth/reset-password:
-    post:
-      tags:
-        - "auth"
-      summary: Reset password
-      description: Reset a user's password
-      security:
-        - JWTAuth: []
-      requestBody:
-        required: true
-        content:
-          application/json:
-            schema:
-              type: object
-              properties:
-                userId:
-                  type: string
-                token:
-                  type: string
-                newPassword:
-                  type: string
-              required:
-                - userId
-                - token
-                - newPassword
-      responses:
-        '200':
-          description: Password reset successfully
-        '500':
-          description: Internal Server Error
   /auth/request-password-reset:
     post:
       tags:
         - "auth"
-      summary: Request password reset
-      description: Request a password reset email
-      security:
-        - JWTAuth: []
+      summary: Request a password reset link
       requestBody:
+        description: Email address to send the password reset link to
         required: true
         content:
           application/json:
@@ -178,15 +172,15 @@ paths:
                 email:
                   type: string
                   format: email
-              required:
-                - email
+                  example: user@example.com
       responses:
         '200':
           description: Password reset email sent
         '400':
           description: Bad Request
         '500':
-          description: Internal Server Error        
+          description: Internal Server Error
+  
   /users/getUserById:
     get:
       tags:
@@ -532,6 +526,69 @@ paths:
           description: Bad Request
         '500':
           description: Internal Server Error
+  /users/exportAllUsers:
+    get:
+      tags:
+        - exports
+      summary: Export all users data
+      description: Export all users data in specified format (json, csv, pdf).
+      security:
+        - JWTAuth: []
+      parameters:
+        - in: query
+          name: format
+          required: true
+          schema:
+            type: string
+            enum: [json, csv, pdf]
+            description: The format of the exported data
+      responses:
+        '200':
+          description: Successfully exported all users data
+          content:
+            application/json:
+              schema:
+                type: string
+                example: "data"
+        '400':
+          description: Invalid format
+        '500':
+          description: Server error
+  /users/exportUserData:
+    get:
+      tags:
+        - exports
+      summary: Export a single user's data
+      description: Export all data for a single user in specified format (json, csv, pdf).
+      security:
+        - JWTAuth: []
+      parameters:
+        - in: query
+          name: userId
+          required: true
+          schema:
+            type: string
+            description: The ID of the user
+        - in: query
+          name: format
+          required: true
+          schema:
+            type: string
+            enum: [json, csv, pdf]
+            description: The format of the exported data
+      responses:
+        '200':
+          description: Successfully exported user data
+          content:
+            application/json:
+              schema:
+                type: string
+                example: "data"
+        '400':
+          description: Invalid format
+        '500':
+          description: Server error
+
   /categories/create: 
     post:
       tags:
@@ -602,6 +659,7 @@ paths:
                 $ref: "#/components/schemas/Category"
         '400':
           description: Bad Request
+  
   /posts/create:
     post:
       tags:
@@ -780,6 +838,7 @@ paths:
           description: Bad Request
         '500':
           description: Internal Server Error
+  
   /comments/create:
     post:
       tags:
@@ -858,7 +917,7 @@ paths:
         '400':
           description: Bad Request
         '500':
-          description: Internal Server Error
+          description: Internal Server Error  
   /comments/delete:
     delete:
       tags:
@@ -887,10 +946,11 @@ paths:
           description: Bad Request
         '500':
           description: Internal Server Error  
+ 
   /recipes/search:
     get:
       tags:
-        - recipe search
+        - recipe
       summary: Search for a Recipe
       description: >-
         This endpoint returns a list of recipes matching the provided criteria.
@@ -1636,7 +1696,7 @@ paths:
   /api/recipes/v2/by-uri:
     get:
       tags:
-        - recipe search
+        - recipe
       summary: Lookup Recipe(s) using their URI(s)
       description: >-
         Search for recipes by their URI. Note, that the API response doesn't
@@ -1768,7 +1828,7 @@ paths:
   /api/recipes/v2/{id}:
     get:
       tags:
-        - recipe search
+        - recipe
       summary: Lookup a Specific Recipe by ID
       description: >-
         Returns the nutritional information for given recipe. These requests are
@@ -1897,6 +1957,454 @@ paths:
             '*/*':
               schema:
                 $ref: '#/components/schemas/Errors'
+  
+  /recipes/addFav:
+    put:
+      tags:
+        - favorites
+      summary: Add a recipe to the user's favorite list
+      description: Add a recipe to the user's favorite list using the userId and recipeId.
+      security:
+        - JWTAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                userId:
+                  type: string
+                  description: The ID of the user
+                recipeId:
+                  type: string
+                  description: The ID of the recipe
+              required:
+                - userId
+                - recipeId
+      responses:
+        '200':
+          description: Recipe added to favorites successfully
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                  recipeId:
+                    type: string
+                example:
+                  message: Recipe added to favorites successfully
+                  recipeId: "12345"
+        '404':
+          description: User not found
+        '500':
+          description: Error adding recipe to favorites         
+  /recipes/getFavs:
+    get:
+      tags:
+        - favorites
+      summary: Get the user's favorite recipe list
+      description: Retrieve the user's favorite recipe list using the user ID.
+      security:
+        - JWTAuth: []
+      parameters:
+        - in: query
+          name: id
+          required: true
+          schema:
+            type: string
+          description: The ID of the user
+      responses:
+        '200':
+          description: Successfully retrieved the favorite recipe list
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    recipeId:
+                      type: string
+                    addedDate:
+                      type: string
+                      format: date-time
+                    averageRating:
+                      type: number
+                      format: float
+                    numberOfRatings:
+                      type: integer
+                  example:
+                    - recipeId: "12345"
+                      addedDate: "2024-05-29T12:00:00Z"
+                      averageRating: 4.5
+                      numberOfRatings: 10
+        '400':
+          description: User ID is required
+        '404':
+          description: User not found
+        '500':
+          description: Error fetching favorite recipe list
+  /recipes/delFav:
+    delete:
+      tags:
+        - favorites
+      summary: Remove a recipe from the user's favorite list
+      description: Remove a recipe from the user's favorite list using the userId and recipeId.
+      security:
+        - JWTAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                userId:
+                  type: string
+                  description: The ID of the user
+                recipeId:
+                  type: string
+                  description: The ID of the recipe
+              required:
+                - userId
+                - recipeId
+      responses:
+        '204':
+          description: Recipe removed from favorites successfully
+        '404':
+          description: User not found
+        '500':
+          description: Error removing recipe from favorites
+  
+  /recipes/addWeekMenu:
+    put:
+      tags:
+        - week menu
+      summary: Add a recipe to the user's week menu
+      description: Add a recipe to the user's week menu on a specified day using the userId, recipeId, and day.
+      security:
+        - JWTAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                userId:
+                  type: string
+                  description: The ID of the user
+                recipeId:
+                  type: string
+                  description: The ID of the recipe
+                day:
+                  type: string
+                  description: The day of the week (e.g., mon, tue, wed, etc.)
+              required:
+                - userId
+                - recipeId
+                - day
+      responses:
+        '200':
+          description: Recipe added to the week menu successfully
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                  recipeId:
+                    type: string
+                  day:
+                    type: string
+                example:
+                  message: Recipe added to the week menu successfully
+                  recipeId: "12345"
+                  day: "mon"
+        '404':
+          description: User not found
+        '500':
+          description: Error adding recipe to week menu
+  /recipes/getWeekMenu:
+    get:
+      tags:
+        - week menu
+      summary: Get the user's week menu
+      description: Retrieve the user's week menu using the user ID.
+      security:
+        - JWTAuth: []
+      parameters:
+        - in: query
+          name: uId
+          required: true
+          schema:
+            type: string
+          description: The ID of the user
+      responses:
+        '200':
+          description: Successfully retrieved the week menu
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  monday:
+                    type: array
+                    items:
+                      type: string
+                  tuesday:
+                    type: array
+                    items:
+                      type: string
+                  wednesday:
+                    type: array
+                    items:
+                      type: string
+                  thursday:
+                    type: array
+                    items:
+                      type: string
+                  friday:
+                    type: array
+                    items:
+                      type: string
+                  saturday:
+                    type: array
+                    items:
+                      type: string
+                  sunday:
+                    type: array
+                    items:
+                      type: string
+                example:
+                  monday: ["recipe1", "recipe2"]
+                  tuesday: ["recipe3"]
+                  wednesday: []
+                  thursday: ["recipe4", "recipe5"]
+                  friday: []
+                  saturday: ["recipe6"]
+                  sunday: ["recipe7", "recipe8"]
+        '404':
+          description: User not found
+        '500':
+          description: Error fetching week menu
+  /recipes/delWeekMenu:
+    delete:
+      tags:
+        - week menu
+      summary: Remove a recipe from the user's week menu
+      description: Remove a recipe from the user's week menu on a specified day using the userId, recipeId, and day.
+      security:
+        - JWTAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                userId:
+                  type: string
+                  description: The ID of the user
+                recipeId:
+                  type: string
+                  description: The ID of the recipe
+                day:
+                  type: string
+                  description: The day of the week (e.g., mon, tue, wed, etc.)
+              required:
+                - userId
+                - recipeId
+                - day
+      responses:
+        '204':
+          description: Recipe removed from the week menu successfully
+        '404':
+          description: User not found
+        '500':
+          description: Error removing recipe from week menu
+  
+  /recipes/rate:
+    post:
+      tags:
+        - ratings
+      summary: Rate a recipe
+      description: Submit a rating for a recipe using the recipeId, userId, and rating.
+      security:
+        - JWTAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                recipeId:
+                  type: string
+                  description: The ID of the recipe
+                userId:
+                  type: string
+                  description: The ID of the user
+                rating:
+                  type: number
+                  description: The rating given by the user
+              required:
+                - recipeId
+                - userId
+                - rating
+      responses:
+        '200':
+          description: Rating submitted successfully
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                example:
+                  message: Rating submitted successfully
+        '500':
+          description: Server error
+  /recipes/average-rating:
+   get:
+      tags:
+        - ratings
+      summary: Get the average rating of a recipe
+      description: Retrieve the average rating and the number of ratings for a given recipe ID.
+      parameters:
+        - in: query
+          name: recipeId
+          required: true
+          schema:
+            type: string
+          description: The ID of the recipe to retrieve the average rating for.
+      responses:
+        '200':
+          description: Successfully retrieved the average rating and number of ratings.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  averageRating:
+                    type: number
+                    format: float
+                    description: The average rating of the recipe.
+                  numberOfRatings:
+                    type: integer
+                    description: The number of ratings the recipe has received.
+                example:
+                  averageRating: 4.5
+                  numberOfRatings: 10            
+        '400':
+          description: Invalid request parameters.
+        '403':
+          description: Forbidden request.
+        '404':
+          description: Recipe not found.
+        '500':
+          description: Error retrieving average rating.
+  /recipes/recalculate-average-ratings:
+    get:
+      tags:
+        - ratings
+      summary: Recalculate average ratings for all recipes
+      description: Recalculate the average ratings for all recipes in the database.
+      security:
+        - JWTAuth: []
+      responses:
+        '200':
+          description: All average ratings recalculated successfully
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                example:
+                  message: All average ratings recalculated successfully
+        '500':
+          description: Server error
+  /recipes/top-rated:
+    get:
+      tags:
+        - ratings
+      summary: Get the top-rated recipes
+      description: Retrieve the top-rated recipes based on their average ratings.
+      responses:
+        '200':
+          description: Successfully retrieved the top-rated recipes
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    recipeId:
+                      type: string
+                    averageRating:
+                      type: number
+                      format: float
+                    numberOfRatings:
+                      type: integer
+                  example:
+                    - recipeId: "12345"
+                      averageRating: 4.8
+                      numberOfRatings: 50
+        '404':
+          description: No top-rated recipes found
+        '500':
+          description: Server error
+  /recipes/user-rating:
+    get:
+      tags:
+        - ratings
+      summary: Get the user's rating for a specific recipe
+      description: Retrieve the rating given by a specific user for a specific recipe.
+      security:
+        - JWTAuth: []
+      parameters:
+        - in: query
+          name: recipeId
+          required: true
+          schema:
+            type: string
+          description: The ID of the recipe
+        - in: query
+          name: userId
+          required: true
+          schema:
+            type: string
+          description: The ID of the user
+      responses:
+        '200':
+          description: Successfully retrieved the user's rating
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  userRating:
+                    type: number
+                  message:
+                    type: string
+                example:
+                  userRating: 5
+                  message: User rating retrieved
+        '400':
+          description: Recipe ID is required
+        '404':
+          description: No rating found for this recipe by this user
+        '500':
+          description: Server error
+
 components:
   schemas:
     UserRegistration:

@@ -15,9 +15,8 @@ const logger = require('../../logs/winston');
  * Create a new comment on a post
  * @param {Object} req - Express request object
  * @param {Object} res - Express response object
- * @param {Function} next - Express next middleware function
  */
-exports.createComment = async (req, res, next) => {
+exports.createComment = async (req, res) => {
     try {
         const {postId, authorId, content} = req.body;
         const lastComment = await Comments.findOne().sort({commentId: -1});
@@ -28,11 +27,11 @@ exports.createComment = async (req, res, next) => {
         const post = await Posts.findOne({postId});
         const user = await Users.findOne({_id: authorId});
         if (!post) {
-            logger.error('Post not found.');
+            logger.warn('Post not found', {postId});
             return res.status(404).json({success: false, error: 'Post not found.'});
         }
         if (!user) {
-            logger.error('User not found.');
+            logger.warn('User not found', {authorId});
             return res.status(404).json({success: false, error: 'User not found.'});
         }
         const newComment = new Comments({
@@ -50,10 +49,14 @@ exports.createComment = async (req, res, next) => {
             {postId: newComment.postId},
             {$inc: {numberOfComments: 1}}
         );
-        logger.info('New comment created successfully.');
+        await Categories.updateOne(
+            {categoryId : post.categoryId},
+            {$inc: {numberOfComments: 1}}
+        );
+        logger.info('New comment created successfully', {commentId, postId, authorId});
         res.status(200).json({success: true, comment: newComment});
     } catch (error) {
-        logger.error(`Error creating comment: ${error.message}`);
+        logger.error('Error creating comment', {error: error.message});
         res.status(500).json({success: false, error: error.message});
     }
 };
@@ -62,22 +65,21 @@ exports.createComment = async (req, res, next) => {
  * Get all comments for a post, sorted by most recent
  * @param {Object} req - Express request object
  * @param {Object} res - Express response object
- * @param {Function} next - Express next middleware function
  */
-exports.getAllCommsByPostRecent = async (req, res, next) => {
+exports.getAllCommsByPostRecent = async (req, res) => {
     const postId = req.query.postId;
     try {
         const comms = await Comments.find({postId: postId}).sort({
-            timePublication: -1,
+            timePublication: 1,
         });
         if (comms.length === 0) {
-            logger.error('No comments found for this post.');
-            return res.status(404).json({message: "No comments found for this post."});
+            logger.warn('No comments found for this post', {postId});
+            return res.status(200).json({message: "No comments found for this post."});
         }
-        logger.info('Comments found successfully.');
+        logger.info('Comments retrieved successfully', {postId, resultCount: comms.length});
         return res.status(200).json({comms});
     } catch (error) {
-        logger.error(`Error getting comments: ${error.message}`);
+        logger.error('Error retrieving comments', {postId, error: error.message});
         return res.status(400).json({message: "Error", error: error.message});
     }
 };
@@ -86,27 +88,27 @@ exports.getAllCommsByPostRecent = async (req, res, next) => {
  * Delete a comment by commentId (Admin only)
  * @param {Object} req - Express request object
  * @param {Object} res - Express response object
- * @param {Function} next - Express next middleware function
  */
-exports.deleteComment = async (req, res, next) => {
+exports.deleteComment = async (req, res) => {
     try {
         const commentId = req.query.commentId;
         const comment = await Comments.findOneAndDelete({commentId});
         if (!comment) {
-            logger.error('Comment not found.');
+            logger.warn('Comment not found', {commentId});
             return res.status(404).json({success: false, error: "Comment not found."});
         }
         const postId = comment.postId;
         const authorId = comment.authorId;
+        const post = await Posts.findOne({ postId });
         await Promise.all([
             Posts.updateOne({postId}, {$inc: {numberOfComments: -1}}),
             Users.updateOne({_id: authorId}, {$inc: {numberOfComments: -1}}),
-            Categories.updateOne({categoryId: comment.categoryId}, {$inc: {numberOfComments: -1}})
+            Categories.updateOne({categoryId: post.categoryId}, {$inc: {numberOfComments: -1}})
         ]);
-        logger.info('Comment successfully deleted.');
+        logger.info('Comment successfully deleted', {commentId, postId});
         return res.status(200).json({success: true, message: "Comment successfully deleted."});
     } catch (error) {
-        logger.error(`Error deleting comment: ${error.message}`);
+        logger.error('Error deleting comment', {commentId, error: error.message});
         return res.status(500).json({success: false, error: error.message});
     }
 };
@@ -119,20 +121,21 @@ exports.deleteComment_ = async (commentId) => {
     try {
         const comment = await Comments.findOneAndDelete({commentId});
         if (!comment) {
-            logger.error('Comment not found.');
+            logger.warn('Comment not found', {commentId});
             return {success: false, error: "Comment not found."};
         }
         const postId = comment.postId;
         const authorId = comment.authorId;
+        const post = await Posts.findOne({ postId });
         await Promise.all([
             Posts.updateOne({postId}, {$inc: {numberOfComments: -1}}),
             Users.updateOne({_id: authorId}, {$inc: {numberOfComments: -1}}),
-            Categories.updateOne({categoryId: comment.categoryId}, {$inc: {numberOfComments: -1}})
+            Categories.updateOne({categoryId: post.categoryId}, {$inc: {numberOfComments: -1}})
         ]);
-        logger.info('Comment successfully deleted.');
+        logger.info('Comment successfully deleted', {commentId, postId});
         return {success: true, message: "Comment successfully deleted"};
     } catch (error) {
-        logger.error(`Error deleting comment: ${error.message}`);
+        logger.error('Error deleting comment', {commentId, error: error.message});
         return {success: false, error: error.message};
     }
 };
@@ -146,7 +149,9 @@ exports.getAllComments = async (req, res) => {
     try {
         const comments = await Comments.find();
         res.status(200).json(comments);
+        logger.info('All comments retrieved', {count: comments.length});
     } catch (error) {
+        logger.error('Error retrieving all comments', {error: error.message});
         res.status(500).json({message: error.message});
     }
 };

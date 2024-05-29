@@ -31,10 +31,7 @@ router.post("/login", authController.login);
 router.post('/logout', requireRole(['Admin', 'Basic']), authController.logout);
 
 // Request password reset
-router.post('/request-password-reset',requireRole(['Admin', 'Basic']), authController.requestPasswordReset);
-
-// Reset password
-router.post('/reset-password',requireRole(['Admin', 'Basic']), authController.resetPassword);
+router.post('/request-password-reset', authController.requestPasswordReset);
 
 // Refresh JWT token
 router.post('/refresh-token',requireRole(['Admin', 'Basic']), authController.refreshToken);
