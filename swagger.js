@@ -25,7 +25,7 @@ const options = {
         },
         servers: [
             {
-                url: "http://localhost:3001/api/", // Server URL
+                url: "https://rdm-backend.onrender.com/api/", // Server URL
                 description: "Development server", // Server description
             },
         ],
